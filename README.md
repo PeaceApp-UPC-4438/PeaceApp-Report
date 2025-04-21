@@ -259,11 +259,7 @@ Con PeaceApp, construimos un Perú más seguro, paso a paso.
 <tr class="even">
 <td><p><strong>Nombre:</strong> Anatoly Andrey Noriega Suschenko
 (U202211813)</p>
-<p><strong>Conocimientos técnicos/habilidades:</strong> Tengo cierto
-conocimiento y habilidad con los Frameworks de Angular y Vue para el
-desarrollo web. Domino lenguajes como C++, Python, HTML, CSS, entre
-otros lenguajes. Y tengo un gran interés respecto al desarrollo de
-videojuegos incluyendo diseño, arte, desarrollo, etc.</p></td>
+<p><strong>Mi nombre es Anatoly Andrey Noriega Suschenko y soy muy apasionado a los videojuegos y a la programación en general. Actualmente tengo 20 años y estoy cursando el séptimo ciclo de mi carrera. Tengo cierto conocimiento y habilidad con los frameworks de Angular, Flutter y Vue. Domino lenguajes como C++, Python, Java, C#, HTML, CSS, GML, Javascript, entre otros.</p></td>
 <td><img src="assets/Anatoly.png"
 style="width:1.56917in;height:1.574in" /></td>
 </tr>
