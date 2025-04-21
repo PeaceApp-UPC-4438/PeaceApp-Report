@@ -1216,7 +1216,7 @@ sea adoptada ampliamente.
 
 **Entrevista N°1:** Mauricio Rojas
 
-![](media/image7.png)
+![Entrevista1](media/Entrevista1.png)
 
 Enlace de la entrevista:
 <https://drive.google.com/file/d/1REsuCUqFDAdWCagLSZQ4V-vY_ATyK34o/view?usp=sharing>
