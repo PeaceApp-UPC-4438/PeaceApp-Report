@@ -1372,16 +1372,19 @@ tecnológicas que puedan mitigar estos riesgos.
 
 Ciudadanos preocupados por su seguridad en espacios públicos
 
-| Task Matrix                                                                       | Mauricio Rojas |             | Pilar Ubillus |             | Renzo Castañeda |             | Paolo Cisneros |             |
-|-----------------------------------------------------------------------------------|----------------|-------------|---------------|-------------|-----------------|-------------|----------------|-------------|
-|                                                                                   | Frecuencia     | Importancia | Frecuencia    | Importancia | Frecuencia      | Importancia | Frecuencia     | Importancia |
-| Consultar a familiares o amigos sobre la seguridad de una zona antes de visitarla | Siempre        | Alta        | Casi siempre  | Alta        | Casi siempre    | Alta        | Casi siempre   | Alta        |
-| Buscar en Internet o en redes sociales noticias sobre incidentes en su área       | A veces        | Media       | Casi nunca    | Baja        | A veces         | Media       | A veces        | Media       |
-| Evitar salir en horarios o lugares que son conocidos como peligrosos              | Siempre        | Alta        | Siempre       | Alta        | Siempre         | Alta        | Siempre        | Alta        |
-| Llamar a la policía o a servicios de emergencia en caso de sentirse en peligro    | Casi nunca     | Baja        | Nunca         | Baja        | Casi nunca      | Baja        | Casi nunca     | Baja        |
-| Organizarse con vecinos para mejorar la seguridad en la comunidad                 | Nunca          | Baja        | Nunca         | Baja        | Nunca           | Baja        | Nunca          | Baja        |
-| Usar aplicaciones de mapas para evitar zonas peligrosas conocidas                 | Nunca          | Baja        | Nunca         | Baja        | Nunca           | Baja        | Nunca          | Baja        |
-| Llevar consigo objetos de autodefensapersonal                                     | Nunca          | Baja        | Nunca         | Media       | Nunca           | Baja        | Nunca          | Baja        |
+### 2.3.2. User Task Matrix
+
+| **Task Matrix**                                                                    | **Ciudadanos preocupados por su seguridad en espacios públicos** |
+|------------------------------------------------------------------------------------|------------------------------------------------------------------|
+|                                                                                    | **Frecuencia / Importancia**                                     |
+| Consultar a familiares o amigos sobre la seguridad de una zona antes de visitarla | Siempre / Alta                                                   |
+| Buscar en Internet o en redes sociales noticias sobre incidentes en su área       | A veces / Media                                                  |
+| Evitar salir en horarios o lugares que son conocidos como peligrosos              | Siempre / Alta                                                   |
+| Llamar a la policía o a servicios de emergencia en caso de sentirse en peligro    | Casi nunca / Alta                                                |
+| Organizarse con vecinos para mejorar la seguridad en la comunidad                 | Nunca / Media                                                    |
+| Usar aplicaciones de mapas para evitar zonas peligrosas conocidas                 | Nunca / Media                                                    |
+| Llevar consigo objetos de autodefensa personal                                     | Nunca / Media                                                    |
+
 
 ### 2.3.3. User Journey Mapping 
 
