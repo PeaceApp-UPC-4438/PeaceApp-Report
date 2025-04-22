@@ -1968,6 +1968,13 @@ Enlace al prototipo: <https://tinyurl.com/zm8788jn>
 
 ### 4.6.1. Web Applications Wireframes
 
+Creamos la estructura de la aplicación web de PeaceApp utilizando Figma.
+
+Enlace a los Web Applications Wireframes:
+<https://www.figma.com/design/KFB2co2shH7aJF2UIXTOrL/Untitled--Copy-?node-id=0-1&t=k2uYPScq5bHnEsDH-1>
+
+![](assets/WebApplicationsWireframes.png)
+
 ### 4.6.2. Web Applications Wireflow Diagrams
 
 ### 4.6.3. Web Applications Mock-ups 
