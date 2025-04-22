@@ -1958,6 +1958,12 @@ Enlace al prototipo: <https://tinyurl.com/zm8788jn>
 
 ### 4.5.2. IOS Mobile Applications Prototyping 
 
+Habiendo realizado los mock-ups, creamos un prototipo de la app en Figma similar a el prototyping de Android.
+
+Enlace al prototipo: <https://tinyurl.com/zm8788jn>
+
+![](assets/AndroidMobileApplicationsPrototyping.png)
+
 ## 4.6. Web Applications UX/UI Design 
 
 ### 4.6.1. Web Applications Wireframes
