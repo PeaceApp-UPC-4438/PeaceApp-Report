@@ -2010,7 +2010,7 @@ Bounded Context: Payment
 ## 4.9. Software Object-Oriented Design
 
 ### 4.9.1. Class Diagrams 
-![](assets/ClasDiagrams.png)
+![ClassDiagram](assets/ClassDiagram.png)
 
 ### 4.9.2. Class Dictionary
 
