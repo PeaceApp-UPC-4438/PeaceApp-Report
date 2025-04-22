@@ -252,9 +252,10 @@ Con PeaceApp, construimos un Perú más seguro, paso a paso.
 </tr>
 </thead>
 <tr class="even">
-<td><p><strong>Nombre:</strong></p>
-<p><strong>Conocimientos técnicos/habilidades:</strong></p></td>
-<td></td>
+<td><p><strong>Nombre:</strong>Pedro Andre Guia Carrasco 
+(U202212010)</p>
+<p><strong>Conocimientos técnicos/habilidades:</strong> Soy estudiante de Ingeniería de Software, voy en mi septimo ciclo y cuento con experiencia en frontend y backend. Manejo de framework como Angular y Vue, y tengo conocimientos en bases de datos como MySQL y MongoDB. Algunos de los lenguajes de programcion que utilice son C++, Java, Python, C#, HTML, JavaScript, TypeScript, CSS, Flutter y entre otros.</p></td>
+<td><img src="assets/guia.jpg"/></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nombre:</strong> Anatoly Andrey Noriega Suschenko
