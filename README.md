@@ -1894,7 +1894,7 @@ Enlace a los Mobile Application Mock-ups: <https://tinyurl.com/dyb2ex8u>
 
 **Sección del mapa, alerta y reportes:**
 
-![](assets/MapaAlertaReportes.png)
+![](assets/MapaAlertasReportes.png)
 
 **Sección compartir ubicación:**
 
@@ -1978,6 +1978,28 @@ Enlace a los Web Applications Wireframes:
 ### 4.6.2. Web Applications Wireflow Diagrams
 
 ### 4.6.3. Web Applications Mock-ups 
+
+Creamos un boceto más realista de cómo se verá PeaceApp en la aplicación Web.
+
+Enlace a los Web Application Mock-ups: <https://www.figma.com/design/4ddpaCLGMU2orrZG7Y3GyH/Sin-t%C3%ADtulo?node-id=0-1&t=k2uYPScq5bHnEsDH-1>
+
+![](assets/WebApplicationMock-ups.png)
+
+**Sección log in y sign up:**
+
+![](assets/InicioSesionMockUp.png)
+
+**Sección del mapa:**
+
+![](assets/MapaMockUp.png)
+
+**Sección de Reportes y alerta:**
+
+![](assets/ReportesMockUp.png)
+
+**Sección perfil:**
+
+![](assets/PerfilMockUp.png)
 
 ### 4.6.4. Web Applications User Flow Diagrams 
 
