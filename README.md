@@ -59,97 +59,93 @@
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
 - [Tabla de contenidos](#tabla-de-contenidos)
 - [Student Outcome](#student-outcome)
-  
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1 Startup Profile](#11-startup-profile)
     - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2 Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3 Segmentos objetivo](#13-segmentos-objetivo)
-
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1 Competidores](#21-competidores)
-    - [2.1.1 Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2 Entrevistas](#22-entrevistas)
-    - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2 Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3 Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3 Needfinding](#23-needfinding)
-    - [2.3.1 User Personas](#231-user-personas)
-    - [2.3.2 User Task Matrix](#232-user-task-matrix)
-    - [2.3.3 User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4 Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5 As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4 Ubiquitous Language](#24-ubiquitous-language)
-
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis Competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix-1)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+      - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1 To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2 User Stories](#32-user-stories)
-  - [3.3 Product Backlog](#33-product-backlog)
-  - [3.4 Impact Mapping](#34-impact-mapping)
-
-- [Capítulo IV: Product Design](capitulo-iv-product-design)
-  - [4.1 Style Guidelines](#41-style-guidelines)
-    - [4.1.1 General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2 Web Style Guidelines](#412-web-style-guidelines)
-    - [4.1.3 Mobile Style Guidelines](#413-mobile-style-guidelines)
-      - [4.1.3.1 iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
-      - [4.1.3.2 Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
-  - [4.2 Information Architecture](#42-information-architecture)
-    - [4.2.1 Organization Systems](#421-organization-systems)
-    - [4.2.2 Labeling Systems](#422-labeling-systems)
-    - [4.2.3 SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4 Searching Systems](#424-searching-systems)
-    - [4.2.5 Navigation Systems](#425-navigation-systems)
-  - [4.3 Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1 Landing Page Wireframe](#431-landing-page-wireframe)
-    - [4.3.2 Landing Page Mock-up](#432-landing-page-mock-up)
-  - [4.4 Mobile Applications UX/UI Design](#44-mobile-applications-ux--ui-design)
-    - [4.4.1 Mobile Applications Wireframes](#441-mobile-applications-wireframes)
-    - [4.4.2 Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
-    - [4.4.3 Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)
-    - [4.4.4 Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
-  - [4.5 Mobile Applications Prototyping](#45-mobile-applications-prototyping)
-    - [4.5.1 Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
-    - [4.5.2 iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
-  - [4.6 Web Applications UX/UI Design](#46-web-applications-ux-ui-design)
-    - [4.6.1 Web Applications Wireframes](#461-web-applications-wireframes)
-    - [4.6.2 Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
-    - [4.6.3 Web Applications Mock-ups](#463-web-applications-mock-ups)
-    - [4.6.4 Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
-  - [4.7 Web Applications Prototyping](#47-web-applications-prototyping)
-  - [4.8 Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
-    - [4.8.1 Software Architecture Context Diagram](#481-software-architecture-context-diagram)
-    - [4.8.2 Software Architecture Container Diagram](#482-software-architecture-container-diagram)
-    - [4.8.3 Software Architecture Components Diagram](#483-software-architecture-components-diagram)
-  - [4.9 Software Object-Oriented Design](#49-software-object-oriented-design)
-    - [4.9.1 Class Diagrams](#491-class-diagrams)
-    - [4.9.2 Class Dictionary](#492-class-dictionary)
-  - [4.10 Database Design](#410-database-design)
-    - [4.10.1 Relational Database Diagram](#4101-relational-database-diagram)
-
-- [Capítulo V: Product Implementation](capitulo-v-product-implementation)
-  - [5.1 Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1 Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2 Source Code Management](#512-source-code-management)
-    - [5.1.3 Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4 Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2 Product Implementation & Deployment](#52-product-implementation--deployment)
-    - [5.2.1 Sprint Backlogs](#521-sprint-backlogs)
-    - [5.2.2 Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
-    - [5.2.3 Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-    - [5.2.4 Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-    - [5.2.5 Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-    - [5.2.6 RESTful API documentation](#526-restful-api-documentation)
-    - [5.2.7 Team Collaboration Insights](#527-team-collaboration-insights)
-  - [5.3 Video About-the-Product](#53-video-about-the-product)
+  - [3.1. To-be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Product Backlog](#33-product-backlog)
+  - [3.4. Impact Mapping](#34-impact-mapping)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+    - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
+      - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
+      - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)
+    - [4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)
+    - [4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
+    - [4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)
+    - [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
+  - [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)
+    - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
+    - [4.5.2. IOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
+  - [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
+    - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)
+    - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
+    - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)
+    - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
+  - [4.7. Web Applications Prototyping](#47-web-applications-prototyping)
+  - [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
+    - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)
+    - [4.8.2. Software Architecture Container Diagram](#482-software-architecture-container-diagram)
+    - [4.8.3. Software Architecture Components Diagram](#483-software-architecture-components-diagram)
+  - [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)
+    - [4.9.1. Class Diagrams](#491-class-diagrams)
+    - [4.9.2. Class Dictionary](#492-class-dictionary)
+  - [4.10. Database Design](#410-database-design)
+    - [4.10.1. Relational Database Diagram](#4101-relational-database-diagram)
+- [Capítulo V: Product Implementation](#capítulo-v-product-implementation)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Product Implementation \& Deployment](#52-product-implementation--deployment)
+    - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
+    - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
+    - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
+    - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
+    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
+    - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
+    - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+  - [5.3. Video About the Product](#53-video-about-the-product)
 
 # Student Outcome
 
@@ -1215,13 +1211,12 @@ sea adoptada ampliamente.
 
 ### 2.2.2. Registro de entrevistas 
 
-**URL:**
-
 **Entrevista N°1:** Mauricio Rojas
 
 ![Entrevista1](assets/Entrevista1.png)
 
-**Timing:** 
+Enlace de la entrevista:
+<https://drive.google.com/file/d/1REsuCUqFDAdWCagLSZQ4V-vY_ATyK34o/view?usp=sharing>
 
 **Nombre:** Mauricio Rojas
 
@@ -1246,27 +1241,31 @@ usuarios puedan compartir experiencias. También le interesa que la
 aplicación sea confiable, especialmente en la protección de datos y en
 la actualización de información basada en los reportes de los usuarios.
 
-**Entrevista N°2:** Edson Sanchez
+**Entrevista N°2:** Renzo Castañeda
 
-![Entrevista2](assets/Entrevista2.png)
+![](media/image8.jpeg){width="5.780054680664917in"
+height="2.2023403324584425in"}
 
-**Timing:** 
+**Enlace de la entrevista:** <https://youtu.be/aGVoMGzdqlE>
 
-**Nombre**: Edson Sanchez
+**Nombre**: Renzo Castañeda
 
-**Edad:** 20 años
+**Edad:** 22 años
 
-**Pasatiempos:** Salir con amigos y jugar fútbol
+**Pasatiempos:** Pasear en moto y salir amigos.
 
-**Ocupación:** Estudiante Universitario (Psicología)
+**Ocupación:** Estudiante Universitario (Arquitectura)
 
 El entrevistado se siente inseguro en espacios públicos, especialmente
-cerca de su casa a altas horas de la noche, que a pesar de que no le haya ocurrido nada siente algo de miedo. Le preocupa la falta de vigilancia y la iluminación
-deficiente en estos lugares. Ante situaciones peligrosas, prefiere evitar problemas para salvaguardar su seguridad. Valora
+en parques, y toma medidas como evitar zonas oscuras y caminar
+acompañado. Le preocupa la falta de vigilancia y la iluminación
+deficiente en estos lugares. Ante situaciones peligrosas, prefiere no
+resistirse y buscaría ayuda para contactar a las autoridades. Valora
 recibir alertas sobre robos o zonas peligrosas a través de una
 aplicación móvil, aunque no ha usado una app de seguridad antes, conoce
 su potencial y está interesado en funciones como alarmas y mapas de
-riesgo. Además, considera útil compartir su ubicación en tiempo real en caso de riesgo o llamar a las autoridades.
+riesgo. Además, considera útil compartir su ubicación en tiempo real,
+pero prefiere hacerlo de forma anónima para evitar posibles represalias.
 
 Entrevista N° 3: Pilar Ubillus
 
@@ -1324,6 +1323,22 @@ solución le pareció una idea interesante y que fácilmente, él podría ser
 un usuario de esta aplicación. Nos comenta que la interacción pensada
 para este aplicativo brindará una experiencia al usuario única al
 reportar incidencias en tiempo real.
+
+**Entrevista N° 5:** Maria Paula Rojas
+
+![Entrevista_5](assets/interview_5.png)
+
+Enlace de la entrevista: https://www.youtube.com/watch?v=qCgWmbtNc0Q
+
+Nombre: Maria Paula Rojas
+
+Edad: 19 años
+
+Pasatiempos: Dibujar, ver series animadas, cantar, estudiar educacion especial.
+
+Ocupación: Estudiante universitaria (Educacion Infantil)
+
+Maria Paula Rojas, una joven de 19 años que estudia Educación Infantil y disfruta de dibujar, ver series animadas, cantar y aprender sobre educación especial, participó en una conversación centrada en la seguridad y el uso de aplicaciones móviles. Durante la entrevista, se discutió la importancia de implementar herramientas tecnológicas para mejorar la seguridad en espacios públicos, incluyendo el desarrollo de una app que permita reportar y rastrear incidentes. También se habló sobre el potencial uso de tecnología para detectar y localizar robots, y se compararon algunas funciones con las que ofrecen dispositivos como los de Apple. La charla reflejó un claro interés en crear soluciones innovadoras que contribuyan a la protección de las personas en su entorno cotidiano.
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -1549,19 +1564,21 @@ aplicación.
 
 <img src="assets/Colores.png" width="300" height="400" />
 
-### 4.1.2. Web Style Guidelines
+**Android Mobile Style Guidelines:** Decidimos guiarnos de la guía HIG
+otorgada por Apple, en el caso de los dispositivos Android, podemos
+seguir las recomendaciones de Material Design de Google. Donde resaltan
+que el diseño debe de ser adaptable, con énfasis en la simplicidad y
+claridad de las interacciones. Se deben utilizar componentes nativos de
+Android, y asegurar una experiencia consistente, aprovechando los
+servicios de ubicación y notificaciones push.
 
-Para la versión web, se sigue un enfoque de diseño responsivo, adoptando el patrón visual en forma de “Z” para guiar la atención del usuario. Se prioriza la simplicidad, con fondos de color único y uso puntual de imágenes representativas por sección. Los botones utilizan tonos contrastantes dentro de la paleta azul para diferenciar acciones clave. Las pantallas emergentes oscurecen el fondo y emplean variantes de azul con mayor intensidad para destacar acciones importantes y asegurar la atención del usuario antes de continuar con la navegación.
+### 4.1.2. Web Style Guidelines
 
 ### 4.1.3. Mobile Style Guidelines
 
 #### 4.1.3.1. iOS Mobile Style Guidelines 
 
-Para dispositivos iOS, seguimos las recomendaciones de la Human Interface Guidelines (HIG) de Apple. El diseño se enfoca en la simplicidad, la legibilidad y la eficiencia del espacio. Se prioriza el uso de componentes nativos como tab bars, modals y gestos multitáctiles, garantizando una experiencia fluida y coherente con el ecosistema Apple. Además, se cuida el uso del safe area para asegurar una visualización óptima en dispositivos con diferentes tamaños de pantalla y elementos como el notch. Se promueve una navegación intuitiva, con transiciones suaves y retroalimentación clara para cada acción.
-
 #### 4.1.3.2. Android Mobile Style Guidelines 
-
-Para dispositivos Android, adoptamos las recomendaciones de Material Design de Google. Este enfoque promueve una interfaz adaptable y visualmente clara, con especial énfasis en la jerarquía de elementos, animaciones suaves y uso eficiente del color. Se implementan componentes nativos como floating action buttons, snackbars y cards para asegurar familiaridad y coherencia. También se aprovechan las capacidades del sistema como servicios de ubicación, notificaciones push y navegación por gestos, garantizando una experiencia moderna, consistente y funcional en toda la plataforma.
 
 ## 4.2. Information Architecture
 
@@ -2000,12 +2017,6 @@ Enlace a los Web Application Mock-ups: <https://www.figma.com/design/4ddpaCLGMU2
 ### 4.6.4. Web Applications User Flow Diagrams 
 
 ## 4.7. Web Applications Prototyping
-
-Habiendo realizado los mock-ups, creamos un prototipo de la aplicación web en Figma.
-
-Enlace al prototipo: https://www.figma.com/proto/g2UjaaatgDwqOfmLg1rFFW/PeaceApp-Prototype?node-id=2-2&p=f&t=xMFwVGxiDoS4zFvU-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2
-
-![](assets/WebApplicationsPrototyping.png)
 
 ## 4.8. Domain-Driven Software Architecture
 
