@@ -1211,9 +1211,9 @@ sea adoptada ampliamente.
 
 ### 2.2.2. Registro de entrevistas 
 
-**URL:**
+**URL de todas las entrevistas:**
 
-**Entrevista N°1:** Mauricio Rojas
+**Entrevista N°1:**
 
 ![Entrevista1](assets/Entrevista1.png)
 
@@ -1227,100 +1227,26 @@ sea adoptada ampliamente.
 
 **Ocupación:** Estudiante Universitario
 
-Mauricio se siente inseguro en zonas congestionadas cerca de su
-universidad, especialmente después de presenciar un robo que generó
-tensión entre los transeúntes. Para protegerse, se mantiene cauteloso y
-evita zonas peligrosas cuando es posible, prestando atención a su
-entorno. La falta de iluminación y vigilancia en las calles aumenta su
-sensación de inseguridad. Ante un incidente, su reacción sería grabarlo
-y difundirlo para garantizar que se realice una denuncia. Aunque no ha
-usado aplicaciones de seguridad ciudadana, le gustaría recibir alertas
-sobre zonas peligrosas y se siente cómodo usando tecnología para
-mantenerse informado. Considera útil compartir su ubicación en zonas
-desconocidas y valora la inclusión de foros en una app donde los
-usuarios puedan compartir experiencias. También le interesa que la
-aplicación sea confiable, especialmente en la protección de datos y en
-la actualización de información basada en los reportes de los usuarios.
+Mauricio se siente inseguro en zonas congestionadas cerca de suuniversidad, especialmente después de presenciar un robo que generó tensión entre los transeúntes. Para protegerse, se mantiene cauteloso y evita zonas peligrosas cuando es posible, prestando atención a su
+entorno. La falta de iluminación y vigilancia en las calles aumenta su sensación de inseguridad. Ante un incidente, su reacción sería grabarlo y difundirlo para garantizar que se realice una denuncia. Aunque no ha usado aplicaciones de seguridad ciudadana, le ustaría recibir alertas sobre zonas peligrosas y se siente cómodo usando tecnología para mantenerse informado. Considera útil compartir su ubicación en zonas desconocidas y valora la inclusión de foros en una app donde los usuarios puedan compartir experiencias. También le interesa que la aplicación sea confiable, especialmente en la protección de  datos y en la actualización de información basada en los reportes de los usuarios. 
 
-**Entrevista N°2:** Edson Sanchez
+**Entrevista N°2:** 
 
-![Entrevista2](assets/Entrevista2.png)
+![Entrevista2](assets/Entrevista-Milagros.png)
 
 **Timing:** 
 
-**Nombre**: Edson Sanchez
+**Nombre**: Jeyson Melendez
 
-**Edad:** 20 años
+**Edad:** 25 años
 
-**Pasatiempos:** Salir con amigos y jugar fútbol
+**Pasatiempos:** Salir con amigos y visitar eventos culturales
 
-**Ocupación:** Estudiante Universitario (Psicología)
+**Ocupación:** Ingeriero Civil
 
-El entrevistado se siente inseguro en espacios públicos, especialmente
-cerca de su casa a altas horas de la noche, que a pesar de que no le haya ocurrido nada siente algo de miedo. Le preocupa la falta de vigilancia y la iluminación deficiente en estos lugares. Ante situaciones peligrosas, prefiere evitar problemas para salvaguardar su seguridad. Valora
-recibir alertas sobre robos o zonas peligrosas a través de una
-aplicación móvil, aunque no ha usado una app de seguridad antes, conoce
-su potencial y está interesado en funciones como alarmas y mapas de
-riesgo. Además, considera útil compartir su ubicación en tiempo real en caso de riesgo o llamar a las autoridades.
+En la entrevista, Jeyson compartió que recientemente experimentó un robo junto con su familia, lo que lo hizo sentir inseguro en un espacio público. Para protegerse, evita exponer objetos valiosos como el celular. Además, destacó la importancia de la vigilancia en áreas con alta afluencia de personas, sugiriendo que la falta de supervisión aumenta la preocupación por la seguridad. Jeyson mencionó que, tanto como víctima o testigo, considera esencial reportar incidentes, ya sea a través de denuncias o redes sociales, y subrayó que una aplicación móvil que ofrezca alertas en tiempo real sobre robos y otros delitos sería muy útil. A pesar de no haber utilizado aplicaciones de seguridad previamente, expresó su interés en una app que permita compartir la ubicación en tiempo real con familiares, así como la inclusión de herramientas como mapas de calor para identificar zonas de mayor o menor riesgo, destacando la importancia de la protección de datos y la facilidad de uso en la aplicación.
 
-Entrevista N° 3: Pilar Ubillus
-
-![](media/image9.png){width="5.791666666666667in"
-height="3.20448053368329in"}
-
-Enlace de la entrevista: <https://youtu.be/ELc5lbcRJCM>
-
-Nombre: Pilar Ubillus
-
-Edad: 24 años
-
-Pasatiempos: Ver películas
-
-Ocupación: Estudiante Universitaria (Psicología)
-
-Pilar se sintió insegura al salir de noche debido a la falta de
-iluminación en las calles. Para sentirse más segura, guarda sus objetos
-de valor en su ropa y evita caminar sola. La escasa iluminación y la
-falta de vigilancia son sus principales preocupaciones en cuanto a la
-seguridad en espacios públicos. En caso de un robo, no opondría
-resistencia para evitar un daño mayor, y si fuera testigo, ayudaría a la
-víctima. Le gustaría recibir información a través de una aplicación
-móvil sobre la proximidad de puestos de serenazgo, comisarías y zonas
-peligrosas, y se siente cómoda usando aplicaciones de seguridad. Aunque
-no ha utilizado una app de seguridad ciudadana, considera útil compartir
-su ubicación en tiempo real con su familia y valora la inclusión de
-botones de pánico y mapas de zonas peligrosas en la aplicación. Para
-confiar en una app de este tipo, destaca la importancia de que sea
-intuitiva y proteja sus datos personales.
-
-**Entrevista N° 4:** Paolo Cisneros
-
-![](media/image10.png){width="5.822740594925635in"
-height="2.686337489063867in"}
-
-Enlace de la entrevista: https://youtu.be/Ufd3r_rPLV4
-
-Nombre: Paolo Cisneros López
-
-Edad: 22 años
-
-Pasatiempos: Programar, aprender nuevas tecnologías de código.
-
-Ocupación: Estudiante universitario (Ingeniería de Software)
-
-Paolo es un estudiante universitario de la carrera de Ingeniería de
-Software de la Universidad Peruana de Ciencias Aplicadas, reside en el
-distrito de Surco y nos comenta su angustia con la inseguridad que vive
-día a día. Cada día que ha salido, ha sido testigo de un robo, nos
-ofrece el ejemplo reciente de un acto delictivo en la zona de \"La
-bolichera de Surco\" donde presenció este hurto, sin embargo, no pudo
-realizar algo más que este a su alcance. Al proponerle esta propuesta de
-solución le pareció una idea interesante y que fácilmente, él podría ser
-un usuario de esta aplicación. Nos comenta que la interacción pensada
-para este aplicativo brindará una experiencia al usuario única al
-reportar incidencias en tiempo real.
-
-**Entrevista N° 5:** Maria Paula Rojas
+**Entrevista N° 3:**
 
 ![Entrevista_5](assets/interview_5.png)
 
@@ -2372,7 +2298,7 @@ consumirse por la aplicación móvil.
  ![](assets/ControllerUser.png)
 
 Url del repositorio:
-<https://github.com/AplicacionesMovilesSW62-PeaceApp/Backend>
+<https://github.com/PeaceApp-UPC-4438/PeaceApp-Backend>
 
 
 | Repository                               | Branch | Commit Id                                | Commit Message                                |
