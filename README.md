@@ -2003,6 +2003,12 @@ Enlace a los Web Application Mock-ups: <https://www.figma.com/design/4ddpaCLGMU2
 
 ## 4.7. Web Applications Prototyping
 
+Habiendo realizado los mock-ups, creamos un prototipo de la aplicación web en Figma.
+
+Enlace al prototipo: https://www.figma.com/proto/g2UjaaatgDwqOfmLg1rFFW/PeaceApp-Prototype?node-id=2-2&p=f&t=xMFwVGxiDoS4zFvU-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2
+
+![](assets/WebApplicationsPrototyping.png)
+
 ## 4.8. Domain-Driven Software Architecture
 
 ### 4.8.1. Software Architecture Context Diagram 
