@@ -1215,12 +1215,13 @@ sea adoptada ampliamente.
 
 ### 2.2.2. Registro de entrevistas 
 
+**URL:**
+
 **Entrevista N°1:** Mauricio Rojas
 
 ![Entrevista1](assets/Entrevista1.png)
 
-Enlace de la entrevista:
-<https://drive.google.com/file/d/1REsuCUqFDAdWCagLSZQ4V-vY_ATyK34o/view?usp=sharing>
+**Timing:** 
 
 **Nombre:** Mauricio Rojas
 
@@ -1245,31 +1246,27 @@ usuarios puedan compartir experiencias. También le interesa que la
 aplicación sea confiable, especialmente en la protección de datos y en
 la actualización de información basada en los reportes de los usuarios.
 
-**Entrevista N°2:** Renzo Castañeda
+**Entrevista N°2:** Edson Sanchez
 
-![](media/image8.jpeg){width="5.780054680664917in"
-height="2.2023403324584425in"}
+![Entrevista2](assets/Entrevista2.png)
 
-**Enlace de la entrevista:** <https://youtu.be/aGVoMGzdqlE>
+**Timing:** 
 
-**Nombre**: Renzo Castañeda
+**Nombre**: Edson Sanchez
 
-**Edad:** 22 años
+**Edad:** 20 años
 
-**Pasatiempos:** Pasear en moto y salir amigos.
+**Pasatiempos:** Salir con amigos y jugar fútbol
 
-**Ocupación:** Estudiante Universitario (Arquitectura)
+**Ocupación:** Estudiante Universitario (Psicología)
 
 El entrevistado se siente inseguro en espacios públicos, especialmente
-en parques, y toma medidas como evitar zonas oscuras y caminar
-acompañado. Le preocupa la falta de vigilancia y la iluminación
-deficiente en estos lugares. Ante situaciones peligrosas, prefiere no
-resistirse y buscaría ayuda para contactar a las autoridades. Valora
+cerca de su casa a altas horas de la noche, que a pesar de que no le haya ocurrido nada siente algo de miedo. Le preocupa la falta de vigilancia y la iluminación
+deficiente en estos lugares. Ante situaciones peligrosas, prefiere evitar problemas para salvaguardar su seguridad. Valora
 recibir alertas sobre robos o zonas peligrosas a través de una
 aplicación móvil, aunque no ha usado una app de seguridad antes, conoce
 su potencial y está interesado en funciones como alarmas y mapas de
-riesgo. Además, considera útil compartir su ubicación en tiempo real,
-pero prefiere hacerlo de forma anónima para evitar posibles represalias.
+riesgo. Además, considera útil compartir su ubicación en tiempo real en caso de riesgo o llamar a las autoridades.
 
 Entrevista N° 3: Pilar Ubillus
 
