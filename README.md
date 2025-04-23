@@ -1549,21 +1549,19 @@ aplicación.
 
 <img src="assets/Colores.png" width="300" height="400" />
 
-**Android Mobile Style Guidelines:** Decidimos guiarnos de la guía HIG
-otorgada por Apple, en el caso de los dispositivos Android, podemos
-seguir las recomendaciones de Material Design de Google. Donde resaltan
-que el diseño debe de ser adaptable, con énfasis en la simplicidad y
-claridad de las interacciones. Se deben utilizar componentes nativos de
-Android, y asegurar una experiencia consistente, aprovechando los
-servicios de ubicación y notificaciones push.
-
 ### 4.1.2. Web Style Guidelines
+
+Para la versión web, se sigue un enfoque de diseño responsivo, adoptando el patrón visual en forma de “Z” para guiar la atención del usuario. Se prioriza la simplicidad, con fondos de color único y uso puntual de imágenes representativas por sección. Los botones utilizan tonos contrastantes dentro de la paleta azul para diferenciar acciones clave. Las pantallas emergentes oscurecen el fondo y emplean variantes de azul con mayor intensidad para destacar acciones importantes y asegurar la atención del usuario antes de continuar con la navegación.
 
 ### 4.1.3. Mobile Style Guidelines
 
 #### 4.1.3.1. iOS Mobile Style Guidelines 
 
+Para dispositivos iOS, seguimos las recomendaciones de la Human Interface Guidelines (HIG) de Apple. El diseño se enfoca en la simplicidad, la legibilidad y la eficiencia del espacio. Se prioriza el uso de componentes nativos como tab bars, modals y gestos multitáctiles, garantizando una experiencia fluida y coherente con el ecosistema Apple. Además, se cuida el uso del safe area para asegurar una visualización óptima en dispositivos con diferentes tamaños de pantalla y elementos como el notch. Se promueve una navegación intuitiva, con transiciones suaves y retroalimentación clara para cada acción.
+
 #### 4.1.3.2. Android Mobile Style Guidelines 
+
+Para dispositivos Android, adoptamos las recomendaciones de Material Design de Google. Este enfoque promueve una interfaz adaptable y visualmente clara, con especial énfasis en la jerarquía de elementos, animaciones suaves y uso eficiente del color. Se implementan componentes nativos como floating action buttons, snackbars y cards para asegurar familiaridad y coherencia. También se aprovechan las capacidades del sistema como servicios de ubicación, notificaciones push y navegación por gestos, garantizando una experiencia moderna, consistente y funcional en toda la plataforma.
 
 ## 4.2. Information Architecture
 
