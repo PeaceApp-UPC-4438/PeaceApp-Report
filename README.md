@@ -218,7 +218,6 @@ sociales</td>
 <td>
             <strong>Avila Asto, Alex Ramon Alberto</strong> <br>
             TB1 <br> Durante el desarrollo del trabajo, consideré el impacto que nuestras soluciones podrían tener en contextos globales, económicos, ambientales y sociales. Me esforcé por proponer alternativas sostenibles y viables, alineadas con las necesidades del entorno en el que se aplicará el producto, asegurando que cada decisión técnica tuviera un propósito positivo y consciente.
-
             <br>
             TP1 <br> ...
             <br><br>
@@ -291,12 +290,6 @@ Con PeaceApp, construimos un Perú más seguro, paso a paso.
 <col style="width: 34%" />
 </colgroup>
 <thead>
-<tr class="even">
-<td><p><strong>Nombre:</strong></p>
-<p><strong>Conocimientos técnicos/habilidades:</strong></p></th>
-<th></th>
-</tr>
-</thead>
 <tr class="even">
 <td><p><strong>Nombre:</strong>Pedro Andre Guia Carrasco 
 (U202212010)</p>
