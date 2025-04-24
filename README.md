@@ -192,11 +192,6 @@ software</td>
             <br>
             TP1 <br> ...
             <br><br>
-            <strong>Morin Fuentes, Jean Pierre</strong> <br>
-            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
-            <br>
-            TP1 <br> ...
-            <br><br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
             TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
             <br>
@@ -228,11 +223,6 @@ sociales</td>
             <br><br>
             <strong>Guia Carrasco, Pedro Andre</strong> <br>
             TB1 <br> Al integrar las entrevistas en el trabajo, pude darme cuenta el impacto global, economico y social positivo que tendria el producto, buscando soluciones que fueran sostenibles y que contribuyan al entorno donde pensamos aplicar la solución.
-            <br>
-            TP1 <br> ...
-            <br><br>
-            <strong>Morin Fuentes, Jean Pierre</strong> <br>
-            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
             <br>
             TP1 <br> ...
             <br><br>
