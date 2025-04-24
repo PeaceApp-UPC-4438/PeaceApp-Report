@@ -161,9 +161,9 @@ ABET -- EAC - Student Outcome 4
 
 <table>
 <colgroup>
-<col style="width: 22%" />
-<col style="width: 52%" />
-<col style="width: 24%" />
+<col style="width: 30%" />
+<col style="width: 40%" />
+<col style="width: 30%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -178,8 +178,37 @@ ABET -- EAC - Student Outcome 4
 ética y profesional en<br />
 situaciones de ingeniería de<br />
 software</td>
-<td></td>
-<td><em><strong>TB1</strong></em></td>
+<td>
+            <strong>Avila Asto, Alex Ramon Alberto</strong> <br>
+            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
+            <br>
+            TP1 <br> ...
+            <br><br>
+            <strong>Guia Carrasco, Pedro Andre</strong> <br>
+            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
+            <br>
+            TP1 <br> ...
+            <br><br>
+            <strong>Morin Fuentes, Jean Pierre</strong> <br>
+            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
+            <br>
+            TP1 <br> ...
+            <br><br>
+            <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
+            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
+            <br>
+            TP1 <br> ...
+            <br><br>
+            <strong>Tongo Alejandro, Milagros Salet</strong> <br>
+            TB1 <br>Me aseguré de tomar decisiones éticas y profesionales, reconociendo la importancia de aplicar buenas prácticas en cada fase, desde las entrevistas hasta las revisiones, para garantizar 
+            la integridad y calidad del software desarrollado
+            <br>
+            TP1 <br> ...
+</td>
+<td><em><strong>TB1</strong></em>
+<br>A lo largo del proceso de desarrollo de la startup, el equipo asumió de manera conjunta la responsabilidad ética y profesional en cada etapa del proyecto. Desde la recopilación de requisitos y entrevistas hasta la implementación final, se aseguraron de aplicar principios éticos y profesionales en actividades como el análisis competitivo,
+el diseño de entrevistas y la creación de documentación, garantizando soluciones de calidad y sostenibles.<br>
+</td>
 </tr>
 <tr class="even">
 <td>Emite juicios informados<br />
@@ -188,8 +217,35 @@ soluciones de ingeniería de<br />
 software en contextos globales,<br />
 económicos, ambientales y<br />
 sociales</td>
-<td></td>
-<td><em><strong>TB1</strong></em></td>
+<td>
+            <strong>Avila Asto, Alex Ramon Alberto</strong> <br>
+            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
+            <br>
+            TP1 <br> ...
+            <br><br>
+            <strong>Guia Carrasco, Pedro Andre</strong> <br>
+            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
+            <br>
+            TP1 <br> ...
+            <br><br>
+            <strong>Morin Fuentes, Jean Pierre</strong> <br>
+            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
+            <br>
+            TP1 <br> ...
+            <br><br>
+            <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
+            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
+            <br>
+            TP1 <br> ...
+            <br><br>
+            <strong>Tongo Alejandro, Milagros Salet</strong> <br>
+            TB1 <br>Al realizar entrevistas y revisiones, siempre tuve en cuenta el impacto global, económico y social de las soluciones propuestas, buscando soluciones que fueran sostenibles y que pudieran 
+            contribuir positivamente al entorno en el que se implementaran.
+            <br>
+</td>
+<td><em><strong>TB1</strong></em>
+<br>El equipo, a lo largo de todo el proceso, consideró el impacto global, económico, social y ambiental de las soluciones propuestas. Al realizar actividades como el análisis de entrevistas, la creación de mapas de recorrido del usuario y el diseño de prototipos, las decisiones tomadas fueron informadas, buscando siempre generar un impacto positivo en el contexto en el que se implementaría la solución.<br>
+</td>
 </tr>
 </tbody>
 </table>
@@ -1211,13 +1267,13 @@ sea adoptada ampliamente.
 
 ### 2.2.2. Registro de entrevistas 
 
-**URL de todas las entrevistas:**
+**URL de todas las entrevistas:** <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/Ef7Bpl3VeZJNg8F2vOnR6L4B6Y8LP7USUQwNi1cFDt0inQ?e=FGh7T1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 **Entrevista N°1:**
 
 ![Entrevista1](assets/Entrevista1.png)
 
-**Timing:** 
+**Timing:** 0:05
 
 **Nombre:** Mauricio Rojas
 
@@ -1234,7 +1290,7 @@ entorno. La falta de iluminación y vigilancia en las calles aumenta su sensaci�
 
 ![Entrevista2](assets/Entrevista-Milagros.png)
 
-**Timing:** 
+**Timing:** 8:20
 
 **Nombre**: Jeyson Melendez
 
@@ -1250,7 +1306,7 @@ En la entrevista, Jeyson compartió que recientemente experimentó un robo junto
 
 ![Entrevista_5](assets/interview_5.png)
 
-**Timing:** 
+**Timing:** 13:46
 
 **Nombre**: Maria Paula Rojas
 
@@ -1266,7 +1322,7 @@ Maria Paula Rojas, una joven de 19 años que estudia Educación Infantil y disfr
 
 ![Entrevista2](assets/Entrevista2.png)
 
-**Timing:** 
+**Timing:** 17:45
 
 Nombre: Edson Sanchez
 
@@ -1281,12 +1337,15 @@ El entrevistado se siente inseguro en espacios públicos, especialmente cerca de
 **Entrevista N° 5:**
 
 ![Entrevista5](https://i.imgur.com/52RHKmN.png)
-**Timing:** 
 
-Timing:
+**Timing:** 25:47
+
 Nombre: Andrew Yomar Santiago Peña
+
 Edad: 20 años
+
 Pasatiempos: Codeforces
+
 Ocupación: Estudiante de Ing de Software
 
 En la entrevista, Andrew compartió que suele sentirse inseguro en espacios públicos cuando toma transporte, especialmente en lugares concurridos o mal iluminados. Señaló que ha habido casos de robo (globo) en esas zonas y teme ser víctima de uno. Para protegerse, observa con atención los rostros de las personas y evita estar cerca de grupos grandes.
@@ -2361,3 +2420,7 @@ momento.
 ![](assets/AboutTheProduct.png)
 
 <https://www.youtube.com/watch?v=S1wn29tcVOg>
+
+# Conclusiones 
+# Bibliografia
+# Anexos
