@@ -1864,34 +1864,37 @@ IOS Application Wireframes:
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams 
 
-En esta sección se realizaron los Wireflows usando los Wireframes
-iniciales.
+**Wire Flow**: User Goal: Ingresar a la aplicación móvil como usuario registrado. Para este objetivo, el usuario accede a la pantalla inicial, selecciona el botón “Iniciar sesión” e ingresa su correo y contraseña. Si los datos ingresados son correctos, se redirige automáticamente al mapa de la aplicación. En caso de error (credenciales incorrectas o campos vacíos), se muestra un mensaje de advertencia solicitando revisar la información. US07
 
-Enlace del LucidChart:
-<https://lucid.app/lucidchart/acd11f77-5248-4382-b6ee-5d52815a5a57/edit?viewport_loc=519%2C7645%2C11425%2C5424%2C0_0&invitationId=inv_3e26dcea-a804-4b49-8035-27897bd14386>
+> ![](assets/Wireflow1.png)
 
-Inicio de Sesión
+**Wire Flow**: User Goal: Registrarse en la aplicación móvil como nuevo usuario. Para lograr este objetivo, el usuario presiona el botón “Comenzar ahora” en la pantalla inicial y accede al formulario de registro. Allí deberá ingresar su nombre, apellido, número de teléfono, correo electrónico y contraseña. Si toda la información es válida, se muestra un mensaje confirmando la creación exitosa de la cuenta. Si hay errores en el formato del correo, la contraseña es demasiado corta o el número es inválido, se informará al usuario y no se completará el registro. US06
 
-![](assets/IniciodeSesion.png)
-Registro de Usuario
+> ![](assets/Wireflow2.png)
 
-![](assets/RegistrodeUsuario.png)
+**Wire Flow**: User Goal: Visualizar los reportes disponibles en la aplicación. Una vez dentro de la app, el usuario puede acceder a la sección “Alertas” para ver los reportes en su zona. Si no existen alertas, no se mostrará contenido. Desde el mapa también puede acceder directamente al detalle de un reporte tocando un ícono. En la pestaña “Reportes”, puede revisar tanto los reportes generales como los propios. Si aún no se han generado reportes, esas secciones estarán vacías. US11
 
-Visualizar Alertas
+> ![](assets/Wireflow3.png)
 
-![](assets/VisualizarAlertas.png)
+**Wire Flow:** User Goal: Editar la información del perfil del usuario. Al ingresar a la aplicación, el usuario puede acceder a su perfil mediante el ícono correspondiente. Desde allí puede modificar sus datos personales. Si todos los campos requeridos son completados correctamente, la información se actualiza exitosamente. Si algún campo queda vacío, se notificará al usuario para que complete todos los datos. US15
 
-Editar Perfil
+> ![](assets/Wireflow4.png)
 
-![](assets/EditarPerfil.png)
+**Wire Flow:** Acceder al mapa de calor desde cualquier sección de la app. Al iniciar sesión correctamente, la aplicación redirige automáticamente al mapa donde se visualizan los reportes. Adicionalmente, desde cualquier otra sección, el usuario puede acceder al mapa mediante el ícono de navegación inferior. US17
 
-Compartir Ubicación
+> ![](assets/Wireflow5.png)
 
-![](assets/CompartirUbicacion.png)
+**Wire Flow**: Generar un nuevo reporte de incidente y adjuntar evidencia. Para cumplir este objetivo, el usuario accede a la sección “Mis reportes” y selecciona el botón para crear uno nuevo. Luego elige el tipo de incidente (robo, accidente, etc.) y completa el formulario incluyendo una descripción y la evidencia correspondiente. Puede cancelar el proceso, lo que le permitirá eliminar el reporte. Si completa correctamente todos los campos y adjunta evidencia, el reporte se publica exitosamente y se visualizará en el mapa de calor. Si hay errores o campos vacíos, el reporte no será enviado. US08 y US09
 
-Visualizar un Reporte
+> ![](assets/Wireflow6.png)
 
-![](assets/VisualizarReporte.png)
+**Wire Flow**: Recibir notificaciones sobre reportes y alertas de riesgo. Al abrir la aplicación, el usuario puede seleccionar el ícono de alertas para ver los reportes cercanos. Si no existen alertas en la zona, se muestra una vista vacía. Si hay reportes disponibles, el usuario podrá ver los detalles tocando alguno de ellos. US13 y US12
+
+![](assets/Wireflow7.png)
+
+**Wire Flow**: Compartir ubicación con contactos. El usuario accede a la sección “Compartir ubicación” desde el ícono correspondiente en la parte inferior de la app. Desde ahí puede ver una lista de contactos y seleccionar a quién desea enviar su ubicación. Al presionar el botón “Guardar cambios”, la ubicación será compartida con los contactos elegidos. US14
+
+![](assets/Wireflow8.png)
 
 ### 4.4.3. Mobile Applications Mock-ups
 
@@ -1921,44 +1924,37 @@ Enlace a los Mobile Application Mock-ups: <https://tinyurl.com/dyb2ex8u>
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
-**User Flow**: Inicio de sesión y Registro (User Story 07)
+**User Flow**: User Goal: Ingresar a la aplicación móvil como usuario registrado. Para este objetivo, el usuario accede a la pantalla inicial, selecciona el botón “Iniciar sesión” e ingresa su correo y contraseña. Si los datos ingresados son correctos, se redirige automáticamente al mapa de la aplicación. En caso de error (credenciales incorrectas o campos vacíos), se muestra un mensaje de advertencia solicitando revisar la información. US07
 
 > ![](assets/UserFlow1.png)
 
+**User Flow**: User Goal: Registrarse en la aplicación móvil como nuevo usuario. Para lograr este objetivo, el usuario presiona el botón “Comenzar ahora” en la pantalla inicial y accede al formulario de registro. Allí deberá ingresar su nombre, apellido, número de teléfono, correo electrónico y contraseña. Si toda la información es válida, se muestra un mensaje confirmando la creación exitosa de la cuenta. Si hay errores en el formato del correo, la contraseña es demasiado corta o el número es inválido, se informará al usuario y no se completará el registro. US06
+
 > ![](assets/UserFlow2.png)
 
-**User Flow**: Vista para visualizar detalle del reporte (User Story 13)
+**User Flow**: User Goal: Visualizar los reportes disponibles en la aplicación. Una vez dentro de la app, el usuario puede acceder a la sección “Alertas” para ver los reportes en su zona. Si no existen alertas, no se mostrará contenido. Desde el mapa también puede acceder directamente al detalle de un reporte tocando un ícono. En la pestaña “Reportes”, puede revisar tanto los reportes generales como los propios. Si aún no se han generado reportes, esas secciones estarán vacías. US11
 
 > ![](assets/UserFlow3.png)
 
-**User Flow:** Edición de perfil de usuario (User Story 18)
+**User Flow:** User Goal: Editar la información del perfil del usuario. Al ingresar a la aplicación, el usuario puede acceder a su perfil mediante el ícono correspondiente. Desde allí puede modificar sus datos personales. Si todos los campos requeridos son completados correctamente, la información se actualiza exitosamente. Si algún campo queda vacío, se notificará al usuario para que complete todos los datos. US15
 
 > ![](assets/UserFlow4.png)
 
-**User Flow:** Personalizar perfil de usuario (User Story 08)
+**User Flow:** Acceder al mapa de calor desde cualquier sección de la app. Al iniciar sesión correctamente, la aplicación redirige automáticamente al mapa donde se visualizan los reportes. Adicionalmente, desde cualquier otra sección, el usuario puede acceder al mapa mediante el ícono de navegación inferior. US17
 
 > ![](assets/UserFlow5.png)
 
-**User Flow**: Acceder al mapa de reportes (User Story 17)
+**User Flow**: Generar un nuevo reporte de incidente y adjuntar evidencia. Para cumplir este objetivo, el usuario accede a la sección “Mis reportes” y selecciona el botón para crear uno nuevo. Luego elige el tipo de incidente (robo, accidente, etc.) y completa el formulario incluyendo una descripción y la evidencia correspondiente. Puede cancelar el proceso, lo que le permitirá eliminar el reporte. Si completa correctamente todos los campos y adjunta evidencia, el reporte se publica exitosamente y se visualizará en el mapa de calor. Si hay errores o campos vacíos, el reporte no será enviado. US08 y US09
 
 > ![](assets/UserFlow6.png)
 
-**User Flow**: Generar reporte de incidentes (User Story 09)
+**User Flow**: Recibir notificaciones sobre reportes y alertas de riesgo. Al abrir la aplicación, el usuario puede seleccionar el ícono de alertas para ver los reportes cercanos. Si no existen alertas en la zona, se muestra una vista vacía. Si hay reportes disponibles, el usuario podrá ver los detalles tocando alguno de ellos. US13 y US12
 
 ![](assets/UserFlow7.png)
 
-**User Flow**: Adjuntar evidencia al reporte (User Story 10)
+**User Flow**: Compartir ubicación con contactos. El usuario accede a la sección “Compartir ubicación” desde el ícono correspondiente en la parte inferior de la app. Desde ahí puede ver una lista de contactos y seleccionar a quién desea enviar su ubicación. Al presionar el botón “Guardar cambios”, la ubicación será compartida con los contactos elegidos. US14
 
 ![](assets/UserFlow8.png)
-
-**User Flow**: Recibir notificaciones sobre reportes / Recibir Alertas
-de zonas de riesgo (User Story 14 y 15)
-
-![](assets/UserFlow9.png)
-
-**User Flow**: Compartir ubicación con contactos (User Story 16)
-
-![](assets/UserFlow10.png)
 
 ## 4.5. Mobile Applications Prototyping
 
