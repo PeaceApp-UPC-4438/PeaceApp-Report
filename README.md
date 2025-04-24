@@ -193,7 +193,7 @@ software</td>
             TP1 <br> ...
             <br><br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
-            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
+            TB1 <br> Me aseguré de actuar con ética y profesionalismo a la hora de realizar los puntos de este trabajo, aplicando buenas prácticas, desde la fase de las entrevistas, evaluación de las historias de usuario hasta la revisión de los flujos de las aplicaciones del proyecto.
             <br>
             TP1 <br> ...
             <br><br>
@@ -227,7 +227,7 @@ sociales</td>
             TP1 <br> ...
             <br><br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
-            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
+            TB1 <br> Al momento de realizar las entrevistas y las tareas consiguientes a ellas, estuve al tanto del impacto global, económico y social de las soluciones que proporcionamos fueran sostenibles, inclusivas y alineadas con las necesidades reales de los usuarios.
             <br>
             TP1 <br> ...
             <br><br>
