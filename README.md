@@ -146,6 +146,9 @@
     - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
     - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About the Product](#53-video-about-the-product)
+- [Conclusiones](#conclusiones)
+- [Bibliografia](#bibliografia)
+- [Anexos](#anexos)
 
 # Student Outcome
 
@@ -185,7 +188,7 @@ software</td>
             TP1 <br> ...
             <br><br>
             <strong>Guia Carrasco, Pedro Andre</strong> <br>
-            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
+            TB1 <br> Actué con ética y profesionalismo en todo momento, aplicando buenas prácticas desde la recolección de requisitos hasta la validación final, para asegurar un desarrollo de software íntegro y de alta calidad.
             <br>
             TP1 <br> ...
             <br><br>
@@ -224,7 +227,7 @@ sociales</td>
             TP1 <br> ...
             <br><br>
             <strong>Guia Carrasco, Pedro Andre</strong> <br>
-            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
+            TB1 <br> Al integrar las entrevistas en el trabajo, pude darme cuenta el impacto global, economico y social positivo que tendria el producto, buscando soluciones que fueran sostenibles y que contribuyan al entorno donde pensamos aplicar la solución.
             <br>
             TP1 <br> ...
             <br><br>
