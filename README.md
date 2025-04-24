@@ -2362,11 +2362,15 @@ correctamente.
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
+El equipo logró terminar con el desarrollo de la Web App, la cual ya se encuentra desplegada en la web de manera pública.
+
+![](assets/Evidence-Web.png)
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
 Se realizaron mejoras en el diseño de la aplicación.
 
-![](assets/MovilePageEvidence.png)
+![](assets/MobileApplicationEvidence.png)
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
