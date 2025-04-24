@@ -1278,6 +1278,29 @@ Ocupación: Estudiante Universitario (Psicología)
 
 El entrevistado se siente inseguro en espacios públicos, especialmente cerca de su casa a altas horas de la noche, que a pesar de que no le haya ocurrido nada siente algo de miedo. Le preocupa la falta de vigilancia y la iluminación deficiente en estos lugares. Ante situaciones peligrosas, prefiere evitar problemas para salvaguardar su seguridad. Valora recibir alertas sobre robos o zonas peligrosas a través de una aplicación móvil, aunque no ha usado una app de seguridad antes, conoce su potencial y está interesado en funciones como alarmas y mapas de riesgo. Además, considera útil compartir su ubicación en tiempo real en caso de riesgo o llamar a las autoridades.
 
+**Entrevista N° 5:**
+
+![Entrevista5](https://i.imgur.com/52RHKmN.png)
+**Timing:** 
+
+Timing:
+Nombre: Andrew Yomar Santiago Peña
+Edad: 20 años
+Pasatiempos: Codeforces
+Ocupación: Estudiante de Ing de Software
+
+En la entrevista, Andrew compartió que suele sentirse inseguro en espacios públicos cuando toma transporte, especialmente en lugares concurridos o mal iluminados. Señaló que ha habido casos de robo (globo) en esas zonas y teme ser víctima de uno. Para protegerse, observa con atención los rostros de las personas y evita estar cerca de grupos grandes.
+
+Indicó que la iluminación deficiente es uno de los aspectos que más le preocupa, sobre todo en la noche, ya que aumenta su sensación de vulnerabilidad. Si llegara a presenciar o ser víctima de un incidente, admitió que probablemente se sentiría asustado y no sabría cómo actuar.
+
+Andrew valoraría una aplicación móvil que envíe alertas en tiempo real sobre delitos recientes en su zona, recomiende rutas más seguras y permita saber si hay presencia policial. Afirmó que se sentiría muy cómodo utilizando una app de este tipo.
+
+Comentó que ha usado una app de seguridad anteriormente, pero la encontró poco intuitiva y poco detallada, ya que solo informaba a nivel de distrito sin datos específicos sobre calles o seguimiento de los delincuentes.
+
+Destacó la utilidad de compartir su ubicación en tiempo real con familiares o amigos, especialmente en caso de emergencia. Propuso además una herramienta en la app que notifique a contactos de confianza si alguien intenta desbloquear su teléfono fallidamente tres veces tras un robo.
+
+Finalmente, señaló que el aspecto que más le haría confiar en una app de seguridad sería la facilidad de uso, para poder reaccionar de manera rápida ante una situación peligrosa.
+
 ### 2.2.3. Análisis de entrevistas
 
 Los entrevistados, expresan una profunda preocupación por la inseguridad
