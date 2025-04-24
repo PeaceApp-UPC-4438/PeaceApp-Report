@@ -183,7 +183,7 @@ situaciones de ingeniería de<br />
 software</td>
 <td>
             <strong>Avila Asto, Alex Ramon Alberto</strong> <br>
-            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
+            TB1 <br> Actué con responsabilidad profesional en cada etapa del trabajo, aplicando buenas prácticas desde la recolección de requisitos hasta la validación de los resultados. Me enfoqué en asegurar la calidad del desarrollo, tomando decisiones éticas que contribuyeran a la integridad del producto final.
             <br>
             TP1 <br> ...
             <br><br>
@@ -217,7 +217,8 @@ económicos, ambientales y<br />
 sociales</td>
 <td>
             <strong>Avila Asto, Alex Ramon Alberto</strong> <br>
-            TB1 <br> Morbi vel tortor id eros dictum venenatis id dui. Mauris quis tellus eu nunc hendrerit vehicula ac id mauris. Pellentesque volutpat tellus non ligula blandit ullamcorper quis sodales erat.
+            TB1 <br> Durante el desarrollo del trabajo, consideré el impacto que nuestras soluciones podrían tener en contextos globales, económicos, ambientales y sociales. Me esforcé por proponer alternativas sostenibles y viables, alineadas con las necesidades del entorno en el que se aplicará el producto, asegurando que cada decisión técnica tuviera un propósito positivo y consciente.
+
             <br>
             TP1 <br> ...
             <br><br>
@@ -314,6 +315,12 @@ style="width:1.56917in;height:1.574in" /></td>
 (U202116078)</p>
 <p><strong>Conocimientos técnicos/habilidades:</strong> Soy estudiante de Ingeniería de Software, en el séptimo ciclo, con experiencia en frontend y backend. Manejo frameworks como Angular y Vue, lo que me ha permitido desarrollar proyectos completos. Me considero una persona sociable y generosa, disfruto trabajando en equipo y creo que aprender de los demás es fundamental para mejorar tanto profesional como personalmente. </p></td>
 <td><img src="assets/Milagros.jpg" /></td>
+</tr>
+<tr class="odd">
+<td><p><strong>Nombre:</strong> Alex Avila Asto
+(U20221a322)</p>
+<p><strong>Conocimientos técnicos/habilidades:</strong> Soy de ing de software me considero una persona con buenas habilidades y adaptabilidad para todo lo relacionado a TI. Manejo un set robusto de tecnologías como C++, SQL, Java, Kotlin, etc. Por lo que puedo aportar al equipo con mis conocimientos técnicos y brindar soporte si lo amerita </p></td>
+<td><img src="https://i.imgur.com/N98MS0Q.jpeg" /></td>
 </tr>
 </table>
 
