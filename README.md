@@ -58,7 +58,7 @@ TB1: Las tareas asignadas para la entrega TB1 se han completado y están documen
 
 - Se escribieron y diagramaron los contenidos asignados a cada miembro en formato Markdown, seguido de commits para asegurar el progreso en el repositorio.
 
-Enlace del repositorio: https://github.com/PeaceApp-UPC-4438/PeaceApp-Report.git
+- Enlace del repositorio: https://github.com/PeaceApp-UPC-4438/PeaceApp-Report.git
 ---
 
 # Tabla de contenidos
@@ -1962,6 +1962,8 @@ Bounded Context: Payment
 
 ![](assets/RelationalDatabaseDiagram.png)
 
+---
+
 # Capítulo V: Product Implementation 
 
 ## 5.1. Software Configuration Management
@@ -2230,6 +2232,35 @@ Durante este sprint se realizaron las funcionalidades correspondientes en cada r
 Se evidencia el video demostrando el prototipo pensado para PeaceApp, el cual contendrá las diferentes funcionalidades avanzadas hasta el momento.
 
 ![](assets/AboutTheProduct.png)
+
+---
+
+# Capítulo VI: Product Verification & Validation
+
+## 6.1 Testing Suites & Validation
+### 6.1.1 Core Entities Unit Tests
+### 6.1.2 Core Integration Tests
+### 6.1.3 Core Behavior-Driven Development
+### 6.1.4 Core System Tests
+
+---
+
+# Capítulo VII: DevOps Practices
+
+## 7.1 Continuous Integration
+### 7.1.1 Tools and Practices
+### 7.1.2 Build & Test Suite Pipeline Components
+
+## 7.2 Continuous Delivery
+### 7.2.1 Tools and Practices
+### 7.2.2 Stages Deployment Pipeline Components
+
+## 7.3 Continuous Deployment
+### 7.3.1 Tools and Practices
+### 7.3.2 Production Deployment Pipeline Components
+
+
+---
 
 URL del video: <https://www.youtube.com/watch?v=S1wn29tcVOg>
 
