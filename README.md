@@ -52,6 +52,15 @@
 
 ---
 
+# Project Report Collaboration Insights
+
+TB1: Las tareas asignadas para la entrega TB1 se han completado y están documentadas en el repositorio de Github.
+
+- Se escribieron y diagramaron los contenidos asignados a cada miembro en formato Markdown, seguido de commits para asegurar el progreso en el repositorio.
+
+Enlace del repositorio: https://github.com/PeaceApp-UPC-4438/PeaceApp-Report.git
+---
+
 # Tabla de contenidos
 
 - [ Universidad Peruana de Ciencias Aplicadas ](#-universidad-peruana-de-ciencias-aplicadas-)
@@ -141,10 +150,11 @@
     - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
     - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-    - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-    - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
-    - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+    - [5.2.4. Acuerdo de Servicio - SaaA](#524-acuerdo-de-servicio-saaA)
+    - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+    - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+    - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
+    - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
   - [5.3. Video About the Product](#53-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Bibliografia](#bibliografia)
@@ -249,36 +259,15 @@ sociales</td>
 
 ### 1.1.1 Descripción de la Startup
 
-En respuesta a la creciente inseguridad ciudadana en Perú, PeaceApp nace
-como una solución innovadora para mejorar la seguridad en las calles. En
-Lima Metropolitana, el 89,9% de la población percibe su entorno como
-inseguro (INEI, 2024), una cifra alarmante que no podemos ignorar.
+En respuesta a la creciente inseguridad ciudadana en Perú, PeaceApp nace como una solución innovadora para mejorar la seguridad en las calles. En Lima Metropolitana, el 89,9% de la población percibe su entorno como inseguro (INEI, 2024), una cifra alarmante que no podemos ignorar.
 
-**Misión:** Nuestra misión es garantizar la seguridad de nuestros
-usuarios, para que puedan transitar sin miedo alguno por las distintas
-calles del Perú.
+**Misión:** Nuestra misión es garantizar la seguridad de nuestros usuarios, para que puedan transitar sin miedo alguno por las distintas calles del Perú.
 
-**Visión:** Vemos el mundo en constante cambio y buscamos ser parte de
-ello. Creemos que todas las personas deben poder sentirse seguras de
-vivir y transitar en su propio país, y que los gobiernos deben
-encargarse de ello. Por eso, aspiramos a ser reconocidos como líderes en
-el mercado de seguridad, gracias a nuestra labor en beneficio de todos
-nuestros usuarios.
+**Visión:** Vemos el mundo en constante cambio y buscamos ser parte de ello. Creemos que todas las personas deben poder sentirse seguras de vivir y transitar en su propio país, y que los gobiernos deben encargarse de ello. Por eso, aspiramos a ser reconocidos como líderes en el mercado de seguridad, gracias a nuestra labor en beneficio de todos nuestros usuarios.
 
-*¿Cómo lo logramos?* PeaceApp se presenta como una herramienta esencial
-para cualquier ciudadano preocupado por su seguridad. Con nuestra
-aplicación, los usuarios pueden acceder a un mapa interactivo que
-muestra los niveles de seguridad en diferentes zonas, permitiendo tomar
-decisiones más informadas. Además, ofrecemos la posibilidad de denunciar
-crímenes de forma rápida y sencilla, adjuntando fotos, audios o videos,
-ya sea de manera pública o anónima.
+*¿Cómo lo logramos?* PeaceApp se presenta como una herramienta esencial para cualquier ciudadano preocupado por su seguridad. Con nuestra aplicación, los usuarios pueden acceder a un mapa interactivo que muestra los niveles de seguridad en diferentes zonas, permitiendo tomar decisiones más informadas. Además, ofrecemos la posibilidad de denunciar crímenes de forma rápida y sencilla, adjuntando fotos, audios o videos, ya sea de manera pública o anónima.
 
-Sin embargo, PeaceApp va más allá: permite a los usuarios compartir su
-ubicación en tiempo real con sus contactos de confianza para que puedan
-monitorear su trayecto, brindando tranquilidad en sus desplazamientos.
-Además, contamos con un sistema de marcación rápida que facilita el
-envío de alertas de emergencia a la Policía Nacional del Perú (PNP) y a
-los bomberos en situaciones críticas.
+Sin embargo, PeaceApp va más allá: permite a los usuarios compartir su ubicación en tiempo real con sus contactos de confianza para que puedan monitorear su trayecto, brindando tranquilidad en sus desplazamientos. Además, contamos con un sistema de marcación rápida que facilita el envío de alertas de emergencia a la Policía Nacional del Perú (PNP) y a los bomberos en situaciones críticas.
 
 Con PeaceApp, construimos un Perú más seguro, paso a paso.
 
@@ -321,226 +310,121 @@ style="width:1.56917in;height:1.574in" /></td>
 
 ### 1.2.1. Antecedentes y problemática 
 
-**What (Qué):** PeaceApp es una aplicación móvil diseñada para empoderar
-a los usuarios en su vida diaria, ayudándolos a navegar de manera más
-segura por las calles de Lima Metropolitana. Al crear una comunidad
-entre ciudadanos y autoridades, PeaceApp garantiza el acceso a
-información detallada y confiable sobre la seguridad en tiempo real,
-fomentando una red de colaboración que beneficia a todos.
+**What (Qué):** PeaceApp es una aplicación móvil diseñada para empoderar a los usuarios en su vida diaria, ayudándolos a navegar de manera más segura por las calles de Lima Metropolitana. Al crear una comunidad entre ciudadanos y autoridades, PeaceApp garantiza el acceso a información detallada y confiable sobre la seguridad en tiempo real, fomentando una red de colaboración que beneficia a todos.
 
-**When (Cuándo):** PeaceApp estará disponible las 24 horas del día, los
-7 días de la semana, ofreciendo asistencia continua y actualizada en
-cualquier momento que los usuarios lo necesiten.
+**When (Cuándo):** PeaceApp estará disponible las 24 horas del día, los 7 días de la semana, ofreciendo asistencia continua y actualizada en cualquier momento que los usuarios lo necesiten.
 
-**Where (Dónde):** PeaceApp puede ser utilizada en cualquier lugar y
-momento, siempre que el usuario cuente con una conexión a internet. La
-aplicación se adapta automáticamente a la ubicación del usuario,
-actualizando la información de seguridad local en tiempo real para
-brindar datos precisos y relevantes.
+**Where (Dónde):** PeaceApp puede ser utilizada en cualquier lugar y momento, siempre que el usuario cuente con una conexión a internet. La aplicación se adapta automáticamente a la ubicación del usuario, actualizando la información de seguridad local en tiempo real para brindar datos precisos y relevantes.
 
-**Who (Quién):** PeaceApp está dirigida a los ciudadanos que transitan
-por las calles de Lima Metropolitana. Los usuarios no solo podrán
-beneficiarse de la información proporcionada, sino que también tendrán
-la capacidad de contribuir al bienestar de la comunidad al reportar
-incidentes y situaciones de riesgo, ayudando a mantener la plataforma
-actualizada y confiable para todos.
+**Who (Quién):** PeaceApp está dirigida a los ciudadanos que transitan por las calles de Lima Metropolitana. Los usuarios no solo podrán beneficiarse de la información proporcionada, sino que también tendrán la capacidad de contribuir al bienestar de la comunidad al reportar incidentes y situaciones de riesgo, ayudando a mantener la plataforma actualizada y confiable para todos.
 
-**Why (Por qué):** PeaceApp surge como respuesta al preocupante aumento
-de la delincuencia en Lima y en todo el país. Nuestro objetivo es
-proporcionar a los ciudadanos una herramienta que les permita estar
-informados sobre los sucesos más recientes en su entorno, incrementando
-su seguridad personal y ayudando a otros transeúntes a evitar
-situaciones peligrosas.
+**Why (Por qué):** PeaceApp surge como respuesta al preocupante aumento de la delincuencia en Lima y en todo el país. Nuestro objetivo es proporcionar a los ciudadanos una herramienta que les permita estar informados sobre los sucesos más recientes en su entorno, incrementando su seguridad personal y ayudando a otros transeúntes a evitar situaciones peligrosas.
 
-**How (Cómo):** PeaceApp se mantiene actualizada gracias al constante
-aporte de los usuarios, quienes reportan incidentes y colaboran con la
-comunidad. Además, la aplicación utiliza tecnología avanzada de
-geolocalización y análisis de datos para ofrecer información precisa en
-tiempo real.
+**How (Cómo):** PeaceApp se mantiene actualizada gracias al constante aporte de los usuarios, quienes reportan incidentes y colaboran con la comunidad. Además, la aplicación utiliza tecnología avanzada de geolocalización y análisis de datos para ofrecer información precisa en tiempo real.
 
-**How Much (Cuánto):** PeaceApp estará disponible de forma gratuita para
-todos los usuarios. Sin embargo, para sostener el desarrollo y
-mantenimiento de la plataforma, la aplicación incluirá anuncios
-integrados.
+**How Much (Cuánto):** PeaceApp estará disponible de forma gratuita para todos los usuarios. Sin embargo, para sostener el desarrollo y mantenimiento de la plataforma, la aplicación incluirá anuncios integrados.
 
 ### 1.2.2. Lean UX Process 
+
 #### 1.2.2.1. Lean UX Problem Statements 
 
-El propósito de nuestro servicio es empoderar a los ciudadanos
-ayudándolos a moverse de manera segura por su entorno. Con nuestra
-aplicación, los usuarios acceden a un mapa de calor que muestra la
-peligrosidad de las diferentes zonas de Lima Metropolitana, actualizado
-en tiempo real según los reportes enviados por otros usuarios. Hemos
-identificado una creciente insatisfacción en la población respecto a la
-seguridad en las calles, ya que los hurtos y delitos son una
-preocupación constante. Según el último resultado de la ENAPRES para el
-semestre móvil Ene-Jun 2024, publicado por el INEI, el 27.7% de la
-población mayor de 15 años en Perú ha sido víctima de algún hecho
-delictivo.
+El propósito de nuestro servicio es empoderar a los ciudadanos ayudándolos a moverse de manera segura por su entorno. Con nuestra aplicación, los usuarios acceden a un mapa de calor que muestra la peligrosidad de las diferentes zonas de Lima Metropolitana, actualizado en tiempo real según los reportes enviados por otros usuarios. Hemos identificado una creciente insatisfacción en la población respecto a la seguridad en las calles, ya que los hurtos y delitos son una preocupación constante. Según el último resultado de la ENAPRES para el semestre móvil Ene-Jun 2024, publicado por el INEI, el 27.7% de la población mayor de 15 años en Perú ha sido víctima de algún hecho delictivo.
 
-Ante ello, ¿cómo podemos transformar la percepción de inseguridad en
-Lima y ofrecer a los ciudadanos una herramienta que realmente impacte en
-su día a día?
+Ante ello, ¿cómo podemos transformar la percepción de inseguridad en Lima y ofrecer a los ciudadanos una herramienta que realmente impacte en su día a día?
 
 #### 1.2.2.2. Lean UX Assumptions
 
-Ahora que hemos analizado la problemática y contamos con una visión
-clara de cómo abordar la solución, es crucial identificar qué empresas
-comparten características similares a las nuestras y cómo han
-evolucionado con el tiempo. Esto nos permitirá aprender de su
-experiencia y adaptarnos mejor al mercado.
+Ahora que hemos analizado la problemática y contamos con una visión clara de cómo abordar la solución, es crucial identificar qué empresas comparten características similares a las nuestras y cómo han evolucionado con el tiempo. Esto nos permitirá aprender de su experiencia y adaptarnos mejor al mercado.
 
 **Assumptions:**
 
-1.  **Los ciudadanos de Lima necesitan una aplicación que les ofrezca
-    rutas seguras para moverse por la ciudad.** Con el aumento de la
-    delincuencia, es esencial que los usuarios puedan planificar sus
-    trayectos de manera informada y evitar zonas peligrosas.
+1.  **Los ciudadanos de Lima necesitan una aplicación que les ofrezca rutas seguras para moverse por la ciudad.** Con el aumento de la delincuencia, es esencial que los usuarios puedan planificar sus trayectos de manera informada y evitar zonas peligrosas.
 
-2.  **Los ciudadanos valoran sentirse parte de una comunidad que les
-    permita reportar incidentes y ver esos reportes reflejados en un
-    mapa interactivo.** La posibilidad de contribuir a la seguridad de
-    su entorno genera un sentido de pertenencia y confianza en la
-    aplicación.
+2.  **Los ciudadanos valoran sentirse parte de una comunidad que les permita reportar incidentes y ver esos reportes reflejados en un mapa interactivo.** La posibilidad de contribuir a la seguridad de su entorno genera un sentido de pertenencia y confianza en la plicación.
 
-3.  **Actualmente, no existe una competencia relevante en el mercado que
-    ofrezca una solución integral como la nuestra.** Esto nos posiciona
-    como pioneros y líderes potenciales en el sector de la seguridad
-    ciudadana en Lima.
+3.  **Actualmente, no existe una competencia relevante en el mercado que ofrezca una solución integral como la nuestra.** Esto nos posiciona como pioneros y líderes potenciales en el sector de la seguridad ciudadana en Lima.
 
-4.  **Las entidades que utilicen nuestra aplicación obtendrán datos
-    valiosos que les ayudarán a combatir la criminalidad de manera más
-    efectiva.** Al tener acceso a información en tiempo real sobre las
-    zonas más conflictivas, podrán tomar decisiones informadas.
+4.  **Las entidades que utilicen nuestra aplicación obtendrán datos valiosos que les ayudarán a combatir la criminalidad de manera más efectiva.** Al tener acceso a información en tiempo real sobre las zonas más conflictivas, podrán tomar decisiones informadas.
 
-5.  **Los ciudadanos comunes estarán interesados en nuestra aplicación,
-    ya que les proporciona una herramienta práctica para mejorar su
-    seguridad diaria.** La simplicidad y utilidad de la aplicación
-    atraerán a un público amplio.
+5.  **Los ciudadanos comunes estarán interesados en nuestra aplicación, ya que les proporciona una herramienta práctica para mejorar su seguridad diaria.** La simplicidad y utilidad de la aplicación atraerán a un público amplio.
 
-6.  **Las entidades públicas de Perú necesitan este tipo de soluciones
-    tecnológicas para mejorar su capacidad de respuesta ante la
-    criminalidad.** Nuestra aplicación les permitirá actuar de manera
-    más proactiva y estratégica.
+6.  **Las entidades públicas de Perú necesitan este tipo de soluciones tecnológicas para mejorar su capacidad de respuesta ante la criminalidad.** Nuestra aplicación les permitirá actuar de manera más proactiva y estratégica.
 
 **Business Outcomes:**
 
-- Generar ingresos sostenibles a través de la venta de la aplicación a
-  entidades públicas y privadas.
+- Generar ingresos sostenibles a través de la venta de la aplicación a entidades públicas y privadas.
 
-- Mejorar la calidad de vida de los ciudadanos del Perú al reducir su
-  exposición a riesgos en las calles.
+- Mejorar la calidad de vida de los ciudadanos del Perú al reducir su exposición a riesgos en las calles.
 
-- Contribuir a la disminución de la delincuencia en el país al facilitar
-  la detección de zonas peligrosas y la respuesta oportuna.
+- Contribuir a la disminución de la delincuencia en el país al facilitar la detección de zonas peligrosas y la respuesta oportuna.
 
 **User Outcomes:**
 
-1.  **¿Quién es el usuario?** Cualquier ciudadano que viva o trabaje en
-    zonas donde las entidades están asociadas con nuestra plataforma.
+1.  **¿Quién es el usuario?** Cualquier ciudadano que viva o trabaje en zonas donde las entidades están asociadas con nuestra plataforma.
 
-2.  **¿Dónde encaja nuestro producto en su vida diaria?** Nuestra
-    aplicación se convierte en una herramienta indispensable para
-    planificar trayectos seguros y reportar incidentes, brindando
-    tranquilidad en su rutina diaria.
+2.  **¿Dónde encaja nuestro producto en su vida diaria?** Nuestra aplicación se convierte en una herramienta indispensable para planificar trayectos seguros y reportar incidentes, brindando tranquilidad en su rutina diaria.
 
-3.  **¿Qué desafíos enfrenta nuestro producto?** Un desafío importante
-    es que nuestra generación de ingresos depende de la capacidad de
-    atraer y mantener asociaciones con entidades públicas y privadas.
+3.  **¿Qué desafíos enfrenta nuestro producto?** Un desafío importante es que nuestra generación de ingresos depende de la capacidad de atraer y mantener asociaciones con entidades públicas y privadas.
 
-4.  **¿Cuándo y cómo es usado nuestro producto?** Los usuarios utilizan
-    la aplicación al desplazarse por áreas desconocidas o al desear
-    reportar incidentes para proteger a otros. La aplicación se
-    convierte en una herramienta diaria para asegurar trayectos más
-    seguros.
+4.  **¿Cuándo y cómo es usado nuestro producto?** Los usuarios utilizan la aplicación al desplazarse por áreas desconocidas o al desear reportar incidentes para proteger a otros. La aplicación se convierte en una herramienta diaria para asegurar trayectos más seguros.
 
-5.  **¿Qué características son importantes?** La aplicación debe ser
-    intuitiva y fácil de usar, con acceso rápido a la información
-    relevante y una navegación clara. La actualización en tiempo real es
-    fundamental para su efectividad.
+5.  **¿Qué características son importantes?** La aplicación debe ser intuitiva y fácil de usar, con acceso rápido a la información relevante y una navegación clara. La actualización en tiempo real es fundamental para su efectividad.
 
-6.  **¿Cómo debe verse y comportarse nuestro producto?** La aplicación
-    debe ser visualmente atractiva, con una paleta de colores que sea
-    agradable y fácil de leer. El proceso de registro debe ser simple y
-    accesible para todos los usuarios, maximizando la usabilidad.
+6.  **¿Cómo debe verse y comportarse nuestro producto?** La aplicación debe ser visualmente atractiva, con una paleta de colores que sea agradable y fácil de leer. El proceso de registro debe ser simple y accesible para todos los usuarios, maximizando la usabilidad.
 
 **User Benefits:**
 
-1.  Evitar robos y otros incidentes peligrosos al moverse por la ciudad,
-    gracias a la información proporcionada en tiempo real.
+1.  Evitar robos y otros incidentes peligrosos al moverse por la ciudad, gracias a la información proporcionada en tiempo real.
 
-2.  Acceso a un mapa de calor que muestra zonas peligrosas y rutas
-    seguras, ayudando a los usuarios a tomar decisiones informadas.
+2.  Acceso a un mapa de calor que muestra zonas peligrosas y rutas seguras, ayudando a los usuarios a tomar decisiones informadas.
 
-3.  Sentirse parte de una comunidad que contribuye a la seguridad
-    colectiva, fortaleciendo el sentido de pertenencia y confianza.
+3.  Sentirse parte de una comunidad que contribuye a la seguridad colectiva, fortaleciendo el sentido de pertenencia y confianza.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 - **Hypothesis Statement 01:**
 
-**Creemos que** la aplicación logrará formar una comunidad activa y
-comprometida con la seguridad ciudadana.
+**Creemos que** la aplicación logrará formar una comunidad activa y comprometida con la seguridad ciudadana.
 
-**Sabremos que** hemos tenido éxito cuando se observe un aumento
-constante en la cantidad de usuarios registrados diariamente y estos
-participen en la aplicación realizando reportes.
+**Sabremos que** hemos tenido éxito cuando se observe un aumento constante en la cantidad de usuarios registrados diariamente y estos participen en la aplicación realizando reportes.
 
 - **Hypothesis Statement 02:**
 
-**Creemos que** los ciudadanos valorarán la posibilidad de reportar
-incidentes y recibir información en tiempo real sobre la seguridad de su
-entorno.
+**Creemos que** los ciudadanos valorarán la posibilidad de reportar incidentes y recibir información en tiempo real sobre la seguridad de su entorno.
 
-**Sabremos que** hemos tenido éxito cuando veamos un alto porcentaje de
-usuarios activos que reporten incidentes con regularidad y utilicen la
-aplicación para consultar el mapa de calor antes de desplazarse.
+**Sabremos que** hemos tenido éxito cuando veamos un alto porcentaje de usuarios activos que reporten incidentes con regularidad y utilicen la aplicación para consultar el mapa de calor antes de desplazarse.
 
 - **Hypothesis Statement 03:**
 
-**Creemos que** nuestra aplicación será capaz de reducir la percepción
-de inseguridad en las zonas donde se implemente.
+**Creemos que** nuestra aplicación será capaz de reducir la percepción de inseguridad en las zonas donde se implemente.
 
-**Sabremos que** hemos tenido éxito cuando encuestas de percepción de
-seguridad reflejen una disminución del miedo al crimen en las áreas
-donde los usuarios utilizan PeaceApp activamente.
+**Sabremos que** hemos tenido éxito cuando encuestas de percepción de seguridad reflejen una disminución del miedo al crimen en las áreas donde los usuarios utilizan PeaceApp activamente.
 
 - **Hypothesis Statement 04:**
 
-**Creemos que** la implementación de anuncios en la versión gratuita de
-la aplicación no afectará negativamente la experiencia del usuario.
+**Creemos que** la implementación de anuncios en la versión gratuita de la aplicación no afectará negativamente la experiencia del usuario.
 
-**Sabremos que** hemos tenido éxito cuando mantengamos un alto índice de
-retención de usuarios en la versión gratuita y obtengamos ingresos
-sostenibles a través de la publicidad.
+**Sabremos que** hemos tenido éxito cuando mantengamos un alto índice de retención de usuarios en la versión gratuita y obtengamos ingresos sostenibles a través de la publicidad.
 
 - **Hypothesis Statement 05:**
 
-**Creemos que** la aplicación será intuitiva y fácil de usar para
-personas de todas las edades y niveles de experiencia tecnológica.
+**Creemos que** la aplicación será intuitiva y fácil de usar para personas de todas las edades y niveles de experiencia tecnológica.
 
-**Sabremos que** hemos tenido éxito cuando las pruebas de usabilidad
-muestren que la mayoría de los usuarios completan tareas clave en la
-aplicación sin dificultad.
+**Sabremos que** hemos tenido éxito cuando las pruebas de usabilidad muestren que la mayoría de los usuarios completan tareas clave en la aplicación sin dificultad.
 
 - **Hypothesis Statement 06:**
 
-**Creemos que** el uso de geolocalización en tiempo real mejorará la
-precisión y relevancia de los datos de seguridad proporcionados a los
-usuarios.
+**Creemos que** el uso de geolocalización en tiempo real mejorará la precisión y relevancia de los datos de seguridad proporcionados a los usuarios.
 
-**Sabremos que** hemos tenido éxito cuando los usuarios confíen en la
-información del mapa de calor y se apoyen en ella para tomar decisiones
+**Sabremos que** hemos tenido éxito cuando los usuarios confíen en la información del mapa de calor y se apoyen en ella para tomar decisiones
 sobre sus rutas diarias.
 
 - **Hypothesis Statement 07:**
 
-**Creemos que** la posibilidad de compartir la ubicación en tiempo real
-con contactos de confianza aumentará la sensación de seguridad entre los
+**Creemos que** la posibilidad de compartir la ubicación en tiempo real con contactos de confianza aumentará la sensación de seguridad entre los
 usuarios.
 
-**Sabremos que** hemos tenido éxito cuando una cantidad significativa de
-usuarios utilicen esta función regularmente.
+**Sabremos que** hemos tenido éxito cuando una cantidad significativa de usuarios utilicen esta función regularmente.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -1195,68 +1079,46 @@ Nombres y Apellidos, edad, pasatiempos y ocupación
 **Segmento Objetivo: Ciudadanos preocupados por su seguridad en espacios
 públicos**
 
-1.  ¿Puede describir alguna situación reciente en un espacio público
-    donde se haya sentido inseguro o preocupado por su seguridad?
+1.  ¿Puede describir alguna situación reciente en un espacio público donde se haya sentido inseguro o preocupado por su seguridad?
 
 Objetivo: Captar experiencias personales y contextos específicos que
 generan inseguridad.
 
-2.  ¿Qué medidas toma actualmente para sentirse más seguro cuando se
-    encuentra en espacios públicos?
+2.  ¿Qué medidas toma actualmente para sentirse más seguro cuando se encuentra en espacios públicos?
 
-Objetivo: Conocer las prácticas o herramientas que ya utilizan para
-protegerse.
+Objetivo: Conocer las prácticas o herramientas que ya utilizan para protegerse.
 
-3.  ¿Qué aspectos de los espacios públicos (iluminación, vigilancia,
-    presencia policial, etc.) le generan mayor preocupación en términos
-    de seguridad?
+3.  ¿Qué aspectos de los espacios públicos (iluminación, vigilancia, presencia policial, etc.) le generan mayor preocupación en términos de seguridad?
 
-Objetivo: Identificar factores específicos que afectan la percepción de
-seguridad.
+Objetivo: Identificar factores específicos que afectan la percepción de seguridad.
 
-4.  ¿Cómo reaccionaría si fuera testigo o víctima de una situación
-    peligrosa en un espacio público?
+4.  ¿Cómo reaccionaría si fuera testigo o víctima de una situación peligrosa en un espacio público?
 
-Objetivo: Comprender las respuestas típicas de los ciudadanos ante
-situaciones de inseguridad.
+Objetivo: Comprender las respuestas típicas de los ciudadanos ante situaciones de inseguridad.
 
-5.  ¿Qué tipo de información o alertas le gustaría recibir a través de
-    una aplicación móvil para mejorar su seguridad en espacios públicos?
+5.  ¿Qué tipo de información o alertas le gustaría recibir a través de una aplicación móvil para mejorar su seguridad en espacios públicos?
 
 Objetivo: Definir las funcionalidades más valiosas para los usuarios.
 
-6.  ¿Qué tan cómodo se siente utilizando aplicaciones móviles para
-    reportar incidentes de seguridad o recibir alertas?
+6.  ¿Qué tan cómodo se siente utilizando aplicaciones móviles para reportar incidentes de seguridad o recibir alertas?
 
-Objetivo: Evaluar el nivel de comodidad y experiencia con tecnologías de
-seguridad.
+Objetivo: Evaluar el nivel de comodidad y experiencia con tecnologías de seguridad.
 
-7.  ¿Ha utilizado alguna vez una aplicación móvil enfocada en la
-    seguridad ciudadana? Si es así, ¿qué le gustó o no le gustó de esa
-    experiencia?
+7.  ¿Ha utilizado alguna vez una aplicación móvil enfocada en la seguridad ciudadana? Si es así, ¿qué le gustó o no le gustó de esa experiencia?
 
 Objetivo: Identificar experiencias previas y posibles mejoras.
 
-8.  ¿Considera útil la posibilidad de compartir su ubicación en tiempo
-    real con familiares o amigos cuando se encuentra en un espacio
-    público?
+8.  ¿Considera útil la posibilidad de compartir su ubicación en tiempo real con familiares o amigos cuando se encuentra en un espacio público?
 
-Objetivo: Evaluar el interés en funciones de seguridad basadas en la
-ubicación.
+Objetivo: Evaluar el interés en funciones de seguridad basadas en la ubicación.
 
-9.  ¿Qué otras características o herramientas le gustarían que una
-    aplicación móvil incluyera para ayudarle a sentirse más seguro en
-    espacios públicos?
+9.  ¿Qué otras características o herramientas le gustarían que una aplicación móvil incluyera para ayudarle a sentirse más seguro en espacios públicos?
 
-Objetivo: Recopilar ideas adicionales para funcionalidades en la
-aplicación.
+Objetivo: Recopilar ideas adicionales para funcionalidades en la aplicación.
 
-10. ¿Qué aspectos de una aplicación móvil de seguridad le harían sentir
-    más confiado en su uso regular? (Ej.: facilidad de uso, protección
-    de datos, confiabilidad, etc.)
+10. ¿Qué aspectos de una aplicación móvil de seguridad le harían sentir más confiado en su uso regular? (Ej.: facilidad de uso, protección de datos, confiabilidad, etc.)
 
-Objetivo: Identificar los requisitos esenciales para que la aplicación
-sea adoptada ampliamente.
+Objetivo: Identificar los requisitos esenciales para que la aplicación sea adoptada ampliamente.
 
 ### 2.2.2. Registro de entrevistas 
 
@@ -1355,38 +1217,21 @@ Finalmente, señaló que el aspecto que más le haría confiar en una app de seg
 
 ### 2.2.3. Análisis de entrevistas
 
-Los entrevistados, expresan una profunda preocupación por la inseguridad
-en sus entornos diarios, especialmente en áreas cercanas a su
-universidad y en espacios públicos como parques y calles con poca
-iluminación. Esta sensación de inseguridad está influenciada por la
-falta de vigilancia, la deficiente iluminación en las zonas que
-frecuentan, y la frecuencia con la que han sido testigos de actos
-delictivos, lo que genera una necesidad apremiante de soluciones
-tecnológicas que puedan mitigar estos riesgos.
+Los entrevistados, expresan una profunda preocupación por la inseguridad en sus entornos diarios, especialmente en áreas cercanas a su universidad y en espacios públicos como parques y calles con poca iluminación. Esta sensación de inseguridad está influenciada por la falta de vigilancia, la deficiente iluminación en las zonas que frecuentan, y la frecuencia con la que han sido testigos de actos delictivos, lo que genera una necesidad apremiante de soluciones tecnológicas que puedan mitigar estos riesgos.
 
 **Intereses y Requerimientos Principales:**
 
 **1. Reportes en Tiempo Real:**
 
-- Interés en una aplicación que les permita reportar incidencias de
-  forma inmediata. Esta funcionalidad es vista como un mecanismo para
-  alertar a otros usuarios y facilitar la intervención de las
-  autoridades en casos de emergencia.
+- Interés en una aplicación que les permita reportar incidencias de forma inmediata. Esta funcionalidad es vista como un mecanismo para alertar a otros usuarios y facilitar la intervención de las autoridades en casos de emergencia.
 
 **2. Alertas de Zonas Peligrosas:**
 
-- La capacidad de recibir notificaciones sobre áreas peligrosas es una
-  función altamente valorada. Estas alertas podrían ayudar a los
-  usuarios a evitar situaciones riesgosas al informarles sobre robos
-  recientes u otros incidentes delictivos en su entorno.
+- La capacidad de recibir notificaciones sobre áreas peligrosas es una función altamente valorada. Estas alertas podrían ayudar a los usuarios a evitar situaciones riesgosas al informarles sobre robos recientes u otros incidentes delictivos en su entorno.
 
 **3. Compartir Ubicación en Tiempo Real:**
 
-- Ambos usuarios consideran útil compartir su ubicación en tiempo real,
-  pero hay una fuerte preferencia por hacerlo de manera anónima para
-  evitar posibles represalias o problemas de privacidad. Esto sugiere la
-  necesidad de implementar medidas robustas de protección de datos y
-  opciones para mantener el anonimato.
+- Ambos usuarios consideran útil compartir su ubicación en tiempo real, pero hay una fuerte preferencia por hacerlo de manera anónima para evitar posibles represalias o problemas de privacidad. Esto sugiere la necesidad de implementar medidas robustas de protección de datos y opciones para mantener el anonimato.
 
 ## 2.3. Needfinding
 
@@ -1420,10 +1265,7 @@ Ciudadanos preocupados por su seguridad en espacios públicos
 
 ![](assets/EmpathyMapping.jpg)
 
-Con ayuda del gráfico Empathy Mapping podemos conocer las necesidades,
-frustraciones de nuestro segmento objetivo: **Ciudadanos preocupados por
-su seguridad en espacios públicos**. Esto nos ofrece una comprensión más
-profunda de cómo se siente nuestro usuario y abordar una solución que
+Con ayuda del gráfico Empathy Mapping podemos conocer las necesidades, frustraciones de nuestro segmento objetivo: **Ciudadanos preocupados por su seguridad en espacios públicos**. Esto nos ofrece una comprensión más profunda de cómo se siente nuestro usuario y abordar una solución que
 realmente los ayuden.
 
 #### 2.3.5. As-is Scenario Mapping 
@@ -1577,108 +1419,68 @@ aplicación.
  
 ## 4.2. Information Architecture
 
-En nuestra aplicación PeaceApp, buscamos ofrecer una interfaz
-interactiva que inspire confianza y seguridad a nuestros usuarios. No
-hace falta mencionar que nuestro enfoque es la seguridad ciudadana del
-Perú, y esa es nuestra prioridad que debe de estar presente en la
-experiencia de los usuarios. Una parte esencial será administrar
-correctamente la arquitectura de la información. A continuación, se
-detalla lo planeado para nuestra aplicación.
+En nuestra aplicación PeaceApp, buscamos ofrecer una interfaz interactiva que inspire confianza y seguridad a nuestros usuarios. No hace falta mencionar que nuestro enfoque es la seguridad ciudadana del Perú, y esa es nuestra prioridad que debe de estar presente en la experiencia de los usuarios. Una parte esencial será administrar correctamente la arquitectura de la información. A continuación, se detalla lo planeado para nuestra aplicación.
 
 > **Página de Inicio:**
 
-- Mapa Interactivo: Sección que muestra un mapa con los niveles de
-  seguridad en diferentes zonas, permitiendo a los usuarios identificar
-  áreas seguras e inseguras.
+- Mapa Interactivo: Sección que muestra un mapa con los niveles de seguridad en diferentes zonas, permitiendo a los usuarios identificar áreas seguras e inseguras.
 
-- Opciones de Denuncia: Enlace y acceso rápido a la funcionalidad de
-  denuncia, donde los usuarios pueden reportar crímenes de manera
-  pública o anónima.
+- Opciones de Denuncia: Enlace y acceso rápido a la funcionalidad de denuncia, donde los usuarios pueden reportar crímenes de manera pública o anónima.
 
-- Información sobre la Plataforma: Detalles sobre PeaceApp, nuestra
-  misión, visión y el impacto que buscamos generar. Además, información
-  de contacto para consultas y asistencia.
+- Información sobre la Plataforma: Detalles sobre PeaceApp, nuestra misión, visión y el impacto que buscamos generar. Además, información de contacto para consultas y asistencia.
 
 > **Mapa de Seguridad:**
 
-- Categorías de Seguridad: División del mapa en zonas categorizadas por
-  niveles de seguridad (alto, medio, bajo) para facilitar la
-  identificación rápida de áreas críticas.
+- Categorías de Seguridad: División del mapa en zonas categorizadas por niveles de seguridad (alto, medio, bajo) para facilitar la identificación rápida de áreas críticas.
 
-- Filtros de Búsqueda: Herramientas para filtrar el mapa por tipos de
-  incidentes reportados, fecha y hora de los eventos, y nivel de riesgo.
+- Filtros de Búsqueda: Herramientas para filtrar el mapa por tipos de incidentes reportados, fecha y hora de los eventos, y nivel de riesgo.
 
-- Vista Detallada de Incidentes: Páginas individuales para cada
-  incidente reportado con descripciones, ubicación precisa, y opción
-  para agregar más detalles o evidencias.
+- Vista Detallada de Incidentes: Páginas individuales para cada incidente reportado con descripciones, ubicación precisa, y opción para agregar más detalles o evidencias.
 
 > **Denuncia de Crímenes:**
 
-- Herramienta de Denuncia: Interfaz intuitiva donde los usuarios pueden
-  reportar incidentes seleccionando la categoría del crimen, adjuntando
-  fotos, videos, o audios, y eligiendo la opción de denuncia anónima.
+- Herramienta de Denuncia: Interfaz intuitiva donde los usuarios pueden reportar incidentes seleccionando la categoría del crimen, adjuntando fotos, videos, o audios, y eligiendo la opción de denuncia anónima.
 
-- Vista Previa en Tiempo Real: Visualización en tiempo real del reporte
-  antes de enviarlo para asegurar que toda la información es correcta.
+- Vista Previa en Tiempo Real: Visualización en tiempo real del reporte antes de enviarlo para asegurar que toda la información es correcta.
 
-- Opciones de Ubicación y Tipo de Incidente: Selección de la ubicación
-  del incidente y el tipo de crimen, con opción de marcarlo en el mapa.
+- Opciones de Ubicación y Tipo de Incidente: Selección de la ubicación del incidente y el tipo de crimen, con opción de marcarlo en el mapa.
 
 > **Registro:**
 
-- Registro de Usuarios: Formulario para que los usuarios se registren en
-  la plataforma, incluyendo información básica como nombre, correo
-  electrónico y número de teléfono.
+- Registro de Usuarios: Formulario para que los usuarios se registren en la plataforma, incluyendo información básica como nombre, correo electrónico y número de teléfono.
 
-- Registro de Contactos de Confianza: Opción para que los usuarios
-  registren los contactos de confianza con quienes compartirán su
-  ubicación en tiempo real.
+- Registro de Contactos de Confianza: Opción para que los usuarios registren los contactos de confianza con quienes compartirán su ubicación en tiempo real.
 
 ### 4.2.1. Organization Systems
 
-El sistema de organización se centrará en proporcionar la mejor
-experiencia al usuario en cuanto a la navegación y uso de las
-funcionalidades de seguridad. Nuestra plataforma está diseñada para que
-los usuarios puedan navegar, reportar incidentes y monitorear la
-seguridad de manera segura y cómoda.
+El sistema de organización se centrará en proporcionar la mejor experiencia al usuario en cuanto a la navegación y uso de las funcionalidades de seguridad. Nuestra plataforma está diseñada para que los usuarios puedan navegar, reportar incidentes y monitorear la seguridad de manera segura y cómoda.
 
 > **Categorización de la Información:**
 
-- Mapa de Seguridad: Categorizado por niveles de seguridad (alto, medio,
-  bajo) y tipos de incidentes (robos, agresiones, etc.).
+- Mapa de Seguridad: Categorizado por niveles de seguridad (alto, medio, bajo) y tipos de incidentes (robos, agresiones, etc.).
 
-- Denuncias y Reportes: Categorizado por tipo de crimen y nivel de
-  urgencia para facilitar la gestión y respuesta rápida.
+- Denuncias y Reportes: Categorizado por tipo de crimen y nivel de urgencia para facilitar la gestión y respuesta rápida.
 
 > **Filtros y Búsqueda:**
 
-- Filtros en el Mapa: Permiten a los usuarios filtrar incidentes por
-  tipo de crimen, fecha y hora, y nivel de riesgo.
+- Filtros en el Mapa: Permiten a los usuarios filtrar incidentes por tipo de crimen, fecha y hora, y nivel de riesgo.
 
-- Búsqueda Avanzada: Opción de búsqueda avanzada en el mapa y en los
-  reportes para encontrar información específica o zonas críticas.
+- Búsqueda Avanzada: Opción de búsqueda avanzada en el mapa y en los reportes para encontrar información específica o zonas críticas.
 
 > **Interfaz de Usuario Intuitiva:**
 
-- Menú Principal: Navegación clara con acceso rápido a las secciones
-  principales como Mapa, Denuncia, Registro, y Contacto.
+- Menú Principal: Navegación clara con acceso rápido a las secciones principales como Mapa, Denuncia, Registro, y Contacto.
 
-- Submenús Contextuales: Dentro de las secciones principales, submenús
-  contextuales que guían a los usuarios a funcionalidades específicas,
-  como diferentes tipos de incidentes en el Mapa o herramientas de
-  denuncia.
+- Submenús Contextuales: Dentro de las secciones principales, submenús contextuales que guían a los usuarios a funcionalidades específicas, como diferentes tipos de incidentes en el Mapa o herramientas de denuncia.
 
 > **Funcionalidades Específicas:**
 
-- Información Detallada de Incidentes: Páginas individuales de
-  incidentes que muestran descripciones completas, ubicación precisa y
-  opciones de seguimiento.
+- Información Detallada de Incidentes: Páginas individuales de incidentes que muestran descripciones completas, ubicación precisa y opciones de seguimiento.
 
 ### 4.2.2. Labeling Systems
 
-Consideramos que la mejor opción para el desarrollo de nuestra
-plataforma será a través de un sistema de etiquetado. Utilizaremos
-etiquetas claras para describir cada funcionalidad y característica.
+Consideramos que la mejor opción para el desarrollo de nuestra plataforma será a través de un sistema de etiquetado. Utilizaremos etiquetas claras para describir cada funcionalidad y característica.
+
 Ejemplos de etiquetas incluirán:
 
 - Mapa de calor (Interactivo y a tiempo real)
@@ -1693,9 +1495,7 @@ Ejemplos de etiquetas incluirán:
 
 ### 4.2.3. SEO Tags and Meta Tags 
 
-Nuestros SEO Tags y Meta Tags, o, dicho de otra forma, las etiquetas
-clave que representarán el contenido de nuestra aplicación presentado
-tanto en nuestra aplicación web como en aplicación móvil serán:
+Nuestros SEO Tags y Meta Tags, o, dicho de otra forma, las etiquetas clave que representarán el contenido de nuestra aplicación presentado tanto en nuestra aplicación web como en aplicación móvil serán:
 
 > Landing Page:
 
@@ -1719,111 +1519,75 @@ tanto en nuestra aplicación web como en aplicación móvil serán:
 
 ### 4.2.4. Searching Systems 
 
-El sistema de búsqueda permitirá a los usuarios encontrar y filtrar
-información relevante sobre incidentes de seguridad en sus áreas de
-interés. Emplearemos diferentes formas de búsqueda:
+El sistema de búsqueda permitirá a los usuarios encontrar y filtrar información relevante sobre incidentes de seguridad en sus áreas de interés. Emplearemos diferentes formas de búsqueda:
 
 > **Búsqueda por Incidente:**
 
-- Los usuarios pueden buscar incidentes específicos como \"robos en
-  Miraflores\" o \"agresiones en San Isidro\".
+- Los usuarios pueden buscar incidentes específicos como \"robos en Miraflores\" o \"agresiones en San Isidro\".
 
-- Se proporcionan opciones de búsqueda avanzada para filtrar por fecha,
-  hora, tipo de crimen, y nivel de riesgo.
+- Se proporcionan opciones de búsqueda avanzada para filtrar por fecha, hora, tipo de crimen, y nivel de riesgo.
 
 > **Búsqueda por Ubicación:**
 
-- Los usuarios pueden buscar incidentes por ubicación específica, como
-  \"incidentes en el centro de Lima\".
+- Los usuarios pueden buscar incidentes por ubicación específica, como \"incidentes en el centro de Lima\".
 
-- Se ofrecen filtros para seleccionar múltiples ubicaciones y tipos de
-  incidentes a la vez. (esto lo quitan si quieren, son ideas q yo saque)
+- Se ofrecen filtros para seleccionar múltiples ubicaciones y tipos de incidentes a la vez. (esto lo quitan si quieren, son ideas q yo saque)
 
 > **Búsqueda por Nivel de Seguridad:**
 
-- Los usuarios pueden buscar zonas según su nivel de seguridad, como
-  \"zonas de alto riesgo\" o \"áreas seguras en Lima\".
+- Los usuarios pueden buscar zonas según su nivel de seguridad, como \"zonas de alto riesgo\" o \"áreas seguras en Lima\".
 
-- La plataforma sugiere las zonas más seguras y permite explorar áreas
-  con diferentes niveles de riesgo.
+- La plataforma sugiere las zonas más seguras y permite explorar áreas con diferentes niveles de riesgo.
 
 > **Búsqueda Avanzada:**
 
-- Se ofrece una búsqueda avanzada que permite a los usuarios combinar
-  múltiples criterios de búsqueda, como \"robos en Miraflores durante la
-  noche\".
+- Se ofrece una búsqueda avanzada que permite a los usuarios combinar múltiples criterios de búsqueda, como \"robos en Miraflores durante la noche\".
 
-- Los resultados de la búsqueda avanzada se presentan en una lista
-  organizada por relevancia y se pueden refinar aún más utilizando
-  filtros adicionales.
+- Los resultados de la búsqueda avanzada se presentan en una lista organizada por relevancia y se pueden refinar aún más utilizando filtros adicionales.
 
 > **Búsqueda por Fecha y Hora:**
 
-- Los usuarios pueden buscar incidentes dentro de un rango de fechas y
-  horas específicas.
+- Los usuarios pueden buscar incidentes dentro de un rango de fechas y horas específicas.
 
-- Se muestra información sobre la frecuencia de incidentes en
-  determinados horarios, facilitando la toma de decisiones informadas.
+- Se muestra información sobre la frecuencia de incidentes en determinados horarios, facilitando la toma de decisiones informadas.
 
 ### 4.2.5. Navigation Systems 
 
-El sistema de navegación de PeaceApp debe proporcionar una experiencia
-fluida y fácil de usar para los usuarios, permitiéndoles encontrar
-rápidamente la información que buscan. Se describe de la siguiente
-forma:
+El sistema de navegación de PeaceApp debe proporcionar una experiencia fluida y fácil de usar para los usuarios, permitiéndoles encontrar rápidamente la información que buscan. Se describe de la siguiente forma:
 
 > **Menú Principal:**
 
-- Un menú principal ubicado en la parte superior izquierda (tanto con el
-  logo como con solo el icono del logo), de cada página que incluye
-  enlaces a las secciones clave como Mapa, Denuncia, Registro y
-  Contacto.
+- Un menú principal ubicado en la parte superior izquierda (tanto con el logo como con solo el icono del logo), de cada página que incluye enlaces a las secciones clave como Mapa, Denuncia, Registro y Contacto.
 
-- Cada elemento del menú principal está etiquetado de manera clara y
-  concisa para facilitar la navegación.
+- Cada elemento del menú principal está etiquetado de manera clara y concisa para facilitar la navegación.
 
 > **Navegación Contextual:**
 
-- Dentro de cada sección principal, se proporciona una navegación
-  contextual que muestra submenús o enlaces relacionados con la sección
-  actual, como diferentes categorías en el Mapa o herramientas de
-  denuncia en la sección de Denuncia.
+- Dentro de cada sección principal, se proporciona una navegación contextual que muestra submenús o enlaces relacionados con la sección actual, como diferentes categorías en el Mapa o herramientas de denuncia en la sección de Denuncia.
 
 > **Botones de Acción Destacados:**
 
-- En las páginas de Inicio y Mapa, se destacan botones de acción para
-  dirigir a los usuarios a las funcionalidades principales de la
-  plataforma.
+- En las páginas de Inicio y Mapa, se destacan botones de acción para dirigir a los usuarios a las funcionalidades principales de la plataforma.
 
-- Estos botones de acción tienen un diseño llamativo y están
-  estratégicamente ubicados para captar la atención de los usuarios.
+- Estos botones de acción tienen un diseño llamativo y están estratégicamente ubicados para captar la atención de los usuarios.
 
 > **Búsqueda y Filtros Visibles:**
 
-- La barra de búsqueda y los filtros de navegación son visibles en todas
-  las páginas para que los usuarios puedan buscar información específica
-  o filtrar resultados según sus preferencias.
+- La barra de búsqueda y los filtros de navegación son visibles en todas las páginas para que los usuarios puedan buscar información específica o filtrar resultados según sus preferencias.
 
-- Los filtros se presentan de manera clara y se pueden ajustar
-  fácilmente para refinar los resultados de búsqueda.
+- Los filtros se presentan de manera clara y se pueden ajustar fácilmente para refinar los resultados de búsqueda.
 
 > **Flujo de Navegación Intuitivo:**
 
-- Se establece un flujo de navegación intuitivo y lógico que guía a los
-  usuarios a través de las diferentes funcionalidades, desde la
-  exploración del mapa hasta la denuncia de crímenes y el monitoreo de
-  seguridad.
+- Se establece un flujo de navegación intuitivo y lógico que guía a los usuarios a través de las diferentes funcionalidades, desde la exploración del mapa hasta la denuncia de crímenes y el monitoreo de seguridad.
 
-- Se utilizan llamadas a la acción claras y señales visuales para
-  indicar el progreso y las acciones que los usuarios deben realizar en
-  cada paso del proceso de navegación.
+- Se utilizan llamadas a la acción claras y señales visuales para indicar el progreso y las acciones que los usuarios deben realizar en  cada paso del proceso de navegación.
 
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
 
-Utilizando la herramienta de diseño Figma, creamos la estructura base de
-la Landing Page.
+Utilizando la herramienta de diseño Figma, creamos la estructura base de la Landing Page.
 
 Enlace al Landing Page Wireframe: <https://tinyurl.com/ybtsb4c6>
 
@@ -1831,8 +1595,7 @@ Enlace al Landing Page Wireframe: <https://tinyurl.com/ybtsb4c6>
 
 ### 4.3.2. Landing Page Mock-up
 
-Teniendo el wireframe, realizamos una representación más realista de la
-Landing Page.
+Teniendo el wireframe, realizamos una representación más realista de la Landing Page.
 
 Enlace al Landing Page Mock-up: <https://tinyurl.com/ymunn2vn>
 
@@ -2203,35 +1966,27 @@ Bounded Context: Payment
 
 ## 5.1. Software Configuration Management
 
-En esta sección se resume toda la información recopilada, analizando que
-pasos que se realizaran y como se siente.
+En esta sección se resume toda la información recopilada, analizando que pasos que se realizaran y como se siente.
 
 ### 5.1.1. Software Development Environment Configuration
 
-En la siguiente sección se describe la ruta de referencia de cada uno de
-los productos de software para que cualquier miembro del equipo pueda
-desarrollar cada punto del trabajo:
+En la siguiente sección se describe la ruta de referencia de cada uno de los productos de software para que cualquier miembro del equipo pueda desarrollar cada punto del trabajo:
 
-**Figma:** Herramienta colaborativa que nos permitirá desarrollar
-wireframes y mockups.
+**Figma:** Herramienta colaborativa que nos permitirá desarrollar wireframes y mockups.
 
-**Vertabelo:** Plataforma colaborativa que nos permitirá crear nuestro
-diagrama de base de datos.
+**Vertabelo:** Plataforma colaborativa que nos permitirá crear nuestro diagrama de base de datos.
 
 **GitHub:** Repositorio colaborativo en la nube
 
-**IntelliJ:** es un entorno de desarrollo para trabajar con Java y otros
-lenguajes que se ejecutan en JVM, como Kotlin.
+**IntelliJ:** es un entorno de desarrollo para trabajar con Java y otros lenguajes que se ejecutan en JVM, como Kotlin.
 
 ### 5.1.2. Source Code Management
 
 Trabajamos con 3 ramas principales:
 
-**Main:** nuestra rama principal donde presentaremos nuestras
-publicaciones oficiales.
+**Main:** nuestra rama principal donde presentaremos nuestras publicaciones oficiales.
 
-**Development:** Es nuestra rama de desarrollo, en donde probaremos e
-integraremos las funcionalidades trabajadas.
+**Development:** Es nuestra rama de desarrollo, en donde probaremos e integraremos las funcionalidades trabajadas.
 
 **Feature- :** Se descompone en ramas por cada feature trabajado.
 
@@ -2239,28 +1994,21 @@ integraremos las funcionalidades trabajadas.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-Para desarrollar nuestro proyecto hemos requerido de algunas
-nomenclaturas, referencias y lenguajes para esta solución.
+Para desarrollar nuestro proyecto hemos requerido de algunas nomenclaturas, referencias y lenguajes para esta solución.
 
-Tecnologías: Utilizamos algunas de estas tecnologías para el desarrollo
-de nuestra aplicación como: HTML5, CSS, JS, Java.
+Tecnologías: Utilizamos algunas de estas tecnologías para el desarrollo de nuestra aplicación como: HTML5, CSS, JS, Java.
 
-Herramientas: Nos apoyamos de las tecnologías más utilizadas y
-recomendadas para el desarrollo de nuestra aplicación como: GitHub,
-Figma, IntelliJ
+Herramientas: Nos apoyamos de las tecnologías más utilizadas y recomendadas para el desarrollo de nuestra aplicación como: GitHub, Figma, IntelliJ
 
-Convenciones de Idioma: Uso del idioma inglés para elaborar nuestro
-Código
+Convenciones de Idioma: Uso del idioma inglés para elaborar nuestro Código
 
 ### 5.1.4. Software Deployment Configuration
 
-Para desplegar nuestra landing page en la plataforma de GitHub, seguimos
-los siguientes pasos:
+Para desplegar nuestra landing page en la plataforma de GitHub, seguimos los siguientes pasos:
 
 **Creación del Repositorio Remoto en GitHub:**
 
-- Creamos un nuevo repositorio en GitHub de nuestro proyecto, el cual se
-  utilizará para el desarrollo y deployment.
+- Creamos un nuevo repositorio en GitHub de nuestro proyecto, el cual se utilizará para el desarrollo y deployment.
 
 **Inicialización del Repositorio:**
 
@@ -2270,32 +2018,27 @@ los siguientes pasos:
 
 - Añadimos los archivos de nuestra landing page al repositorio local.
 
-- Subimos los archivos al repositorio de GitHub con el comando git push
-  -u origin master o utilizando GitHub Desktop.
+- Subimos los archivos al repositorio de GitHub con el comando git push -u origin master o utilizando GitHub Desktop.
 
 **Configuración de Vercel:**
 
 - Nos dirigimos a Vercel y creamos una nueva cuenta o iniciamos sesión.
 
-- En Vercel, seleccionamos la opción de importar el proyecto desde
-  GitHub.
+- En Vercel, seleccionamos la opción de importar el proyecto desde GitHub.
 
 - Autorizamos a Vercel para acceder a nuestro repositorio de GitHub.
 
-- Elegimos el repositorio que contiene nuestra landing page y
-  configuramos las opciones de despliegue.
+- Elegimos el repositorio que contiene nuestra landing page y configuramos las opciones de despliegue.
 
 **Despliegue:**
 
 - Vercel se encargará de desplegar automáticamente nuestra landing page.
 
-- Accedemos a la URL proporcionada por Vercel para verificar que nuestra
-  landing page se haya desplegado correctamente.
+- Accedemos a la URL proporcionada por Vercel para verificar que nuestra landing page se haya desplegado correctamente.
 
-De este modo, nuestra landing page estará disponible utilizando Vercel y
-podrá ser visible para cualquier usuario que tenga el enlace.
+De este modo, nuestra landing page estará disponible utilizando Vercel y podrá ser visible para cualquier usuario que tenga el enlace. 
 
-**Enlace del landing page:** <https://thepeaceapp.vercel.app/>
+**Enlace del landing page:** <https://peaceapp-landing.coolify.ryzeon.me/>
 
 ## 5.2. Product Implementation & Deployment
 
@@ -2338,11 +2081,10 @@ podrá ser visible para cualquier usuario que tenga el enlace.
 
 ### 5.2.2. Implemented Landing Page Evidence
 
-El equipo logró terminar con el desarrollo de la landing page, la cual
-ya se encuentra desplegada en la web de manera pública.
+El equipo logró terminar con el desarrollo de la landing page, la cual ya se encuentra desplegada en la web de manera pública.
 
 **Vercel** generará una URL para tu proyecto. En este caso, la URL es
-[**https://thepeaceapp.vercel.app/**](https://thepeaceapp.vercel.app/).
+[**https://thepeaceapp.vercel.app/**](https://peaceapp-landing.coolify.ryzeon.me/).
 
 Acceder a la URL para verificar que la landing page esté funcionando
 correctamente.
@@ -2353,22 +2095,66 @@ correctamente.
 
 ![](assets/LandingPageEvidence3.png)
 
+Url del repositorio: <https://github.com/PeaceApp-UPC-4438/PeaceApp-Landing-Page.git>
+
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
 El equipo logró terminar con el desarrollo de la Web App, la cual ya se encuentra desplegada en la web de manera pública.
 
 ![](assets/Evidence-Web.png)
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
+Url del repositorio: <https://github.com/PeaceApp-UPC-4438/PeaceApp-Web.git>
+
+### 5.2.4.  Acuerdo de Servicio - SaaA
+
+#### **1. Derechos de los Usuarios:**
+Los usuarios de la plataforma tendrán los siguientes derechos:
+
+- **Acceso al Servicio:** Los usuarios tienen derecho a acceder a la plataforma de forma continua y estable mientras su cuenta esté activa y cumpla con los términos y condiciones del acuerdo.
+- **Uso de Funcionalidades:** Los usuarios pueden utilizar todas las funcionalidades de la plataforma que estén disponibles para su nivel de acceso. Esto incluye la visualización del mapa de calor interactivo, envío de reportes de incidentes y personalización de su perfil, según las opciones proporcionadas por la aplicación.
+- **Privacidad de Datos:** Los usuarios tienen derecho a la protección de sus datos personales. Estos datos serán manejados conforme a las políticas de privacidad y las normativas de protección de datos vigentes.
+
+#### **2. Obligaciones de los Usuarios:**
+Los usuarios deben cumplir con las siguientes obligaciones al utilizar la plataforma:
+
+- **Uso Legal y Aceptable:** Los usuarios deben utilizar la plataforma de manera que no infrinja ninguna ley, reglamento o derechos de terceros. Esto incluye la no publicación de contenido que sea difamatorio, ilegal o que infrinja derechos de propiedad intelectual.
+- **Responsabilidad sobre la Información:** Los usuarios son responsables de la veracidad de la información que ingresan en la plataforma, como reportes de incidentes, detalles personales, y cualquier otra información proporcionada durante el uso de la aplicación.
+- **Mantenimiento de la Seguridad de la Cuenta:** Los usuarios deben proteger la seguridad de sus cuentas, utilizando contraseñas seguras y no compartiéndolas con terceros. Asimismo, son responsables de cualquier actividad que ocurra bajo su cuenta.
+
+#### **3. Restricciones en el Uso de la Plataforma:**
+Existen ciertas restricciones que los usuarios deben tener en cuenta:
+
+- **Uso Comercial:** No se permite utilizar la plataforma con fines comerciales, incluyendo la reventa de la misma o el uso de los datos obtenidos a través de la aplicación para fines de lucro sin el consentimiento explícito del proveedor del servicio.
+- **Acceso no Autorizado:** Los usuarios no deben intentar obtener acceso no autorizado a partes de la plataforma, como bases de datos internas, sistemas de gestión o funcionalidades protegidas por contraseñas.
+- **Interferencia con el Servicio:** No se permite realizar actividades que puedan interrumpir o afectar el funcionamiento de la plataforma, tales como ataques cibernéticos, uso excesivo de los recursos del sistema, o interferencia con los servidores de la plataforma.
+
+#### **4. Responsabilidades del Proveedor del Servicio:**
+El proveedor del servicio tiene las siguientes responsabilidades:
+
+- **Mantenimiento de la Plataforma:** El proveedor debe asegurar que la plataforma esté operativa, realizando actualizaciones y mantenimientos regulares. Cualquier interrupción o falla en el servicio deberá ser informada oportunamente a los usuarios.
+- **Protección de Datos:** El proveedor es responsable de implementar medidas de seguridad adecuadas para proteger los datos personales de los usuarios y garantizar que estos se manejen conforme a la legislación de protección de datos.
+- **Soporte Técnico:** El proveedor debe ofrecer soporte técnico adecuado a los usuarios para resolver problemas técnicos, consultas o dificultades relacionadas con el uso de la plataforma.
+
+#### **5. Restricciones del Proveedor del Servicio:**
+El proveedor del servicio puede establecer restricciones como las siguientes:
+
+- **Suspensión o Terminación de Cuentas:** El proveedor tiene el derecho de suspender o terminar las cuentas de los usuarios que violen los términos y condiciones del servicio. Esto puede incluir el uso indebido de la plataforma o la violación de las políticas de privacidad.
+- **Limitación de Funcionalidades:** El proveedor puede modificar o restringir ciertas funcionalidades de la plataforma para garantizar su seguridad, realizar mantenimiento o actualizar características, siempre con la debida notificación a los usuarios.
+
+#### **6. Disponibilidad de la Aplicación Móvil:**
+La aplicación móvil de **PeaceApp** está actualmente disponible solo para dispositivos Android. Los usuarios de otros sistemas operativos, como iOS, no podrán acceder a la aplicación móvil hasta que se lance una versión compatible para dichos dispositivos.
+
+### 5.2.5. Implemented Native-Mobile Application Evidence
 
 Se realizaron mejoras en el diseño de la aplicación.
 
 ![](assets/MobileApplicationEvidence.png)
 
-### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+Url del repositorio: <https://github.com/PeaceApp-UPC-4438/PeaceApp-Mobile.git>
 
-Para esta primera entrega, nuestro equipo ha conseguido elaborar la
-primera versión del Backend del proyecto \"PeaceApp\".
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+
+Para esta primera entrega, nuestro equipo ha conseguido elaborar la primera versión del Backend del proyecto \"PeaceApp\".
 
 ![](assets/BackendEvidence1.png)
 
@@ -2376,7 +2162,7 @@ primera versión del Backend del proyecto \"PeaceApp\".
 
 ![](assets/BackendEvidence3.png)
 
-### 5.2.6. RESTful API documentation
+### 5.2.7. RESTful API documentation
 
 Durante este sprint, se desarrolló el back-end de una API en Java,
 utilizando JPA para la gestión de datos mediante un App Service. La API
@@ -2420,8 +2206,7 @@ consumirse por la aplicación móvil.
 
  ![](assets/ControllerUser.png)
 
-Url del repositorio:
-<https://github.com/PeaceApp-UPC-4438/PeaceApp-Backend>
+Url del repositorio: <https://github.com/PeaceApp-UPC-4438/PeaceApp-Backend.git>
 
 
 | Repository                               | Branch | Commit Id                                | Commit Message                                |
@@ -2430,40 +2215,30 @@ Url del repositorio:
 | AplicacionesMovilesSW62-PeaceApp/Backend | main   | 15c9230d2907f4d2fb26986c08a53e956e968201 | update: deploy                                |
 | AplicacionesMovilesSW62-PeaceApp/Backend | main   | f8d82635f0868f2bc9db4ba412fd13080eed86cf | update: connecting to db                      |
 
-Se realizó el despliegue del Backend con el apoyo del servicio Railway
-(<https://railway.app>) el cual nos ofrece un plan gratuito para poder
-desplegar capas de aplicación y datos. Es aquí donde se aloja la base de
-datos y el backend de PeaceApp de manera pública, para que pueda ser
-utilizada a través del Swagger o directamente integrada desde la
-aplicación móvil desarrollada en Kotlin. De la misma manera, las
-credenciales generadas por el servicio para la base de datos son útiles
-y capaces de poder conectarse desde MySQL Workbench para administrar y
-gestionar la información. Además, cuenta con un sistema de Logs en cada
-servicio (base de datos y backend) para monitorear el comportamiento de
-la aplicación
+Se realizó el despliegue del Backend con el apoyo del servicio Railway (<https://railway.app>) el cual nos ofrece un plan gratuito para poder desplegar capas de aplicación y datos. Es aquí donde se aloja la base de datos y el backend de PeaceApp de manera pública, para que pueda ser utilizada a través del Swagger o directamente integrada desde la aplicación móvil desarrollada en Kotlin. De la misma manera, las credenciales generadas por el servicio para la base de datos son útiles y capaces de poder conectarse desde MySQL Workbench para administrar y gestionar la información. Además, cuenta con un sistema de Logs en cada servicio (base de datos y backend) para monitorear el comportamiento de la aplicación.
 
-URL pública:
-<https://peaceapp-production.up.railway.app/swagger-ui/index.html#/>
+URL pública: <https://peaceapp-production.up.railway.app/swagger-ui/index.html#/>
 
-### 5.2.7. Team Collaboration Insights 
+### 5.2.8. Team Collaboration Insights 
 
-Durante este sprint se realizaron las funcionalidades correspondientes
-en cada rama principal del feature. Finalmente fue unido a la rama
-"development" para realizar las pruebas necesarias y sea enviado a
-producción en la rama "main"
+Durante este sprint se realizaron las funcionalidades correspondientes en cada rama principal del feature. Finalmente fue unido a la rama "development" para realizar las pruebas necesarias y sea enviado a producción en la rama "main" 
 
 ![](assets/TeamCollaborationInsights.png)
 
 ## 5.3. Video About the Product
 
-Se evidencia el video demostrando el prototipo pensado para PeaceApp, el
-cual contendrá las diferentes funcionalidades avanzadas hasta el
-momento.
+Se evidencia el video demostrando el prototipo pensado para PeaceApp, el cual contendrá las diferentes funcionalidades avanzadas hasta el momento.
 
 ![](assets/AboutTheProduct.png)
 
-<https://www.youtube.com/watch?v=S1wn29tcVOg>
+URL del video: <https://www.youtube.com/watch?v=S1wn29tcVOg>
 
 # Conclusiones 
 # Bibliografia
 # Anexos
+
+ - Video de expocisión TP:
+   
+ - Video de expocisión TF:
+   
+ - URL de la organización del proyecto: <https://github.com/PeaceApp-UPC-4438>
