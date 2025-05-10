@@ -2233,14 +2233,25 @@ Se evidencia el video demostrando el prototipo pensado para PeaceApp, el cual co
 
 ![](assets/AboutTheProduct.png)
 
+URL del video: <https://www.youtube.com/watch?v=S1wn29tcVOg>
 ---
 
 # Capítulo VI: Product Verification & Validation
 
 ## 6.1 Testing Suites & Validation
 ### 6.1.1 Core Entities Unit Tests
+
+Las pruebas unitarias de las entidades centrales (Core Entities Unit Tests) son fundamentales en el desarrollo de software, ya que aseguran la funcionalidad y calidad de los componentes clave del sistema, ayudando a detectar errores a tiempo y a mantener el código más fácilmente.
+
+
 ### 6.1.2 Core Integration Tests
+
+Las pruebas de integración centrales (Core Integration Tests) son clave para verificar que los controladores se comuniquen correctamente con componentes como servicios y bases de datos. Al simular escenarios de error, permiten asegurar que el sistema responda de forma adecuada y con los códigos de estado correspondientes. Esto no solo optimiza la experiencia del usuario, sino que también simplifica el proceso de depuración y promueve el desarrollo de un software robusto y confiable.
+
 ### 6.1.3 Core Behavior-Driven Development
+
+
+
 ### 6.1.4 Core System Tests
 
 ---
@@ -2249,20 +2260,120 @@ Se evidencia el video demostrando el prototipo pensado para PeaceApp, el cual co
 
 ## 7.1 Continuous Integration
 ### 7.1.1 Tools and Practices
+
+En el desarrollo y prueba de software, es crucial disponer de herramientas y enfoques que garanticen tanto la calidad del código como la eficiencia del equipo. En nuestro flujo de trabajo, integramos diversas herramientas que optimizan la construcción, validación y comportamiento esperado de la aplicación, abarcando múltiples etapas del ciclo de vida del software: desde la codificación hasta la ejecución de pruebas y la automatización de procesos.
+
+Adoptamos metodologías como el Desarrollo Guiado por Comportamiento (BDD) y el Desarrollo Guiado por Pruebas (TDD), lo que nos permite asegurar que nuestras soluciones cumplan con los requerimientos del cliente mientras se mantienen altos estándares técnicos. Entre las herramientas más destacadas que empleamos se encuentran:
+
+| Herramienta | Tipo                         | Descripción                                                                                                                                 | Propósito                                                                                                                          |
+|-------------|------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| JUnit       | Herramienta para pruebas (TDD) | Es un programa que ayuda a probar pequeñas partes de aplicaciones en Java.                                                                  | Hace más fácil crear y ejecutar pruebas para asegurarse de que las funciones de los componentes funcionen como deberían.           |
+| Mockito     | Herramienta de simulaciones (TDD) | Permite crear versiones simuladas de otros componentes para hacer pruebas sin usar las versiones reales.                                   | Imitar cómo se comportan objetos externos, lo cual es útil para hacer pruebas de forma efectiva.                                   |
+| Cucumber    | Herramienta de BDD           | Ayuda a desarrollar programas centrándose en el comportamiento, usando un lenguaje simple llamado Gherkin para escribir ejemplos que todos entienden. | Crea y prueba ejemplos basados en cómo debería comportarse el sistema, asegurando que el desarrollo esté alineado con lo que necesita el negocio. |
+
 ### 7.1.2 Build & Test Suite Pipeline Components
 
+
+
 ## 7.2 Continuous Delivery
+
+Su propósito es automatizar tanto la integración como las pruebas del código, asegurando que el sistema esté siempre en condiciones óptimas para ser desplegado en cualquier momento.
+
 ### 7.2.1 Tools and Practices
+
+Para implementar una estrategia efectiva de *Continuous Delivery*, utilizamos diversas herramientas y prácticas que permiten automatizar la integración y pruebas del código, manteniéndolo siempre listo para su despliegue, aunque este no se realice automáticamente como en *Continuous Deployment*.
+
+#### Herramientas
+
+- **GitHub Actions / GitLab CI**  
+  Estas plataformas permiten automatizar todo el flujo de CI/CD. En el contexto de *Continuous Delivery*, se puede configurar una etapa específica para que el despliegue final sea manual, asegurando que el software esté preparado pero no se publique en producción sin aprobación.
+
+- **Trello**  
+  Utilizado para gestionar el proceso de aprobación del despliegue. Se puede establecer un sistema donde, tras la validación del pipeline, un responsable (como un administrador o project manager) revise y autorice el paso a producción.
+
+- **Docker**  
+  Al igual que en *Continuous Deployment*, Docker se emplea para contenerizar la aplicación, garantizando entornos consistentes entre desarrollo, staging y producción. Esto facilita la validación del sistema antes de su lanzamiento definitivo.
+
+#### Prácticas
+
+- **Feature Branching y Merge Requests**  
+  Cada nueva funcionalidad se desarrolla en ramas independientes. Una vez que pasan las pruebas automáticas, el código se fusiona con una rama estable. A diferencia del *Continuous Deployment*, el despliegue a producción se retiene hasta obtener una aprobación manual.
+
+- **Pipeline de Validación en Staging**  
+  Los cambios se prueban en un entorno de staging, muy similar al de producción. Este paso permite ejecutar pruebas manuales adicionales o recopilar feedback de usuarios clave antes de hacer el lanzamiento oficial.
+
+- **Despliegue Semiautomático**  
+  El pipeline automatiza todos los pasos previos, dejando el despliegue final pendiente de aprobación manual por parte de un desarrollador o administrador. Esta práctica es fundamental en *Continuous Delivery*, donde se prioriza el control antes del despliegue en vivo.
+
+- **Aprobación Manual**  
+  Antes de publicar en producción, el pipeline puede solicitar que un responsable del proyecto revise los resultados de las pruebas y dé su visto bueno. Esto reduce el riesgo de liberar código con errores o sin la validación adecuada.
+
+- **Rollback Manual**  
+  Aunque el sistema puede detectar errores críticos y estar preparado para revertir cambios, los rollbacks en *Continuous Delivery* suelen ser gestionados manualmente por el equipo de desarrollo u operaciones, asegurando mayor control sobre la corrección de fallos.
+
 ### 7.2.2 Stages Deployment Pipeline Components
 
+**Integración Continua (CI)**
+Cada vez que se realiza un commit en una rama de desarrollo, el pipeline se encarga de ejecutar pruebas automáticas para verificar que el código cumple con los estándares y está listo para su despliegue. Este proceso asegura que la base del código se mantenga en un estado estable y desplegable.
+
+**Validación en Staging**
+
+Antes de llevar el código a producción, este se prueba en un entorno de staging, el cual replica las condiciones del entorno real. En esta etapa se pueden realizar pruebas manuales, pruebas de carga y validaciones de seguridad, garantizando un mayor nivel de confianza en la calidad del sistema.
+
+**Despliegue Manual**
+
+Aunque el pipeline prepara automáticamente el software para su lanzamiento, el paso final del despliegue no ocurre sin intervención humana. Se requiere una aprobación explícita, lo que proporciona una capa adicional de revisión antes de impactar a los usuarios finales.
+
+**Monitoreo y Retroalimentación**
+
+El proceso de CD también integra herramientas de monitoreo que permiten observar cómo se comporta el nuevo código en entornos previos al despliegue completo. Esto ayuda a identificar problemas de rendimiento o errores potenciales antes de llegar a producción.
+
+**Aprobación del Despliegue**
+
+En esta fase, el pipeline queda en pausa a la espera de una autorización por parte de un desarrollador, administrador o miembro del equipo de operaciones. Solo tras esta aprobación, el despliegue a producción puede llevarse a cabo, asegurando una decisión informada y controlada.
+
 ## 7.3 Continuous Deployment
+
+El propósito de Continuous Deployment (CD) es permitir que los cambios en el código que han sido validados se desplieguen automáticamente en producción, sin necesidad de intervención humana, siempre que superen todas las pruebas necesarias.
+
 ### 7.3.1 Tools and Practices
+
+En esta sección, se describen las herramientas y metodologías que garantizan un despliegue automatizado y seguro en producción.  
+
+#### Tools (Herramientas Principales): 
+
+- **GitHub Actions / GitLab CI**:  
+  Automatizan el pipeline de CI/CD mediante workflows que ejecutan pruebas y despliegan la aplicación en distintos entornos (desarrollo, staging, producción).  
+
+- **Docker**:  
+  Se utiliza para contenerizar el backend (Spring Boot), empaquetando la aplicación junto a sus dependencias y garantizando consistencia entre entornos.  
+
+- **Railway**:  
+  Plataforma empleada para gestionar la base de datos MySQL, facilitando despliegues automatizados, migraciones y copias de seguridad.  
+
+- **Render**:  
+  Encargada del despliegue automático del backend en Spring Boot, proporcionando además monitoreo y escalabilidad automática.  
+
+- **Netlify**:  
+  Optimiza el despliegue del frontend (Vue + Vite) con actualizaciones rápidas, seguridad integrada y automatización de procesos.
+
+#### Feature Branching:  
+
+- **Desarrollo en ramas independientes**:  
+  Cada nueva funcionalidad se trabaja en una rama dedicada. Tras su finalización y pruebas, se fusiona con la rama `develop`, la cual centraliza los despliegues a producción.  
+
+- **Despliegue basado en commits**:  
+  Los commits en la rama `develop` activan automáticamente el pipeline de CI/CD, ejecutando procesos de construcción, pruebas y despliegue. Esto agiliza la entrega y mantiene la automatización.  
+
+- **Rollback automático**:  
+  Si se detectan fallos en producción, el sistema revierte a la versión estable anterior de manera automática, notificando al equipo para garantizar una respuesta rápida y minimizar impactos.  
+
 ### 7.3.2 Production Deployment Pipeline Components
 
 
 ---
 
-URL del video: <https://www.youtube.com/watch?v=S1wn29tcVOg>
+
 
 # Conclusiones 
 # Bibliografia
