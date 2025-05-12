@@ -150,12 +150,28 @@ TB1: Las tareas asignadas para la entrega TB1 se han completado y están documen
     - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
     - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-    - [5.2.4. Acuerdo de Servicio - SaaA](#524-acuerdo-de-servicio-saaA)
+    - [5.2.4. Acuerdo de Servicio-SaaA](#524-acuerdo-de-servicio-saaA)
     - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
     - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
     - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
     - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
   - [5.3. Video About the Product](#53-video-about-the-product)
+- [Capítulo VI: Testing Suites & Validation](#capítulo-vi-testing-suites--validation)
+  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)
+    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
+    - [6.1.2. Core Integration Tests](#612-core-integration-tests)
+    - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+    - [6.1.4. Core System Tests](#614-core-system-tests)
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+  - [7.1. Continuous Integration](#71-continuous-integration)
+    - [7.1.1. Tools and Practices](#711-tools-and-practices)
+    - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+  - [7.2. Continuous Delivery](#72-continuous-delivery)
+    - [7.2.1. Tools and Practices](#721-tools-and-practices)
+    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+  - [7.3. Continuous Deployment](#73-continuous-deployment)
+    - [7.3.1. Tools and Practices](#731-tools-and-practices)
+    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
 - [Conclusiones](#conclusiones)
 - [Bibliografia](#bibliografia)
 - [Anexos](#anexos)
@@ -2258,6 +2274,72 @@ Las pruebas de integración centrales (Core Integration Tests) son clave para ve
 
 ### 6.1.4 Core System Tests
 
+| US01 | Contactar con la Startup | Como visitante de la Landing Page, quiero encontrar un formulario de contacto funcional y accesible, para poder comunicarme con el startup. |
+|------|------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+
+![](assets/US01.png)
+
+| US02 | Navegar en la Landing Page | Como visitante de la Landing Page, quiero encontrar las secciones bien definidas para comprender fácilmente la información mostrada. |
+|------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+![](assets/US01.png)
+
+| US03 | Diseño Responsivo | Como usuario, quiero que la aplicación se adapte bien a diferentes tamaños de pantalla, para poder usarla cómodamente en cualquier dispositivo, ya sea móvil, tablet o escritorio. |
+|------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+![](assets/US03.png)
+
+| US04 | Registro de Usuarios | Como usuario, quiero poder registrarme en la aplicación, para acceder a las funcionalidades de PeaceApp. |
+|------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+![](assets/US04.png)
+
+| US05 | Iniciar Sesión | Como usuario registrado, quiero poder iniciar sesión con mi correo y contraseña, para acceder a mi cuenta. |
+|------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+![](assets/US05.png)
+
+| US06 | Generar Reporte de Incidentes | Como usuario, quiero poder generar reportes de incidentes de seguridad, para contribuir a la actualización del mapa de calor. |
+|------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+![](assets/US06.png)
+
+| US07 | Adjuntar Evidencia al Reporte | Como usuario, quiero poder adjuntar fotos o videos al reporte, para dar mayor credibilidad y detalle al incidente reportado. |
+|------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+![](assets/US07.png)
+
+| US08 | Visualización de Reportes | Como ciudadano, quiero poder ver los reportes de otros usuarios sobre incidentes ocurridos en la zona, para estar al tanto de los eventos de seguridad. |
+|------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+![](assets/US08.png)
+
+
+| US11 | Editar Información de Perfil | Como usuario, quiero poder editar mi información de perfil, para corregir o actualizar mis datos personales. |
+|------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+![](assets/US11.png)
+
+| US12 | Recuperar Contraseña | Como usuario, quiero poder recuperar mi contraseña si la olvido, para poder acceder nuevamente a mi cuenta. |
+|------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+![](assets/US12.png)
+
+| US13 | Acceder a Mapa con Reportes | Como usuario, quiero poder ver un mapa interactivo con los reportes de incidentes en mi área, para tomar decisiones informadas sobre mi seguridad. |
+|------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+![](assets/US13.png)
+
+| US14 | Acceder al Perfil de Usuario | Como usuario, quiero acceder a mi perfil desde el menú principal, para visualizar mi información personal y configuraciones. |
+|------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+![](assets/US14.png)
+
+| US15 | Filtrar Reportes | Como usuario, quiero poder filtrar los reportes para ver todos los reportes o solo los que yo he creado, para gestionar mejor la información relevante según mis intereses. |
+|------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+![](assets/US15.png)
+
 ---
 
 # Capítulo VII: DevOps Practices
@@ -2383,7 +2465,7 @@ En esta sección, se describen las herramientas y metodologías que garantizan u
 # Bibliografia
 # Anexos
 
- - Video de expocisión TP:
+ - Video del TP: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/EY2lyuz7qUpJqI0V3yxROh8BzAzQhcLWsAcPLs6Wd8pOGg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tWfg9i>
    
  - Video de expocisión TF:
    
