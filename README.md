@@ -48,6 +48,12 @@
     <td> Alex Avila <br> Pedro Guia <br> Anatoly Noriega <br> Milagros Tongo </td>
     <td> Realizamos los capítulos 1, 2, 3, 4 y 5 según la rúbrica de manera conjunta y eficiente.  </td>
   </tr>
+  <tr>
+    <td align="center">TP1</td>
+    <td>12/05/2025</td>
+    <td> Alex Avila <br> Pedro Guia <br> Anatoly Noriega <br> Milagros Tongo </td>
+    <td> Realizamos la mejora contunua y los capítulos 5, 6 Y 7 según la rúbrica de manera conjunta y eficiente.  </td>
+  </tr>
 </table>
 
 ---
@@ -55,6 +61,10 @@
 # Project Report Collaboration Insights
 
 TB1: Las tareas asignadas para la entrega TB1 se han completado y están documentadas en el repositorio de Github.
+
+- Se escribieron y diagramaron los contenidos asignados a cada miembro en formato Markdown, seguido de commits para asegurar el progreso en el repositorio.
+
+TP1: Las tareas asignadas para la entrega TB1 se han completado y están documentadas en el repositorio de Github.
 
 - Se escribieron y diagramaron los contenidos asignados a cada miembro en formato Markdown, seguido de commits para asegurar el progreso en el repositorio.
 
@@ -211,27 +221,31 @@ software</td>
             <strong>Avila Asto, Alex Ramon Alberto</strong> <br>
             TB1 <br> Actué con responsabilidad profesional en cada etapa del trabajo, aplicando buenas prácticas desde la recolección de requisitos hasta la validación de los resultados. Me enfoqué en asegurar la calidad del desarrollo, tomando decisiones éticas que contribuyeran a la integridad del producto final.
             <br>
-            TP1 <br> ...
+            TP1 <br> Reconozco la importancia de cumplir con las normas éticas y profesionales al desarrollar software, asegurándome de que las pruebas unitarias sean ejecutadas adecuadamente, respetando la privacidad y la seguridad de los datos
             <br><br>
             <strong>Guia Carrasco, Pedro Andre</strong> <br>
             TB1 <br> Actué con ética y profesionalismo en todo momento, aplicando buenas prácticas desde la recolección de requisitos hasta la validación final, para asegurar un desarrollo de software íntegro y de alta calidad.
             <br>
-            TP1 <br> ...
+            TP1 <br> Soy consciente de la responsabilidad que tengo como ingeniero de software al realizar pruebas integrales y funcionales, para garantizar que el producto final cumpla con los estándares profesionales y éticos.
             <br><br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
             TB1 <br> Me aseguré de actuar con ética y profesionalismo a la hora de realizar los puntos de este trabajo, aplicando buenas prácticas, desde la fase de las entrevistas, evaluación de las historias de usuario hasta la revisión de los flujos de las aplicaciones del proyecto.
             <br>
-            TP1 <br> ...
+            TP1 <br> Valoro el impacto que tienen mis decisiones sobre la calidad y el rendimiento de la aplicación, por lo que revisé y validé exhaustivamente el código antes de la implementación final, respetando siempre las buenas prácticas de desarrollo.
             <br><br>
             <strong>Tongo Alejandro, Milagros Salet</strong> <br>
             TB1 <br>Me aseguré de tomar decisiones éticas y profesionales, reconociendo la importancia de aplicar buenas prácticas en cada fase, desde las entrevistas hasta las revisiones, para garantizar 
             la integridad y calidad del software desarrollado
             <br>
-            TP1 <br> ...
+            TP1 <br> Me aseguro de que las aplicaciones que desarrollamos no solo sean funcionales, sino también seguras y sostenibles, realizando pruebas de integración y desplegando tanto la app como la API para asegurar que el software cumpla con las expectativas éticas de los usuarios.
 </td>
-<td><em><strong>TB1</strong></em>
+<td>
+<em><strong>TB1</strong></em>
 <br>A lo largo del proceso de desarrollo de la startup, el equipo asumió de manera conjunta la responsabilidad ética y profesional en cada etapa del proyecto. Desde la recopilación de requisitos y entrevistas hasta la implementación final, se aseguraron de aplicar principios éticos y profesionales en actividades como el análisis competitivo,
 el diseño de entrevistas y la creación de documentación, garantizando soluciones de calidad y sostenibles.<br>
+<em><strong>TP1</strong></em>
+<br>En conjunto con el grupo, el estudiante reconoce la responsabilidad ética y profesional al desarrollar y desplegar aplicaciones, asegurándose de realizar pruebas unitarias, funcionales e integrales para garantizar que el software sea seguro, confiable y cumpla con los estándares éticos y legales requeridos.<br>
+
 </td>
 </tr>
 <tr class="even">
@@ -245,25 +259,29 @@ sociales</td>
             <strong>Avila Asto, Alex Ramon Alberto</strong> <br>
             TB1 <br> Durante el desarrollo del trabajo, consideré el impacto que nuestras soluciones podrían tener en contextos globales, económicos, ambientales y sociales. Me esforcé por proponer alternativas sostenibles y viables, alineadas con las necesidades del entorno en el que se aplicará el producto, asegurando que cada decisión técnica tuviera un propósito positivo y consciente.
             <br>
-            TP1 <br> ...
+            TP1 <br> Al realizar las pruebas unitarias e integrales, consideré cómo los resultados pueden afectar tanto al rendimiento de la app como a los recursos económicos de la empresa, asegurando que la solución final sea eficiente y rentable.
             <br><br>
             <strong>Guia Carrasco, Pedro Andre</strong> <br>
             TB1 <br> Al integrar las entrevistas en el trabajo, pude darme cuenta el impacto global, economico y social positivo que tendria el producto, buscando soluciones que fueran sostenibles y que contribuyan al entorno donde pensamos aplicar la solución.
             <br>
-            TP1 <br> ...
+            TP1 <br> Evalué cómo las soluciones tecnológicas que implementamos pueden tener un impacto en los usuarios a nivel global, por lo que probé exhaustivamente la API y la aplicación en diferentes entornos y dispositivos para asegurar su accesibilidad y utilidad.
             <br><br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
             TB1 <br> Al momento de realizar las entrevistas y las tareas consiguientes a ellas, estuve al tanto del impacto global, económico y social de las soluciones que proporcionamos fueran sostenibles, inclusivas y alineadas con las necesidades reales de los usuarios.
             <br>
-            TP1 <br> ...
+            TP1 <br> Consideré el impacto ambiental de las soluciones tecnológicas que desplegamos, asegurándome de que el proceso de despliegue de la app y la API sea eficiente y no consuma más recursos de los necesarios, para promover la sostenibilidad.
             <br><br>
             <strong>Tongo Alejandro, Milagros Salet</strong> <br>
             TB1 <br>Al realizar entrevistas y revisiones, siempre tuve en cuenta el impacto global, económico y social de las soluciones propuestas, buscando soluciones que fueran sostenibles y que pudieran 
             contribuir positivamente al entorno en el que se implementaran.
             <br>
+  TP1 <br> Reflexioné sobre las implicaciones sociales de las soluciones que desarrollamos, como la accesibilidad de la aplicación, al realizar pruebas funcionales para garantizar que sea inclusiva y no excluya a ningún grupo de usuarios.
 </td>
-<td><em><strong>TB1</strong></em>
+<td>
+<em><strong>TB1</strong></em>
 <br>El equipo, a lo largo de todo el proceso, consideró el impacto global, económico, social y ambiental de las soluciones propuestas. Al realizar actividades como el análisis de entrevistas, la creación de mapas de recorrido del usuario y el diseño de prototipos, las decisiones tomadas fueron informadas, buscando siempre generar un impacto positivo en el contexto en el que se implementaría la solución.<br>
+<em><strong>TP1</strong></em>
+<br>En conjunto con el grupo, el estudiante emite juicios informados sobre las soluciones de ingeniería de software, evaluando su impacto en contextos globales, económicos, ambientales y sociales, asegurando que las aplicaciones desarrolladas sean accesibles, eficientes y responsables con el medio ambiente y la sociedad en general.<br>
 </td>
 </tr>
 </tbody>
@@ -2042,25 +2060,25 @@ Para desplegar nuestra landing page en la plataforma de GitHub, seguimos los sig
 
 - Subimos los archivos al repositorio de GitHub con el comando git push -u origin master o utilizando GitHub Desktop.
 
-**Configuración de Vercel:**
+**Configuración de Netlify:**
 
-- Nos dirigimos a Vercel y creamos una nueva cuenta o iniciamos sesión.
+- Nos dirigimos a Netlify y creamos una nueva cuenta o iniciamos sesión.
 
-- En Vercel, seleccionamos la opción de importar el proyecto desde GitHub.
+- En Netlify, seleccionamos la opción de importar el proyecto desde GitHub.
 
-- Autorizamos a Vercel para acceder a nuestro repositorio de GitHub.
+- Autorizamos a Netlify para acceder a nuestro repositorio de GitHub.
 
 - Elegimos el repositorio que contiene nuestra landing page y configuramos las opciones de despliegue.
 
 **Despliegue:**
 
-- Vercel se encargará de desplegar automáticamente nuestra landing page.
+- Netlify se encargará de desplegar automáticamente nuestra landing page.
 
 - Accedemos a la URL proporcionada por Vercel para verificar que nuestra landing page se haya desplegado correctamente.
 
 De este modo, nuestra landing page estará disponible utilizando Vercel y podrá ser visible para cualquier usuario que tenga el enlace. 
 
-**Enlace del landing page:** <https://peaceapp-landing.coolify.ryzeon.me/>
+**Enlace del landing page:** <https://peaceapp-landing-page.netlify.app/>
 
 ## 5.2. Product Implementation & Deployment
 
@@ -2263,13 +2281,56 @@ URL del video: <https://www.youtube.com/watch?v=S1wn29tcVOg>
 
 Las pruebas unitarias de las entidades centrales (Core Entities Unit Tests) son fundamentales en el desarrollo de software, ya que aseguran la funcionalidad y calidad de los componentes clave del sistema, ayudando a detectar errores a tiempo y a mantener el código más fácilmente.
 
+**Alerts Service Test:** 
+
+![](assets/UT01.png)
+
+**Auth Service Test:** 
+
+![](assets/UT02.png)
+
+**Reports Service Test:** 
+
+![](assets/UT04.png)
+
+**Location Service Test:** 
+
+![](assets/IT01.png)
+
+**User Service Test:** 
+
+![](assets/UT04.png)
 
 ### 6.1.2 Core Integration Tests
 
 Las pruebas de integración centrales (Core Integration Tests) son clave para verificar que los controladores se comuniquen correctamente con componentes como servicios y bases de datos. Al simular escenarios de error, permiten asegurar que el sistema responda de forma adecuada y con los códigos de estado correspondientes. Esto no solo optimiza la experiencia del usuario, sino que también simplifica el proceso de depuración y promueve el desarrollo de un software robusto y confiable.
 
+**Alerts Controller Test:** 
+
+![](assets/UT01.png)
+
+**Auth Controller Test:** 
+
+![](assets/UT02.png)
+
+**Reports Controller Test:** 
+
+![](assets/UT05.png)
+
+**Location Controller Test:** 
+
+![](assets/IT01.png)
+
+**User Controller Test:** 
+
+![](assets/UT04.png)
+
+
 ### 6.1.3 Core Behavior-Driven Development
 
+![](assets/features.png)
+
+![](assets/ejem.png)
 
 
 ### 6.1.4 Core System Tests
