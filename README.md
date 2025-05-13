@@ -2481,7 +2481,7 @@ El backend basado en Spring Boot es desplegado y gestionado mediante Coolify, un
 
 4. **Monitoreo y Alertas de la Aplicación**: Coolify proporciona monitoreo continuo de la aplicación backend, generando alertas en tiempo real si se detectan problemas de rendimiento o fallos en la ejecución.
 
-#### Componentes del Pipeline del Frontend (Netlify para Angular)
+#### Componentes del Pipeline del Frontend (Netlify para Vue)
 
 El frontend, desarrollado con Vue, es gestionado y desplegado a través de Netlify, lo que facilita el proceso de integración continua y el despliegue automático.
 
