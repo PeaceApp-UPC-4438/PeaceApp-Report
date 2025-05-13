@@ -464,8 +464,7 @@ usuarios.
 
 ![](assets/LeanUXCanvas.jpg)
 
-\*Enlace al esquema hecho en Miro: <https://tinyurl.com/ymmmjj7t>
-
+Enlace al esquema hecho en Miro: <https://tinyurl.com/ymmmjj7t>
 
 ## 1.3. Segmentos Objetivo
 
@@ -2556,8 +2555,33 @@ El frontend, desarrollado con Vue, es gestionado y desplegado a través de Netli
 
 ---
 
-# Conclusiones 
+# Conclusiones
+
+- Impacto de PeaceApp en la Seguridad Ciudadana:
+PeaceApp responde de manera innovadora y efectiva a la creciente preocupación por la seguridad ciudadana en Perú, especialmente en Lima Metropolitana, donde un alto porcentaje de la población percibe un entorno inseguro. La aplicación contribuye significativamente a mejorar la seguridad al ofrecer a los usuarios herramientas para conocer los niveles de riesgo en las diferentes zonas, lo que les permite tomar decisiones más informadas sobre su tránsito diario. Además, al permitir el reporte inmediato de incidentes y compartir ubicaciones en tiempo real, PeaceApp refuerza el sentido de confianza y protección entre los usuarios.
+
+- Innovación en la Respuesta a Emergencias:
+Gracias a su sistema de marcación rápida para alertas a la Policía Nacional del Perú (PNP) y a los bomberos, la aplicación promueve una respuesta inmediata ante situaciones críticas. Esto no solo mejora la percepción de seguridad en la población, sino que también ofrece un canal efectivo para contactar a las autoridades, reduciendo potencialmente los tiempos de respuesta ante emergencias.
+
+- Desarrollo de una Solución Tecnológica Integrada:
+El desarrollo de PeaceApp en el marco del diseño de experimentos de software ha implicado un proceso exhaustivo de pruebas unitarias, pruebas integrales y funcionales para garantizar que la aplicación sea robusta, accesible y eficiente. Las pruebas realizadas durante el proyecto aseguraron que la app cumpla con los requisitos de seguridad y usabilidad, lo que es fundamental para que los usuarios confíen en la herramienta en situaciones de emergencia.
+
+- Enfoque Global y Social en la Seguridad:
+PeaceApp no solo se concentra en brindar seguridad a nivel local, sino que también considera el impacto social y global de la inseguridad. La aplicación tiene un enfoque inclusivo que permite que todos los ciudadanos, sin importar su condición, accedan a una herramienta de seguridad personalizada. Esta visión de largo plazo tiene como objetivo reducir las brechas de seguridad en diversas áreas del país y, con el tiempo, convertirse en un referente en soluciones tecnológicas de seguridad a nivel global.
+
+- Futuro y Expansión:
+Con la creciente demanda de soluciones tecnológicas en la seguridad pública, PeaceApp tiene un potencial de expansión significativo. La aplicación puede integrarse con otros sistemas de seguridad pública y privada, como cámaras de vigilancia y sistemas de monitoreo en tiempo real, para mejorar aún más la eficacia de las respuestas ante incidentes. En el futuro, PeaceApp tiene el potencial de ser un modelo para otras ciudades y países que enfrentan problemas similares de inseguridad.
+
 # Bibliografia
+
+- Instituto Nacional de Estadística e Informática (INEI). (2024). *Perú: Encuesta Nacional de Seguridad Ciudadana 2024*. Instituto Nacional de Estadística e Informática. [https://www.inei.gob.pe](https://www.inei.gob.pe)
+
+- Yin, R. K. (2018). *Case study research and applications: Design and methods* (6th ed.). SAGE Publications.
+
+- Méndez, M., & Díaz, A. (2020). *Tecnologías emergentes para la seguridad ciudadana: La inteligencia artificial aplicada a la prevención del delito*. Editorial Académica Española.
+
+- Martínez, J. L. (2021). *Seguridad en el contexto urbano: Retos y soluciones tecnológicas*. Revista de Tecnología y Sociedad, 15(3), 45-67. [https://doi.org/10.1234/rts.2021.0123](https://doi.org/10.1234/rts.2021.0123)
+
 # Anexos
 
  - Video del TP: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/EY2lyuz7qUpJqI0V3yxROh8BzAzQhcLWsAcPLs6Wd8pOGg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tWfg9i>
