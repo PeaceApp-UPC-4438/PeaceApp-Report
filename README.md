@@ -2282,7 +2282,7 @@ Las pruebas de integración centrales (Core Integration Tests) son clave para ve
 | US02 | Navegar en la Landing Page | Como visitante de la Landing Page, quiero encontrar las secciones bien definidas para comprender fácilmente la información mostrada. |
 |------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 
-![](assets/US01.png)
+![](assets/US02.png)
 
 | US03 | Diseño Responsivo | Como usuario, quiero que la aplicación se adapte bien a diferentes tamaños de pantalla, para poder usarla cómodamente en cualquier dispositivo, ya sea móvil, tablet o escritorio. |
 |------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------|
@@ -2432,12 +2432,9 @@ En esta sección, se describen las herramientas y metodologías que garantizan u
   Automatizan el pipeline de CI/CD mediante workflows que ejecutan pruebas y despliegan la aplicación en distintos entornos (desarrollo, staging, producción).  
 
 - **Docker**:  
-  Se utiliza para contenerizar el backend (Spring Boot), empaquetando la aplicación junto a sus dependencias y garantizando consistencia entre entornos.  
+  Sirve para contenerizar tanto la aplicación backend (Spring Boot) como la base de datos (MySQL). Garantiza que todas las dependencias se empaqueten de manera que se mantenga la consistencia entre los entornos de desarrollo y producción.
 
-- **Railway**:  
-  Plataforma empleada para gestionar la base de datos MySQL, facilitando despliegues automatizados, migraciones y copias de seguridad.  
-
-- **Render**:  
+- **Coolify**:  
   Encargada del despliegue automático del backend en Spring Boot, proporcionando además monitoreo y escalabilidad automática.  
 
 - **Netlify**:  
@@ -2456,10 +2453,47 @@ En esta sección, se describen las herramientas y metodologías que garantizan u
 
 ### 7.3.2 Production Deployment Pipeline Components
 
+Este apartado describe los componentes del pipeline de despliegue a producción y cómo se integran las herramientas para automatizar el proceso de manera eficiente.
+
+#### Componentes del Pipeline de la Base de Datos (Docker para MySQL)
+
+La base de datos MySQL es gestionada a través de contenedores Docker, asegurando consistencia y portabilidad en los entornos de desarrollo y producción.
+
+1. **Automatización de Migraciones**: Cuando se realizan cambios en el modelo de datos del backend (Spring Boot), Docker se encarga de gestionar automáticamente las migraciones de la base de datos. Esto asegura que cualquier ajuste en las entidades del modelo se refleje sin problemas en la base de datos, sin necesidad de intervención manual.
+
+2. **Copias de Seguridad Automáticas**: Antes de aplicar migraciones críticas, Docker crea automáticamente copias de seguridad de la base de datos. Esto garantiza que, en caso de un error durante la migración, se pueda restaurar el estado anterior de la base de datos sin pérdida de información.
+
+3. **Monitoreo y Alerta de la Base de Datos**: Se implementan herramientas de monitoreo dentro de los contenedores Docker para verificar el estado de la base de datos después de cada migración. Si se detectan problemas en las consultas o en el rendimiento, se envían alertas al equipo de desarrollo para intervenir de manera rápida y eficaz.
+
+4. **Pruebas de Validación del Esquema**: Una vez realizadas las migraciones, se recomienda ejecutar pruebas automatizadas que verifiquen la correcta implementación del esquema de la base de datos. Esto incluye comprobar que las tablas, columnas y relaciones se han creado correctamente y que los datos se mantienen consistentes.
+
+5. **Despliegue Continuo de la Base de Datos**: Los cambios aplicados en las migraciones se reflejan automáticamente en el entorno de producción. El flujo de trabajo continuo asegura que la base de datos esté siempre actualizada sin interrupciones en el servicio.
+
+#### Componentes del Pipeline del Backend (Coolify para Spring Boot)
+
+El backend basado en Spring Boot es desplegado y gestionado mediante Coolify, una plataforma que facilita el despliegue continuo y la automatización de tareas críticas.
+
+1. **Integración Continua**: Cuando se realiza un commit en el repositorio, Coolify toma el código actualizado del backend, lo construye automáticamente utilizando Maven y lo prepara para su despliegue.
+
+2. **Creación de la Imagen Docker del Backend**: Coolify genera una imagen Docker del backend, incluyendo todas las dependencias necesarias para que la aplicación funcione correctamente en cualquier entorno.
+
+3. **Despliegue Automático**: Después de la construcción de la imagen Docker, Coolify despliega la nueva versión del backend en el servidor de producción de forma automática, asegurando que siempre se esté ejecutando la última versión.
+
+4. **Monitoreo y Alertas de la Aplicación**: Coolify proporciona monitoreo continuo de la aplicación backend, generando alertas en tiempo real si se detectan problemas de rendimiento o fallos en la ejecución.
+
+#### Componentes del Pipeline del Frontend (Netlify para Angular)
+
+El frontend, desarrollado con Vue, es gestionado y desplegado a través de Netlify, lo que facilita el proceso de integración continua y el despliegue automático.
+
+1. **Construcción del Frontend**: Al detectar un nuevo commit en el repositorio, Netlify inicia el proceso de construcción de la aplicación Angular en modo producción, optimizando el rendimiento de la aplicación para la web.
+
+2. **Ejecución de Pruebas Automatizadas**: Antes de realizar el despliegue, se ejecutan pruebas unitarias y de extremo a extremo (E2E) para asegurar que la interfaz de usuario funcione correctamente y cumpla con los requisitos establecidos.
+
+3. **Despliegue en Netlify**: Si las pruebas son exitosas, Netlify despliega la nueva versión de la aplicación Angular automáticamente en el entorno de producción, distribuyéndola a través de una red de entrega de contenido (CDN) para garantizar tiempos de carga rápidos y una mejor experiencia de usuario.
+
+4. **Invalidación Automática de Caché**: Para asegurar que los usuarios reciban la versión más reciente de la aplicación, Netlify invalida automáticamente la caché después de cada despliegue, garantizando que siempre se entregue la última versión disponible.
 
 ---
-
-
 
 # Conclusiones 
 # Bibliografia
