@@ -2445,9 +2445,58 @@ Las pruebas de integración centrales (Core Integration Tests) son clave para ve
 
 ## 6.2 Static testing & Verification
 ### 6.2.1 Static Code Analysis
+
+Esta sección aborda las técnicas de prueba estática y verificación del código, cuyo objetivo es garantizar que el software cumpla con los estándares de calidad y seguridad antes de ser ejecutado. Estas técnicas permiten detectar fallos en una etapa temprana del proceso de desarrollo.
+
+El análisis estático de código consiste en examinar el código fuente sin necesidad de ejecutarlo, empleando tanto herramientas automatizadas como revisiones manuales. Este método facilita la identificación de errores, vulnerabilidades de seguridad y áreas de mejora, lo que contribuye a elevar la calidad del software y disminuir los costos asociados a correcciones en fases posteriores del desarrollo.
+
 #### 6.2.1.1 Coding standard & Code conventions
+
+Las normas y convenciones de codificación son pautas que los programadores deben seguir para asegurar que el código sea claro, fácil de mantener y consistente. Entre los principios aplicados destacan:
+
+- Código Limpio (Clean Code): Es esencial utilizar nombres precisos y descriptivos para variables, funciones y clases. Las funciones deben ser breves y centrarse en una única tarea, evitando código innecesario y comentarios redundantes. Este enfoque mejora la comprensión del código y facilita el trabajo en equipo.
+
+- Diseño Orientado al Dominio (Domain-Driven Design - DDD): Se recomienda usar un lenguaje común que refleje la terminología del negocio. El sistema debe dividirse en contextos delimitados (bounded contexts), haciendo uso adecuado de entidades y objetos de valor. La lógica del dominio debe manejarse mediante servicios específicos y repositorios, lo cual contribuye a una arquitectura más estructurada y alineada con los objetivos empresariales.
+
 #### 6.2.1.2 Code Quality & Code Security
+
+La calidad y la seguridad del código son fundamentales para crear software confiable:
+
+**Calidad del Código:**
+
+La calidad se evalúa utilizando métricas como la cobertura de pruebas y la complejidad ciclomática. Se recomienda emplear herramientas como SonarQube para monitorear de forma continua la calidad del código y garantizar que se ajusta a los estándares definidos. SonarQube realiza un análisis detallado, identificando problemas y ofreciendo sugerencias para su mejora.
+
+**Seguridad del Código:**
+
+Es vital detectar y corregir vulnerabilidades comunes, como inyecciones SQL y ataques XSS, mediante revisiones cuidadosas del código. Adoptar prácticas de codificación segura y validar correctamente las entradas de usuario es esencial para proteger el software.
+
+Para reforzar la calidad y la seguridad, se utilizará SonarLint, una herramienta complementaria que analiza el código en tiempo real durante su desarrollo. SonarLint se integra con los principales entornos de desarrollo (IDEs) como IntelliJ IDEA, Eclipse y Visual Studio, ayudando a los programadores a identificar problemas y ofrecer soluciones inmediatas mientras escriben el código. Esto promueve una cultura de calidad y mejora constante desde las etapas iniciales, evitando que los errores lleguen a fases posteriores de revisión y prueba.
+
 ### 6.2.2 Reviews
+
+Las revisiones de código son esenciales para asegurar la calidad y el cumplimiento de las normas establecidas. Este proceso incluye tanto revisiones manuales como automáticas y debe seguir ciertas directrices.
+
+**Tipos de Revisiones**
+
+- **Revisión de Código por Pares:** Un desarrollador examina el código de otro para verificar que cumpla con los estándares y sea claro.
+- **Revisión de Código Formal:** Consiste en una reunión estructurada donde el código es evaluado con una lista de verificación (checklist) para identificar problemas en grupo.
+- **Revisión Automática:** Uso de herramientas como SonarLint y SonarQube que detectan errores y problemas de calidad en tiempo real.
+
+**Proceso de Revisión**
+
+- **Creación de Pull Requests (PR):** Los desarrolladores deben crear un PR con una descripción clara de los cambios y las pruebas relacionadas.
+- **Checklist de Revisión:** Se debe contar con una lista que cubra aspectos como la claridad del código, la cobertura de pruebas y el manejo de errores.
+- **Comentarios y Feedback:** Los revisores proporcionan comentarios constructivos y específicos, y cualquier problema debe ser solucionado antes de aprobar el PR.
+- **Aprobación o Rechazo:** El PR necesita la aprobación de al menos un revisor adicional para ser fusionado a la rama principal.
+
+**Criterios de Aceptación**
+
+- **Calidad y Seguridad del Código:** El código debe cumplir con los estándares y no introducir vulnerabilidades.
+- **Cobertura de Pruebas:** Se exige una cobertura mínima (por ejemplo, 80%) para asegurar que el nuevo código esté bien probado.
+
+**Frecuencia de Revisiones**
+
+Las revisiones deben realizarse regularmente, idealmente al final de cada sprint o en intervalos establecidos, para evitar acumulación de código sin revisar y mantener la calidad.
 
 ## 6.3 Validation Interviews
 ### 6.3.1 Diseño de Entrevistas
@@ -2484,7 +2533,9 @@ Adoptamos metodologías como el Desarrollo Guiado por Comportamiento (BDD) y el 
 
 ### 7.1.2 Build & Test Suite Pipeline Components
 
+![](assets/UT01.png)
 
+![](assets/IT01.png)
 
 ## 7.2 Continuous Delivery
 
@@ -2619,10 +2670,45 @@ El frontend, desarrollado con Vue, es gestionado y desplegado a través de Netli
 4. **Invalidación Automática de Caché**: Para asegurar que los usuarios reciban la versión más reciente de la aplicación, Netlify invalida automáticamente la caché después de cada despliegue, garantizando que siempre se entregue la última versión disponible.
 
 ## 7.4 Continuous Monitoring
+
 ### 7.4.1 Tools and Practices
+
+Algunas herramientas y prácticas que se utilizarán para lograr un monitoreo continuo y eficiente en nuestra aplicación son:
+
+- **Pruebas de Carga y Estrés:** JMeter permite simular el comportamiento de múltiples usuarios y condiciones extremas para asegurar que la aplicación mantenga un buen rendimiento bajo alta demanda.
+
+- **Monitoreo de la Experiencia del Usuario:** Para comprender cómo interactúan los usuarios con la aplicación, herramientas como Google Analytics recogen datos sobre el uso y la navegabilidad. Esto facilita a los equipos mejorar la usabilidad y el rendimiento. Por otro lado, Datadog ofrece monitoreo en tiempo real de la experiencia del usuario. Su versión gratuita permite seguir métricas clave como tiempos de respuesta, latencia y captura de eventos, incluyendo tiempos de carga de páginas. Esto brinda una visión clara de cómo el rendimiento afecta la experiencia del usuario y ayuda a identificar y solucionar problemas al instante.
+
+- **Supervisión de APIs:** Es fundamental monitorear la disponibilidad y tiempos de respuesta de APIs internas o externas. Herramientas como Postman y Pingdom proporcionan métricas en tiempo real para verificar que funcionen correctamente.
+
 ### 7.4.2 Monitoring Pipeline Components
+
+Un pipeline de monitoreo continuo abarca varias fases que contribuyen a mantener la calidad y el desempeño de una aplicación. Estas fases incluyen la recolección, almacenamiento, análisis y visualización de datos. Herramientas como Google Lighthouse y Catchpoint son clave en este proceso, ya que ofrecen evaluaciones complementarias que ayudan a comprender y optimizar la experiencia del usuario.
+
+**Google Lighthous**e es una herramienta ideal para auditar la calidad de sitios web, brindando análisis detallados sobre accesibilidad, buenas prácticas, SEO y rendimiento. Permite a los equipos identificar problemas que pueden afectar la experiencia del usuario, como tiempos de carga prolongados o cambios inesperados en el diseño.
+
+**Catchpoint** se enfoca en monitorear la experiencia digital desde múltiples ubicaciones y dispositivos, proporcionando información en tiempo real sobre latencia de red, tiempos de respuesta del servidor, disponibilidad y otras métricas de rendimiento bajo distintas condiciones. Gracias a su enfoque en la experiencia del usuario, permite detectar y solucionar problemas antes de que impacten a los usuarios finales.
+
 ### 7.4.3 Alerting Pipeline Components
+
+El componente de alertas en un pipeline de monitoreo es esencial para detectar y responder rápidamente a problemas relacionados con el rendimiento o la disponibilidad de una aplicación. Este sistema notifica al equipo inmediatamente cuando se presentan eventos críticos o anomalías que requieren atención.
+
+Para implementar un sistema de alertas efectivo se emplean herramientas como Prometheus junto con Alertmanager y Grafana:
+
+- **Prometheus con Alertmanager:** Prometheus es una herramienta de monitoreo que recolecta y almacena métricas de rendimiento en tiempo real. Permite establecer límites específicos para distintas métricas (como uso de CPU, memoria o latencia de red) y genera alertas cuando se superan esos umbrales. Las alertas son gestionadas por Alertmanager, un componente encargado de administrar y distribuir las notificaciones. Alertmanager posibilita configurar rutas para enviar alertas a diferentes canales (correo electrónico, Slack, Microsoft Teams) según la gravedad y preferencias del equipo. Además, facilita agrupar alertas similares, silenciarlas temporalmente durante mantenimientos o redirigirlas a los destinatarios adecuados, optimizando así la gestión de incidentes.
+
+- **Grafana:** Esta herramienta se usa para visualizar métricas de forma avanzada y configurar alertas visuales en paneles personalizados. Permite definir umbrales y notificaciones basadas en eventos críticos o comportamientos anómalos. Gracias a su integración con Prometheus y otras fuentes de datos, Grafana ofrece una interfaz visual intuitiva para monitorear y recibir alertas en tiempo real.
+
+La combinación de Prometheus, Alertmanager y Grafana permite al equipo recibir alertas en tiempo real, facilitando la detección temprana y solución rápida de problemas antes de que impacten al usuario final. Un sistema de alertas bien implementado garantiza una respuesta eficiente a incidentes, minimizando el tiempo de inactividad y mejorando la experiencia del usuario.
+
 ### 7.4.4 Notification Pipeline Components
+
+En un pipeline de notificaciones, es fundamental automatizar la comunicación de los resultados de las pruebas y el estado general del pipeline. Jenkins desempeña un rol clave en este proceso, ya que permite configurar notificaciones detalladas sobre el progreso y los resultados de cada etapa del pipeline de pruebas.
+
+Con Jenkins, las notificaciones se pueden programar para enviarse automáticamente al finalizar cada compilación o fase del pipeline, informando sobre el éxito o fracaso de las pruebas, la duración de la ejecución y los problemas específicos detectados. Esto asegura que el equipo reciba alertas en tiempo real ante cualquier incidente o error durante las pruebas, facilitando una respuesta rápida.
+
+Además, Jenkins permite generar reportes detallados y automatizar el envío de resúmenes periódicos, ofreciendo una visión completa sobre el estado de calidad del software en cada ciclo de pruebas.
+
 
 ---
 
