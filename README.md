@@ -166,7 +166,7 @@ TP1: Las tareas asignadas para la entrega TB1 se han completado y están documen
     - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
     - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
   - [5.3. Video About the Product](#53-video-about-the-product)
-- [Capítulo VI: Testing Suites & Validation](#capítulo-vi-testing-suites--validation)
+- [Capítulo VI: Testing Suites & ](#capítulo-vi-testing-suites--validation)
   - [6.1. Testing Suites & Validation](#61-testing-suites--validation)
     - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
     - [6.1.2. Core Integration Tests](#612-core-integration-tests)
@@ -2500,19 +2500,30 @@ Las revisiones deben realizarse regularmente, idealmente al final de cada sprint
 
 ## 6.3 Validation Interviews
 ### 6.3.1 Diseño de Entrevistas
+
+A continuación, se presentan las preguntas que se utilizarán en las entrevistas de validación para evaluar la facilidad de uso de la aplicación actual. Estas preguntas están orientadas a examinar las heurísticas de usabilidad y obtener datos importantes sobre la experiencia del usuario.
+
+1. ¿Fue fácil encontrar las secciones clave de la aplicación (mapa, reportes, perfil, alertas) desde el menú principal?  
+
+2. Al generar un reporte de incidente, ¿fue claro cómo adjuntar evidencias (fotos/videos) y completar todos los campos requeridos?  
+
+3. Cuando realizaste una acción (ej. enviar un reporte, compartir ubicación), ¿recibiste confirmación visual o mensaje de éxito?  
+
+4. ¿La aplicación se adaptó correctamente al tamaño de tu pantalla (móvil, tablet o escritorio) sin afectar la legibilidad?  
+
+5. ¿Los íconos del mapa y las alertas de zonas de riesgo fueron fáciles de interpretar?  
+
+6. ¿Pudiste realizar acciones frecuentes (ej. filtrar reportes o editar perfil) en menos de 3 pasos?  
+
+7. ¿Experimentaste demoras al cargar el mapa interactivo o al listar reportes?
+
 ### 6.3.2 Registro de Entrevistas
+
+
+
 ### 6.3.3 Evaluaciones según heurísticas
 
-## 6.4 Auditoría de Experiencias de Usuario
-### 6.4.1 Auditoría realizada
-#### 6.4.1.1 Información del grupo auditado
-#### 6.4.1.2 Cronograma de auditoría realizada
-#### 6.4.1.3 Contenido de auditoría realizada
-### 6.4.2 Auditoría recibida
-#### 6.4.2.1 Información del grupo auditor
-#### 6.4.2.2 Cronograma de auditoría recibida
-#### 6.4.2.3 Contenido de auditoría recibida
-#### 6.4.2.4 Resumen de modificaciones para subsanar hallazgos
+
 
 ---
 
