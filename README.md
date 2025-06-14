@@ -2877,7 +2877,7 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 |Question|¿Ampliará la base de usuarios al agregar soporte para inglés y francés?|
 |---|---|
 |**Why**|El 30% de potenciales usuarios no usa la app por la barrera idiomática. Atraer esta audiencia podría incrementar el mercado en regiones multiculturales.|
-|**What**|Traducir: (1) Interfaz completa, (2) Alertas críticas (usando APIs de traducción), y (3) Documentación de soporte.|
+|**What**|Traducir los elementos clave de la aplicación, garantizando que las versiones sean precisas y se adapten al contexto cultural. Esto puede implicar desarrollar un mecanismo para mantener las traducciones actualizadas de forma constante.|
 |**Hypothesis**|En 6 meses, la base de usuarios activos crecerá un 18%, con un 40% de nuevos registros provenientes de zonas no hispanohablantes.|
 
 ---
@@ -2886,7 +2886,7 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 |Question|¿Reducirá la tasa de abandonos al permitir filtrar incidentes por tipo y ubicación?|
 |---|---|
 |**Why**|Los usuarios pierden un 30% más de tiempo buscando incidentes relevantes. Filtros personalizados agilizarán este proceso y mejorarán la retención.|
-|**What**|Desarrollar filtros combinables (tipo, fecha, gravedad) con opción de guardar preferencias frecuentes.|
+|**What**|Añadir filtros de tipo que permita que los usuarios puedan estar mejor informados al disminuir el tiempo de búsqueda|
 |**Hypothesis**|El tiempo de búsqueda disminuirá un 15%, y la retención a 7 días aumentará un 10% tras la implementación.|
 
 ---
@@ -2895,7 +2895,7 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 |Question|¿Mejorará la satisfacción de los usuarios al implementar un modo oscuro en la aplicación?|
 |---|---|
 |**Why**|El 65% de usuarios en encuestas solicita esta función para reducir fatiga visual nocturna, lo que podría mejorar la percepción general de la app.|
-|**What**|Añadir selector de tema (claro/oscuro) con detección automática de horario y ajustes manuales.|
+|**What**|Integrar un tema oscuro configurable desde el menú de opciones, modificando la paleta de colores (texto, fondos e interfaces) para garantizar una visualización más relajada y accesible.|
 |**Hypothesis**|El 60% de usuarios activará el modo oscuro, y la satisfacción UX (medida en surveys) aumentará un 25%.|
 
 ---
@@ -2904,13 +2904,130 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 |Question|¿Aumentará la colaboración ciudadana al habilitar comentarios en los reportes?|
 |---|---|
 |**Why**|La interacción en tiempo real podría mejorar la precisión de los reportes y fomentar la participación comunitaria.|
-|**What**|Implementar: (1) Comentarios públicos, (2) Etiquetas de "Actualización oficial", y (3) Moderación automática de spam.|
+|**What**|Implementar comentarios públicos de modo que todo usuario pueda compartir sus propias expereiencias similares o que estén en el mismo contexto|
 |**Hypothesis**|El engagement aumentará un 30%, con un promedio de 2.5 comentarios por reporte crítico en el primer trimestre.|
 
 ## 8.2 Experiment Design
+
 ### 8.2.1 Hypotheses
+
+#### Optimización de rendimiento
+| Componente       | Descripción |
+|------------------|-------------|
+| **Question**     | ¿Disminuirá la tasa de abandonos por lentitud al optimizar el rendimiento en zonas con mala conexión? |
+| **Belief**       | Mejorar el rendimiento en conexiones lentas retendrá a usuarios en áreas rurales o con infraestructura limitada, donde la lentitud actual causa un 20% de abandonos. |
+| **Hypothesis**   | Tras implementar caché optimizado, compresión de datos y versión "Lite", la tasa de abandonos por lentitud disminuirá un 22% en 3 meses, y el NPS aumentará 15 puntos en zonas rurales. |
+| **Null**         | Las optimizaciones no reducirán significativamente la tasa de abandonos ni mejorarán el NPS en zonas con mala conexión. |
+
+---
+
+#### Soporte multilingüe
+| Componente       | Descripción |
+|------------------|-------------|
+| **Question**     | ¿Ampliará la base de usuarios al agregar soporte para inglés y francés? |
+| **Belief**       | Eliminar la barrera idiomática captará al 30% de usuarios potenciales en mercados multiculturales, incrementando el alcance global. |
+| **Hypothesis**   | En 6 meses, la base de usuarios activos crecerá un 18%, con un 40% de nuevos registros provenientes de regiones no hispanohablantes. |
+| **Null**         | La inclusión de idiomas no generará un aumento significativo en usuarios activos o registros internacionales. |
+
+---
+
+#### Filtrado avanzado
+| Componente       | Descripción |
+|------------------|-------------|
+| **Question**     | ¿Reducirá la tasa de abandonos al permitir filtrar incidentes por tipo y ubicación? |
+| **Belief**       | Los filtros personalizados agilizarán la búsqueda de incidentes relevantes, reduciendo el tiempo actual (30% más alto) y mejorando la retención. |
+| **Hypothesis**   | El tiempo de búsqueda disminuirá un 15%, y la retención a 7 días aumentará un 10% tras la implementación. |
+| **Null**         | Los filtros no impactarán significativamente el tiempo de búsqueda ni la retención de usuarios. |
+
+---
+
+#### Modo oscuro
+| Componente       | Descripción |
+|------------------|-------------|
+| **Question**     | ¿Mejorará la satisfacción de los usuarios al implementar un modo oscuro en la aplicación? |
+| **Belief**       | El modo oscuro reducirá la fatiga visual nocturna (solicitado por el 65% de usuarios), mejorando la percepción general de la app. |
+| **Hypothesis**   | El 60% de usuarios activará el modo oscuro, y la satisfacción UX (medida en surveys) aumentará un 25%. |
+| **Null**         | La implementación del modo oscuro no afectará significativamente la satisfacción ni su tasa de adopción. |
+
+---
+
+#### Comentarios en reportes
+| Componente       | Descripción |
+|------------------|-------------|
+| **Question**     | ¿Aumentará la colaboración ciudadana al habilitar comentarios en los reportes? |
+| **Belief**       | La interacción en tiempo real mejorará la precisión de los reportes y fomentará la participación comunitaria. |
+| **Hypothesis**   | El engagement aumentará un 30%, con un promedio de 2.5 comentarios por reporte crítico en el primer trimestre. |
+| **Null**         | Los comentarios no incrementarán el engagement ni la interacción por reporte. |
+
 ### 8.2.2 Measures
+
+#### Optimización de rendimiento
+| Componente       | Descripción |
+|------------------|-------------|
+| **Question**     | ¿Disminuirá la tasa de abandonos por lentitud al optimizar el rendimiento en zonas con mala conexión? |
+| **Measure**      | Medir: <br>- Tasa de abandonos (%) en áreas rurales (antes/después) <br>- NPS (Net Promoter Score) en usuarios de zonas con baja conectividad <br>- Tiempo promedio de carga de componentes críticos |
+
+#### Soporte multilingüe
+| Componente       | Descripción |
+|------------------|-------------|
+| **Question**     | ¿Ampliará la base de usuarios al agregar soporte para inglés y francés? |
+| **Measure**      | Medir: <br>- Crecimiento % de usuarios activos por región idiomática <br>- Tasa de nuevos registros desde países no hispanohablantes <br>- Uso de selector de idioma (frecuencia de cambio) |
+
+#### Filtrado avanzado
+| Componente       | Descripción |
+|------------------|-------------|
+| **Question**     | ¿Reducirá la tasa de abandonos al permitir filtrar incidentes por tipo y ubicación? |
+| **Measure**      | Medir: <br>- Tiempo promedio de búsqueda (segundos) <br>- Tasa de retención a 7 días <br>- Frecuencia de uso de filtros por sesión |
+
+#### Modo oscuro
+| Componente       | Descripción |
+|------------------|-------------|
+| **Question**     | ¿Mejorará la satisfacción de los usuarios al implementar un modo oscuro en la aplicación? |
+| **Measure**      | Medir: <br>- % de usuarios que activan el modo oscuro <br>- Puntaje de satisfacción UX (encuestas de 1-5) <br>- Tiempo de uso nocturno (horas) |
+
+#### Comentarios en reportes
+| Componente       | Descripción |
+|------------------|-------------|
+| **Question**     | ¿Aumentará la colaboración ciudadana al habilitar comentarios en los reportes? |
+| **Measure**      | Medir: <br>- Número promedio de comentarios por reporte <br>- Tasa de engagement (usuarios que interactúan vs. total) <br>- % de reportes actualizados con información de comentarios |
+
 ### 8.2.3 Conditions
+
+#### Optimización de rendimiento
+| Componente               | Descripción |
+|--------------------------|-------------|
+| **Question**             | ¿Disminuirá la tasa de abandonos por lentitud al optimizar el rendimiento en zonas con mala conexión? |
+| **Condición Experimental** | La tasa de abandonos disminuirá en un 22% y el NPS aumentará 15 puntos en zonas rurales después de implementar las optimizaciones. |
+| **Condición de Control**   | No habrá mejora significativa en las tasas de abandono o NPS tras las optimizaciones. |
+
+#### Soporte multilingüe
+| Componente               | Descripción |
+|--------------------------|-------------|
+| **Question**             | ¿Ampliará la base de usuarios al agregar soporte para inglés y francés? |
+| **Condición Experimental** | La base de usuarios activos crecerá un 18%, con 40% de nuevos registros provenientes de regiones no hispanohablantes en 6 meses. |
+| **Condición de Control**   | No se observará crecimiento significativo en usuarios activos o registros internacionales. |
+
+#### Filtrado avanzado
+| Componente               | Descripción |
+|--------------------------|-------------|
+| **Question**             | ¿Reducirá la tasa de abandonos al permitir filtrar incidentes por tipo y ubicación? |
+| **Condición Experimental** | El tiempo de búsqueda disminuirá un 15% y la retención a 7 días aumentará un 10% después de implementar los filtros. |
+| **Condición de Control**   | Los filtros no impactarán significativamente el tiempo de búsqueda ni la retención de usuarios. |
+
+#### Modo oscuro
+| Componente               | Descripción |
+|--------------------------|-------------|
+| **Question**             | ¿Mejorará la satisfacción de los usuarios al implementar un modo oscuro en la aplicación? |
+| **Condición Experimental** | El 60% de usuarios activará el modo oscuro y la satisfacción UX aumentará un 25% según encuestas. |
+| **Condición de Control**   | La implementación del modo oscuro no afectará significativamente la satisfacción ni su tasa de adopción. |
+
+#### Comentarios en reportes
+| Componente               | Descripción |
+|--------------------------|-------------|
+| **Question**             | ¿Aumentará la colaboración ciudadana al habilitar comentarios en los reportes? |
+| **Condición Experimental** | El engagement aumentará un 30%, con promedio de 2.5 comentarios por reporte crítico en el primer trimestre. |
+| **Condición de Control**   | Los comentarios no incrementarán el engagement ni la interacción por reporte. |
+
 ### 8.2.4 Scale Calculations and Decisions
 ### 8.2.5 Methods Selection
 ### 8.2.6 Data Analytics: Goals, KPIs and Metrics Selection
