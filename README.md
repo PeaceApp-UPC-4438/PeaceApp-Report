@@ -3029,7 +3029,26 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 | **Condición de Control**   | Los comentarios no incrementarán el engagement ni la interacción por reporte. |
 
 ### 8.2.4 Scale Calculations and Decisions
+
+Este método emplea indicadores para medir el logro de las hipótesis en un proyecto. Cada hipótesis se vincula con una métrica de éxito: se califica como ideal si cumple completamente el objetivo, aceptable si se sitúa entre el mínimo y el ideal, y desfavorable si no alcanza el mínimo, lo que exige un replanteamiento. Un nivel excelente se alcanza cuando el resultado supera el ideal en un 25% o más, reflejando un éxito destacado. Esta estrategia facilita la toma de decisiones basada en datos para confirmar o redefinir las hipótesis del proyecto.
+
+| Scale Calculation | Decision | Desfavorable | Aceptable | Ideal | Excelente |
+|------------------|----------|--------------|-----------|--------|-----------|
+| **Optimización de rendimiento**<br>Creemos que al optimizar el rendimiento para zonas con mala conexión, reduciremos la tasa de abandonos en un 22% y aumentaremos el NPS en 15 puntos. Sabremos que esto es cierto cuando observemos estas mejoras en las métricas correspondientes. | Implementar caché optimizado, compresión de datos y versión "Lite" para mejorar la experiencia en conexiones lentas. | X |  |  |  |
+| **Soporte multilingüe**<br>Creemos que al agregar soporte para inglés y francés, aumentaremos la base de usuarios activos en un 18% con 40% de nuevos registros de regiones no hispanohablantes. Sabremos que esto es cierto cuando alcancemos estos porcentajes en 6 meses. | Implementar traducciones precisas y culturalmente relevantes para inglés y francés, con sistema de actualización continua. |  | X |  |  |
+| **Filtrado avanzado**<br>Creemos que al implementar filtros por tipo y ubicación, reduciremos el tiempo de búsqueda en 15% y aumentaremos la retención a 7 días en 10%. Sabremos que esto es cierto cuando las métricas muestren estas mejoras. | Añadir sistema de filtrado personalizable que permita a los usuarios encontrar rápidamente incidentes relevantes. |  |  | X |  |
+| **Modo oscuro**<br>Creemos que al implementar modo oscuro, el 60% de usuarios lo activará y la satisfacción UX aumentará en 25%. Sabremos que esto es cierto cuando las encuestas y datos de uso confirmen estos resultados. | Implementar tema oscuro configurable con paleta de colores optimizada para reducir fatiga visual. |  |  |  | X |
+| **Comentarios en reportes**<br>Creemos que al habilitar comentarios, aumentaremos el engagement en 30% con promedio de 2.5 comentarios por reporte crítico. Sabremos que esto es cierto cuando las métricas de interacción alcancen estos niveles. | Implementar sistema de comentarios públicos para fomentar la colaboración ciudadana en reportes. |  | X |  |  |
+
 ### 8.2.5 Methods Selection
+
+| **Herramienta**       | **Google Analytics**                                                | **Catchpoint**                                                                 | **RedLine13**                                                            | **Lighthouse**                                                                 |
+|------------------------|---------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| **Precio**             | Gratuito o con opción a créditos gratis                            | Requiere suscripción, aunque ofrece pruebas gratuitas                         | Gratuito, pero con ciertas limitaciones                                  | Gratuito, pensado para ejecución local                                         |
+| **Capacidad de Análisis** | Análisis profundo de métricas y comportamiento del usuario         | Evaluación detallada del rendimiento y experiencia desde múltiples ubicaciones | Enfocado en pruebas de carga y rendimiento de aplicaciones                | Evaluación basada en experiencia de usuario, rendimiento y accesibilidad       |
+| **Facilidad de uso**   | Aprendizaje accesible, con enfoque en métricas claras              | Interfaz completa pero más técnica y avanzada                                 | Presentación clara y detallada de datos sobre rendimiento                 | Información resumida con enfoque en los aspectos clave del rendimiento         |
+| **Principales Ventajas** | Excelente generación de reportes y buena integración con otros servicios | Monitoreo en tiempo real desde distintos dispositivos y regiones, ideal para empresas globales | Simula tráfico y prueba el rendimiento bajo condiciones exigentes         | Mide accesibilidad, rendimiento y diseño para mejorar la experiencia del usuario |
+
 ### 8.2.6 Data Analytics: Goals, KPIs and Metrics Selection
 ### 8.2.7 Web and Mobile Tracking Plan
 
