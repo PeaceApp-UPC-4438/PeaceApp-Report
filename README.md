@@ -2729,129 +2729,183 @@ Además, Jenkins permite generar reportes detallados y automatizar el envío de 
 
 La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ciudadana que permite reportar incidentes, visualizar zonas de riesgo y recibir alertas. Aunque cumple con funciones básicas, presenta deficiencias críticas que impactan su adopción y eficacia.
 
-**Problemas críticos identificados:**
+**Problemas identificados:**
 
-| Área | Problema | Impacto | Datos de Soporte |
-|------|----------|---------|------------------|
-| **Experiencia Visual** | Falta de modo oscuro | 65% de accesos nocturnos reportan fatiga visual | Analytics: pico de uso 6pm-2am |
-| **Filtrado** | No existe filtrado por tipo de incidente | Usadores pierden 2.3 min/reporte buscando información | Test de usabilidad con 50 usuarios |
-| **Interacción** | No se pueden agregar comentarios | 40% menos engagement vs apps similares | Benchmarking competitivo |
-| **Idiomas** | Solo español | 23% abandonos en registro en zonas fronterizas | Datos de registro por ubicación |
+1. **Experiencia Visual Limitada**  
+- **Problema:** Falta de modo oscuro, lo que afecta la visibilidad en condiciones de poca luz.  
 
-**Objetivos de Mejora Priorizados:**
-1. Implementar modo oscuro (alto impacto, baja complejidad)
-2. Sistema de filtrado avanzado (tipo, fecha, riesgo)
-3. Sección de comentarios con moderación
-4. Soporte para inglés y portugués
+2. **Filtrado Inexistente**  
+- **Problema:** No se pueden filtrar incidentes por tipo (robos, accidentes, emergencias médicas, etc.).  
+
+3. **Falta de Interacción en Reportes**  
+- **Problema:** No hay opción para agregar comentarios o actualizaciones a los reportes existentes.  
+
+4. **Barrera de Idioma**  
+- **Problema:** Solo disponible en español, limitando su uso en comunidades multilingües.  
+
+5. **Problemas de Rendimiento**  
+- **Problema:** Lentitud al cargar el mapa y alertas, especialmente en zonas con mala conexión.  
+
+---
+
+**Objetivos de Mejora:**
+
+1. **Implementar Modo Oscuro**  
+- Añadir selector de tema (claro/oscuro) en ajustes para mejor experiencia visual.  
+
+2. **Introducir Filtros Avanzados**  
+- Permitir filtrar por:  
+  - Tipo de incidente  
+  - Fecha 
+
+3. **Habilitar Comentarios en Reportes**  
+- Permitir que usuarios y autoridades agreguen comentarios sobre los reportes 
+
+4. **Soporte Multidioma**  
+- Añadir al menos inglés y francés en la primera fase.  
+
+5. **Optimizar Rendimiento**  
+- Mejorar carga de mapas con caché optimizado.  
+- Notificaciones prioritarias incluso con conexión limitada.  
+
+---
+
+**Impacto Esperado:**
+- ✅ Mayor usabilidad y accesibilidad.  
+- ✅ Más participación ciudadana mediante interacciones dinámicas.  
+- ✅ Funcionamiento fluido en diferentes calidades de red.  
+- ✅ Alcance ampliado a más usuarios.  
 
 ### 8.1.2 Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
-#### **Supuestos (Assumptions)**  
+#### **Assumptions**
+1. **Experiencia Visual Limitada**  
+   - Los usuarios prefieren aplicaciones con modo oscuro para reducir fatiga visual en horarios nocturnos.
 
-| Supuesto | Base | Impacto Potencial |
-|----------|-------|-------------------|
-| Modo oscuro mejorará retención nocturna | 65% uso nocturno | +20% tiempo en app |
-| Filtros reducirán tiempo de búsqueda | 2.3 min perdidos/reporte | -40% frustración |
-| Comentarios aumentarán utilidad | 70% usuarios piden función | +25% engagement |
+2. **Filtrado Inexistente**  
+   - Los usuarios abandonan la app al no encontrar rápidamente incidentes relevantes para su ubicación/intereses.
 
----
+3. **Falta de Interacción en Reportes**  
+   - La posibilidad de comentar reportes aumentaría la colaboración ciudadana en un 40%.
 
-#### **Brechas de Conocimiento (Knowledge Gaps)**  
+4. **Barrera de Idioma**  
+   - Al menos el 30% de potenciales usuarios no utilizan la app por la falta de soporte multilingüe.
 
-| Brecha | Método de Validación | Timeline |
-|--------|-----------------------|----------|
-| Tipos de filtros más necesarios | Encuesta in-app (500 usuarios) | Sprint 1 |
-| Riesgo de desinformación en comentarios | Test con grupo control (100 usuarios) | Sprint 2 |
-| Idiomas prioritarios | Análisis datos demográficos | Sprint 1 |
+5. **Problemas de Rendimiento**  
+   - La lentitud en zonas con mala conexión causa un 20% de abandonos en primeros usos.
 
----
+#### **Knowledge Gaps**
+1. **Experiencia Visual Limitada**  
+   - Desconocemos el porcentaje real de usuarios que activarían el modo oscuro prioritariamente.
 
-#### **Ideas (Ideas)**  
+2. **Filtrado Inexistente**  
+   - No tenemos data sobre qué tipos de filtros (ubicación, severidad, categoría) son más demandados.
 
-| Idea | Complejidad | Beneficio |
-|------|------------|-----------|
-| Toggle modo oscuro/claro | Baja | Mejora UX inmediata |
-| Filtros combinables (tipo+fecha) | Media | Reducción tiempo búsqueda |
-| Sistema de votación para comentarios | Alta | Calidad información |
+3. **Falta de Interacción en Reportes**  
+   - Se desconoce qué tipo de interacciones (comentarios, reacciones, seguimiento) generarían más engagement.
 
----
+4. **Barrera de Idioma**  
+   - Falta investigación sobre qué idiomas adicionales (inglés, francés, lenguas indígenas) tendrían mayor impacto.
 
-#### **Afirmaciones (Claims)**  
+5. **Problemas de Rendimiento**  
+   - No está medido cómo afecta exactamente el rendimiento a la retención de usuarios a 30 días.
 
-| Afirmación | Base de Evidencia | Métrica de Validación | Impacto Esperado |
-|------------|-------------------|-----------------------|------------------|
-| "El modo oscuro aumentará un 25% el engagement nocturno" | Datos de analytics (65% uso nocturno) + benchmarks de apps similares | Tiempo de sesión en horas pico (8pm-2am) | Mejora en retención de usuarios regulares |
-| "Los filtros combinados reducirán en 50% el tiempo de búsqueda de reportes" | Test de usabilidad con prototipos (n=30 usuarios) | Segundos promedio por búsqueda | Reducción de frustración y abandonos |
-| "La implementación de comentarios aumentará un 30% la precisión de los reportes" | Estudio de caso: CitizenApp (2023) | % de reportes actualizados con info contextual | Mayor confiabilidad del sistema |
-| "La traducción al inglés captará un 18% más de usuarios en zonas turísticas" | Datos demográficos de aeropuertos/zonas fronterizas | Tasa de registro post-implementación | Expansión de mercado |
+#### **Ideas**
+1. **Experiencia Visual Limitada**  
+   - Implementar detección automática de horario/iluminación ambiental para sugerir cambio de tema.
+
+2. **Filtrado Inexistente**  
+   - Sistema de filtros combinables con opción para guardar preferencias frecuentes.
+
+3. **Falta de Interacción en Reportes**  
+   - Sección de "Actualizaciones oficiales" donde autoridades verifiquen estados de reportes.
+
+4. **Barrera de Idioma**  
+   - Implementar traducción automática de reportes críticos usando APIs de Google/Microsoft.
+
+5. **Problemas de Rendimiento**  
+   - Versión "Lite" para zonas rurales con carga optimizada de mapas offline.
+
+#### **Claims**
+1. **Experiencia Visual Limitada**  
+   - La inclusión del modo oscuro aumentará un 25% la satisfacción en encuestas de UX.
+
+2. **Filtrado Inexistente**  
+   - Los filtros avanzados reducirán en 15% el tiempo promedio de búsqueda de incidentes.
+
+3. **Falta de Interacción en Reportes**  
+   - Los comentarios en reportes incrementarán un 30% el tiempo de sesión promedio.
+
+4. **Barrera de Idioma**  
+   - Soporte multilingüe ampliará la base de usuarios activos en un 18% en 6 meses.
+
+5. **Problemas de Rendimiento**  
+   - Las optimizaciones disminuirán los abandonos por lentitud en un 22%.
 
 ### 8.1.3 Experiment-Ready Questions
 
-| **Pregunta** | **Confianza** | **Riesgo** | **Impacto** | **Interés** | **Puntaje** |
-|--------------|--------------|------------|-------------|-------------|-------------|
-| **¿El modo oscuro mejorará la retención en un 25% durante horas nocturnas (6pm-6am)?** | 9 - 65% de uso actual en este horario + benchmarks de apps de seguridad | 2 - Implementación con variables CSS | 8 - Impacto directo en experiencia crítica | 9 - Principal queja de usuarios regulares | **28** |
-| **¿Los filtros por tipo de incidente reducirán el tiempo de búsqueda a menos de 1 minuto?** | 8 - Test con prototipos muestra reducción de 2.3min a 45s | 3 - Requiere reindexación de datos | 9 - Soluciona principal dolor identificado | 8 - 88% de usuarios lo solicitan | **28** |
-| **¿La sección de comentarios aumentará un 30% la precisión de los reportes?** | 7 - Datos de apps similares (Citizen, Neighbors) | 5 - Riesgo de desinformación | 7 - Mejora calidad de datos | 6 - 70% de usuarios interesados | **25** |
-| **¿La traducción inglés/portugués reducirá abandonos en registro en zonas fronterizas?** | 6 - 23% abandonos actuales en estas zonas | 4 - Costo de mantenimiento | 8 - Expansión de mercado | 7 - Validado con turistas | **25** |
+| Question | Confidence | Risk | Impact | Interest | Total Score |  
+|---|---|---|---|---|---|  
+| **¿Mejorará la satisfacción de los usuarios al implementar un modo oscuro en la aplicación?** | 7 - Es una funcionalidad popular, aunque no todos los usuarios la activarán. | 2 - Bajo riesgo técnico. | 6 - Mejora la experiencia visual, pero no es crítica. | 5 - Interés moderado, especialmente para uso nocturno. | **20** |  
+| **¿Reducirá la tasa de abandonos al permitir filtrar incidentes por tipo?** | 8 - Los filtros mejoran la usabilidad en apps similares. | 3 - Riesgo medio por posible complejidad en la UI. | 7 - Impacto directo en retención. | 6 - Alta demanda según feedback preliminar. | **24** |  
+| **¿Aumentará la colaboración ciudadana al habilitar comentarios en los reportes?** | 6 - Potencial positivo, pero depende de la adopción. | 4 - Riesgo de comentarios inapropiados/spam. | 5 - Impacto moderado en engagement. | 5 - Interés variable según segmento de usuarios. | **20** |  
+| **¿Ampliará la base de usuarios al agregar soporte para inglés y francés?** | 7 - Atraerá audiencia multilingüe, pero con adopción gradual. | 3 - Costo de mantenimiento de traducciones. | 8 - Alto impacto en expansión geográfica. | 6 - Clave para comunidades multiculturales. | **24** |  
+| **¿Disminuirá la tasa de abandonos por lentitud al optimizar el rendimiento en zonas con mala conexión?** | 9 - Solución técnica probada en otras apps. | 1 - Riesgo mínimo. | 9 - Crítico para retención en áreas rurales. | 7 - Alta prioridad para usuarios afectados. | **26** |  
 
 ### 8.1.4 Question Backlog
 
-| **Prioridad** (Fibonacci: 1,2,3,5,8) | **Pregunta** |
-|--------------------------------------|--------------|
-| **1** | ¿El modo oscuro mejorará retención nocturna en 25% |
-| **2** | ¿Los filtros por tipo reducirán el tiempo de búsqueda a <1 minuto? | 
-| **5** | ¿La traducción reducirá abandonos en registro en zonas fronterizas? |
-| **8** | ¿Los comentarios aumentarán 30% la precisión de reportes? |
+| Prioridad (Fibonacci) | Pregunta | Justificación |  
+|-----------------------|----------|---------------|  
+| **8** | ¿Disminuirá la tasa de abandonos por lentitud al optimizar el rendimiento en zonas con mala conexión? | Mayor score en 8.1.3 (26). Impacto crítico en retención y experiencia base. |  
+| **5** | ¿Ampliará la base de usuarios al agregar soporte para inglés y francés? | Alto potencial de crecimiento (Score: 24) con riesgo controlado. |  
+| **5** | ¿Reducirá la tasa de abandonos al permitir filtrar incidentes por tipo? | Score: 24. Mejora directa en usabilidad para todos los usuarios. |  
+| **3** | ¿Mejorará la satisfacción de los usuarios al implementar un modo oscuro en la aplicación? | Score: 20. Beneficio UX pero no prioritario frente a funcionalidades críticas. |  
+| **2** | ¿Aumentará la colaboración ciudadana al habilitar comentarios en los reportes? | Score: 20. Impacto moderado y requiere gestión de comunidades. |  
 
 ### 8.1.5 Experiment Cards
 
-#### **1. Modo Oscuro para Uso Nocturno**  
-| **Aspecto**       | **Detalle** |  
-|-------------------|------------|  
-| **Question**      | ¿Mejorará la retención de usuarios nocturnos implementando un modo oscuro? |  
-| **Why**          | El 65% de los accesos ocurren entre 6pm-6am (analytics). El modo oscuro reduce fatiga visual en emergencias y mejora la discreción en patrullas comunitarias. |  
-| **What**         | Implementar toggle en configuración para cambiar entre modo claro/oscuro, ajustando colores de: mapa, textos y botones (priorizando contraste WCAG AA). |  
-| **Hypothesis**   | El modo oscuro aumentará un 20% el tiempo de sesión nocturna y recibirá un 85% de valoración positiva en encuestas post-implementación. |  
+#### **Experiment Card 1: Optimización de rendimiento**
+|Question|¿Disminuirá la tasa de abandonos por lentitud al optimizar el rendimiento en zonas con mala conexión?|
+|---|---|
+|**Why**|Mejorar el rendimiento en conexiones lentas es crítico para retener usuarios en áreas rurales o con infraestructura limitada, donde la lentitud actual causa un 20% de abandonos.|
+|**What**|Implementar: (1) Caché optimizado para mapas, (2) Compresión de datos para alertas, y (3) Versión "Lite" para modo offline.|
+|**Hypothesis**|Tras la optimización, la tasa de abandonos por lentitud disminuirá un 22% en 3 meses, y el NPS aumentará 15 puntos en zonas rurales.|
 
 ---
 
-#### **2. Optimización de APIs del Mapa**  
-| **Aspecto**       | **Detalle** |  
-|-------------------|------------|  
-| **Question**      | ¿Reducirá los tiempos de carga optimizar las APIs del mapa (TS08/TS20)? |  
-| **Why**          | El 78% de los abandonos ocurren al superar los 3s de carga (Lighthouse). Impacta directamente en la usabilidad durante emergencias. |  
-| **What**         | Cachear capas estáticas del mapa vía CDN y comprimir payloads de las APIs con protocolo Brotli. |  
-| **Hypothesis**   | Reducirá el tiempo de carga a <1.5s y disminuirá abandonos en un 40%. |  
+#### **Experiment Card 2: Soporte multilingüe**
+|Question|¿Ampliará la base de usuarios al agregar soporte para inglés y francés?|
+|---|---|
+|**Why**|El 30% de potenciales usuarios no usa la app por la barrera idiomática. Atraer esta audiencia podría incrementar el mercado en regiones multiculturales.|
+|**What**|Traducir: (1) Interfaz completa, (2) Alertas críticas (usando APIs de traducción), y (3) Documentación de soporte.|
+|**Hypothesis**|En 6 meses, la base de usuarios activos crecerá un 18%, con un 40% de nuevos registros provenientes de zonas no hispanohablantes.|
 
 ---
 
-#### **3. Alertas con Radio Ajustable**  
-| **Aspecto**       | **Detalle** |  
-|-------------------|------------|  
-| **Question**      | ¿Disminuirá falsos positivos permitir ajustar el radio de alertas (100m-1km)? |  
-| **Why**          | 35% de las alertas actuales (radio fijo de 500m) son irrelevantes para usuarios (datos de soporte). |  
-| **What**         | Slider en configuración para personalizar radio + tooltip educativo sobre precisión vs. cobertura. |  
-| **Hypothesis**   | Los falsos positivos bajarán un 30% y la satisfacción con alertas aumentará un 25% (NPS). |  
+#### **Experiment Card 3: Filtrado avanzado**
+|Question|¿Reducirá la tasa de abandonos al permitir filtrar incidentes por tipo y ubicación?|
+|---|---|
+|**Why**|Los usuarios pierden un 30% más de tiempo buscando incidentes relevantes. Filtros personalizados agilizarán este proceso y mejorarán la retención.|
+|**What**|Desarrollar filtros combinables (tipo, fecha, gravedad) con opción de guardar preferencias frecuentes.|
+|**Hypothesis**|El tiempo de búsqueda disminuirá un 15%, y la retención a 7 días aumentará un 10% tras la implementación.|
 
 ---
 
-#### **4. Soporte Multilingüe**  
-| **Aspecto**       | **Detalle** |  
-|-------------------|------------|  
-| **Question**      | ¿Aumentará la adopción agregar soporte para inglés/portugués? |  
-| **Why**          | Zonas fronterizas (ej: Brasil-Colombia) muestran demanda no atendida. Turistas/migrantes son población vulnerable. |  
-| **What**         | Traducción de flujos críticos (reportes, alertas) + selector de idioma en onboarding. |  
-| **Hypothesis**   | Captará un 15% más de usuarios en 3 meses y mejorará el NPS en zonas turísticas en +10 puntos. |  
+#### **Experiment Card 4: Modo oscuro**
+|Question|¿Mejorará la satisfacción de los usuarios al implementar un modo oscuro en la aplicación?|
+|---|---|
+|**Why**|El 65% de usuarios en encuestas solicita esta función para reducir fatiga visual nocturna, lo que podría mejorar la percepción general de la app.|
+|**What**|Añadir selector de tema (claro/oscuro) con detección automática de horario y ajustes manuales.|
+|**Hypothesis**|El 60% de usuarios activará el modo oscuro, y la satisfacción UX (medida en surveys) aumentará un 25%.|
 
 ---
 
-#### **5. Gamificación con Verificación**  
-| **Aspecto**       | **Detalle** |  
-|-------------------|------------|  
-| **Question**      | ¿Incentivará reportes falsos la gamificación (insignias por reportes verificados)? |  
-| **Why**          | Riesgo ético alto: usuarios podrían generar alertas falsas para ganar puntos. |  
-| **What**         | Sistema de insignias + mecanismo de verificación comunitaria (votación de 3 usuarios cercanos). |  
-| **Hypothesis**   | Aumentará un 25% la participación legítima, manteniendo reportes falsos <5%. |  
+#### **Experiment Card 5: Comentarios en reportes**
+|Question|¿Aumentará la colaboración ciudadana al habilitar comentarios en los reportes?|
+|---|---|
+|**Why**|La interacción en tiempo real podría mejorar la precisión de los reportes y fomentar la participación comunitaria.|
+|**What**|Implementar: (1) Comentarios públicos, (2) Etiquetas de "Actualización oficial", y (3) Moderación automática de spam.|
+|**Hypothesis**|El engagement aumentará un 30%, con un promedio de 2.5 comentarios por reporte crítico en el primer trimestre.|
 
 ## 8.2 Experiment Design
 ### 8.2.1 Hypotheses
