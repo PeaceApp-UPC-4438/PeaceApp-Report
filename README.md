@@ -3100,21 +3100,85 @@ Este método emplea indicadores para medir el logro de las hipótesis en un proy
 
 ### 8.2.6 Data Analytics: Goals, KPIs and Metrics Selection
 
-![](assets/R1.png)
+<img src="assets/R1.png" alt="Descripción de R1" width="700px" />
 
-![](assets/R2.png)
+<img src="assets/R2.png" alt="Descripción de R2" width="700px" />
 
-![](assets/R3.png)
+<img src="assets/R3.png" alt="Descripción de R3" width="700px" />
 
-![](assets/R4.png)
+<img src="assets/R4.png" alt="Descripción de R4" width="700px" />
 
-![](assets/R5.png)
+<img src="assets/R5.png" alt="Descripción de R5" width="700px" />
+
+![](assets/Estadistics.png)
+
+![](assets/Graph.png)
 
 ### 8.2.7 Web and Mobile Tracking Plan
 
+**Objetivo:**  
+Optimizar y monitorear la aplicación web/móvil para mejorar la experiencia en reporte de incidentes y participación comunitaria, evaluando el impacto de las funcionalidades experimentales mediante un seguimiento exhaustivo en dos etapas clave.
+
+---
+
+#### 1. Implementación Inicial  
+**Enfoque:** Lanzamiento de nuevas funcionalidades y establecimiento de línea base de rendimiento.  
+
+**Recopilación de Datos:**  
+| Métrica                | Detalle |  
+|------------------------|---------|  
+| **Uso de la App**       | - Usuarios activos diarios/semanales <br> - Duración promedio de sesión <br> - Tasa de abandonos por funcionalidad |  
+| **Interacciones**       | - Clics en modo oscuro/filtros <br> - Uso de comentarios en reportes <br> - Frecuencia de cambio de idioma |  
+| **Feedback**           | - Encuestas de satisfacción (NPS) <br> - Reseñas en stores <br> - Reportes de errores |  
+
+**Análisis Comparativo:**  
+- Comparar datos post-implementación con históricos (ej: tasa de retención previa vs. actual).  
+- Evaluar impacto inmediato en:  
+  - Reducción de tiempo de búsqueda (filtros)  
+  - % de adopción de modo oscuro  
+  - Engagement en comentarios  
+
+---
+
+#### 2. Seguimiento Continuo  
+**Enfoque:** Monitoreo proactivo y ajustes iterativos.  
+
+**Recopilación de Datos:**  
+| Herramienta            | Métrica Clave |  
+|------------------------|---------------|  
+| **Analytics**          | - Tiempo real: Eventos críticos (ej: reportes con comentarios) <br> - Heatmaps de interacción |  
+| **Segmentación**       | - Comportamiento por rol (ciudadanos vs. autoridades) <br> - Uso por región geográfica |  
+| **Retención**          | - Tasa a 7/30 días <br> - Frecuencia de reapertura de la app |  
+
+**Evaluación y Ajustes:**  
+- **Informes Mensuales:**  
+  ```markdown
+  - Crecimiento usuarios multilingües: +X% (meta: 18%)  
+  - Modo oscuro: Y% de adopción (meta: 60%)  
+  - Comentarios/reporte: Z promedio (meta: 2.5)  
+
 ## 8.3 Experimentation
 ### 8.3.1 To-Be User Stories
+
+| User Story ID | Título                         | Descripción                                                                 | Criterios de Aceptación                                                                                                                                                                                                 | Relacionado con (Epic ID) |
+|---------------|--------------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| **UA01**      | Activación de modo oscuro      | Como usuario nocturno, quiero activar un modo oscuro para reducir la fatiga visual y mejorar mi experiencia.                               | **Escenario 1**: Activación manual<br>Given el usuario está en Configuración,<br>When selecciona "Modo Oscuro",<br>Then la app cambiará la interfaz a tonos oscuros.<br>**Escenario 2**: Activación automática<br>Given el usuario habilita "Auto",<br>When es horario nocturno,<br>Then la app activará el modo oscuro. | E01                      |
+| **UA02**      | Búsqueda con filtros geográficos | Como usuario, quiero filtrar incidentes por ubicación para encontrar rápidamente reportes relevantes.                                     | **Escenario 1**: Filtro por zona<br>Given el usuario está en el mapa,<br>When selecciona un radio de 1km,<br>Then la app mostrará solo incidentes en ese área.<br>**Escenario 2**: Filtro por tipo<br>Given el usuario abre los filtros,<br>When elige "Robos",<br>Then la app ocultará otros incidentes. | E02                      |
+| **UA03**      | Colaboración en reportes       | Como ciudadano, quiero comentar reportes para aportar información adicional.                                                              | **Escenario 1**: Añadir comentario<br>Given el usuario visualiza un reporte,<br>When escribe un comentario y presiona "Publicar",<br>Then el comentario será visible para otros.<br>**Escenario 2**: Validar información<br>Given hay 3+ comentarios coincidentes,<br>Then el reporte se marcará como "Verificado". | E03                      |
+| **UA04**      | Cambio de idioma               | Como usuario no hispanohablante, quiero usar la app en inglés/chino para entender el contenido.                                          | **Escenario 1**: Selección de idioma<br>Given el usuario abre Configuración,<br>When elige "English",<br>Then la app traducirá todos los textos.<br>**Escenario 2**: Detección automática<br>Given el dispositivo está en chino,<br>Then la app sugerirá cambiar el idioma. | E04                      |
+| **UA05**      | Uso en conexiones lentas       | Como usuario rural, quiero acceder a funcionalidades básicas sin demoras.                                                                | **Escenario 1**: Modo Lite<br>Given la conexión es lenta,<br>When la app sugiere activar "Modo Lite",<br>Then cargará solo texto e iconos.<br>**Escenario 2**: Caché offline<br>Given no hay internet,<br>Then la app mostrará reportes recientes guardados. | E05                      |
+
+
 ### 8.3.2 To-Be Product Backlog
+
+
+| # Orden | User Story ID | Título | Story Points (1/2/3/5/8) |
+|---------|--------------|--------|--------------------------|
+| 1 | UA01 | Activación de modo oscuro | 3 |
+| 2 | UA02 | Búsqueda con filtros geográficos | 5 |
+| 3 | UA03 | Colaboración en reportes | 5 |
+| 4 | UA04 | Cambio de idioma | 8 |
+| 5 | UA05 | Uso en conexiones lentas | 5 |
 
 ---
 
