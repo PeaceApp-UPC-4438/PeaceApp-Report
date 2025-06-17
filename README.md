@@ -95,7 +95,7 @@ TP1: Las tareas asignadas para la entrega TB1 se han completado y están documen
     - [2.1.1. Análisis Competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.1.  entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
@@ -1138,13 +1138,7 @@ precisa.</p></td>
 
 ## 2.2. Entrevistas
 
-El objetivo realizar las entrevistas es para poder comprender las
-preocupaciones, necesidades y expectativas de nuestro segmento objetivo,
-en este caso los ciudadanos preocupados por su seguridad en espacios
-públicos, en relación con su seguridad en espacios públicos. La
-información recolectada guiará el desarrollo de funcionalidades clave en
-la aplicación móvil, buscando mejorar la seguridad y tranquilidad de los
-usuarios en su entorno.
+El objetivo realizar las entrevistas es para poder comprender las preocupaciones, necesidades y expectativas de nuestro segmento objetivo, en este caso los ciudadanos preocupados por su seguridad en espacios públicos, en relación con su seguridad en espacios públicos. La información recolectada guiará el desarrollo de funcionalidades clave en la aplicación móvil, buscando mejorar la seguridad y tranquilidad de los usuarios en su entorno.
 
 ### 2.2.1. Diseño de entrevistas
 
@@ -1222,7 +1216,7 @@ entorno. La falta de iluminación y vigilancia en las calles aumenta su sensaci�
 
 **Timing:** 8:20
 
-**Nombre**: Jeyson Melendez
+**Nombre**: Jeyson Alejandro
 
 **Edad:** 25 años
 
@@ -2519,7 +2513,62 @@ A continuación, se presentan las preguntas que se utilizarán en las entrevista
 
 ### 6.3.2 Registro de Entrevistas
 
+**URL de todas las entrevistas:** 
 
+**Entrevista N°1:**
+
+![](assets/EntrevistaV1.png)
+
+**Timing:** 0:05
+
+**Nombre:** Mauricio Rojas
+
+**Edad:** 22 años
+
+**Pasatiempos:** Salir con amigos y con mascotas.
+
+**Ocupación:** Estudiante Universitario
+
+Mauricio se siente inseguro en zonas congestionadas cerca de suuniversidad, especialmente después de presenciar un robo que generó tensión entre los transeúntes. Para protegerse, se mantiene cauteloso y evita zonas peligrosas cuando es posible, prestando atención a su
+entorno. La falta de iluminación y vigilancia en las calles aumenta su sensación de inseguridad. Ante un incidente, su reacción sería grabarlo y difundirlo para garantizar que se realice una denuncia. Aunque no ha usado aplicaciones de seguridad ciudadana, le ustaría recibir alertas sobre zonas peligrosas y se siente cómodo usando tecnología para mantenerse informado. Considera útil compartir su ubicación en zonas desconocidas y valora la inclusión de foros en una app donde los usuarios puedan compartir experiencias. También le interesa que la aplicación sea confiable, especialmente en la protección de  datos y en la actualización de información basada en los reportes de los usuarios. 
+
+---
+
+**Entrevista N°2:**
+
+![](assets/EntrevistaV2.png)
+
+**Timing:** 0:05
+
+**Nombre:** Mauricio Rojas
+
+**Edad:** 22 años
+
+**Pasatiempos:** Salir con amigos y con mascotas.
+
+**Ocupación:** Estudiante Universitario
+
+Mauricio se siente inseguro en zonas congestionadas cerca de suuniversidad, especialmente después de presenciar un robo que generó tensión entre los transeúntes. Para protegerse, se mantiene cauteloso y evita zonas peligrosas cuando es posible, prestando atención a su entorno. La falta de iluminación y vigilancia en las calles aumenta su sensación de inseguridad. Ante un incidente, su reacción sería grabarlo y difundirlo para garantizar que se realice una denuncia. Aunque no ha usado aplicaciones de seguridad ciudadana, le ustaría recibir alertas sobre zonas peligrosas y se siente cómodo usando tecnología para mantenerse informado. Considera útil compartir su ubicación en zonas desconocidas y valora la inclusión de foros en una app donde los usuarios puedan compartir experiencias. También le interesa que la aplicación sea confiable, especialmente en la protección de  datos y en la actualización de información basada en los reportes de los usuarios. 
+
+---
+
+**Entrevista N°3:**
+
+![](assets/EV3.png)
+
+**Timing:** 0:05
+
+**Nombre:** Jeyson Alejandro
+
+**Edad:** 25 años
+
+**Pasatiempos:** Salir con amigos y con mascotas.
+
+**Ocupación:** Ingeniero Civil
+
+Jeyson encontró la aplicación intuitiva y fácil de usar, destacando la claridad en el proceso de reportar incidentes (con campos sencillos y confirmación visual) y la organización del mapa con iconos comprensibles. También valoró la rapidez de carga y la posibilidad de filtrar reportes, aunque sugirió agregar filtros más específicos por tipo de incidente (como robos o fallas en alumbrado) para optimizar las búsquedas. En general, considera que la plataforma cumple su objetivo, pero esta mejora en los filtros podría hacerla aún más eficiente para los usuarios.
+
+---
 
 ### 6.3.3 Evaluaciones según heurísticas
 
@@ -3050,6 +3099,17 @@ Este método emplea indicadores para medir el logro de las hipótesis en un proy
 | **Principales Ventajas** | Excelente generación de reportes y buena integración con otros servicios | Monitoreo en tiempo real desde distintos dispositivos y regiones, ideal para empresas globales | Simula tráfico y prueba el rendimiento bajo condiciones exigentes         | Mide accesibilidad, rendimiento y diseño para mejorar la experiencia del usuario |
 
 ### 8.2.6 Data Analytics: Goals, KPIs and Metrics Selection
+
+![](assets/R1.png)
+
+![](assets/R2.png)
+
+![](assets/R3.png)
+
+![](assets/R4.png)
+
+![](assets/R5.png)
+
 ### 8.2.7 Web and Mobile Tracking Plan
 
 ## 8.3 Experimentation
