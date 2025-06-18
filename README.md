@@ -180,7 +180,7 @@ TP1: Las tareas asignadas para la entrega TB1 se han completado y están documen
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
-    - [6.3.3. Evaluaciones según rísticas](#633-evaluaciones-según-heurísticas)
+    - [6.3.3. Evaluaciones según Heurísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
     - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
       - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
