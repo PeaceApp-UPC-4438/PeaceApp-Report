@@ -180,7 +180,7 @@ TP1: Las tareas asignadas para la entrega TB1 se han completado y están documen
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
-    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+    - [6.3.3. Evaluaciones según rísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
     - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
       - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
@@ -2572,6 +2572,82 @@ Jeyson encontró la aplicación intuitiva y fácil de usar, destacando la clarid
 
 ### 6.3.3 Evaluaciones según heurísticas
 
+Aplicación para evaluar: PeaceApp
+
+**Tareas a evaluar:**
+
+- Los usuarios quieren tener la ipción de modo oscuro.
+- Los usuarios desean tener hasta tres idiomas.
+- Los usuairios quieres poner comentar los resportes.
+- Debe exixtir una opcion de filtro por tipo de reporte.
+- Se necesita ampliara el tamaño del mapa.
+
+**Tabla resumen:**
+
+| Escala de Severidad |          |          |          |           |
+|---------------------|----------|----------|----------|-----------|
+| 1                   | 2        | 3        | 4        | 5         |
+| No tan grave        | Leve     | Moderado | Grave    | Muy grave |
+
+| #Orden | Problema                                                                 | Escala de Severidad | Heurística/Principio violada(o)       |
+|--------|--------------------------------------------------------------------------|---------------------|---------------------------------------|
+| #1     | Los usuarios quieren tener la opción de modo oscuro                       | 4                   | Flexibilidad y eficiencia de uso      |
+| #2     | Los usuarios desean tener hasta tres idiomas disponibles                  | 5                   | Accesibilidad y equidad de uso        |
+| #3     | Los usuarios quieren poder comentar los reportes                          | 3                   | Comunicación usuario-sistema          |
+| #4     | Debe existir una opción de filtro por tipo de reporte                    | 4                   | Eficiencia de uso                     |
+| #5     | Se necesita ampliar el tamaño del mapa interactivo                        | 3                   | Visibilidad del estado del sistema    |
+
+**Heurísticas y Recomendaciones:**
+
+**Problema #1:** Los usuarios quieren tener la opción de modo oscuro 
+
+**Heurística violada:** Flexibilidad y eficiencia de uso  
+
+**Descripción del problema:** Actualmente la aplicación solo ofrece un tema claro, lo que causa fatiga visual en entornos con poca luz y reduce el tiempo de uso nocturno.  
+
+**Recomendación:** Implementar un interruptor de modo oscuro en el menú de configuración, con opción de activación automática según horario, utilizando una paleta de colores oscuros que cumpla con estándares de contraste WCAG.
+
+![](assets/H1.png)
+
+**Problema #2:** Los usuarios desean tener hasta tres idiomas disponibles 
+
+**Heurística violada:** Accesibilidad y equidad de uso  
+
+**Descripción del problema:** La aplicación solo está disponible en español, excluyendo a potenciales usuarios angloparlantes y de otros idiomas, limitando su alcance global.  
+
+**Recomendación:** Incorporar soporte para inglés y francés como idiomas base, con selector de lenguaje en el onboarding y menú de configuración, asegurando traducciones culturalmente relevantes.
+
+![](assets/H2.png)
+
+**Problema #3:** Los usuarios quieren poder comentar los reportes 
+
+**Heurística violada:** Comunicación usuario-sistema 
+
+**Descripción del problema:** La imposibilidad de interactuar con los reportes reduce la colaboración comunitaria y la calidad de la información compartida.  
+
+**Recomendación:** Añadir sección de comentarios bajo cada reporte con validación de moderación, incluyendo opciones para "confirmar" información y adjuntar multimedia relevante.
+
+![](assets/H3.png)
+
+**Problema #4:** Debe existir una opción de filtro por tipo de reporte
+
+**Heurística violada:** Eficiencia de uso  
+
+**Descripción del problema:** Los usuarios pierden tiempo buscando incidentes específicos entre reportes no categorizados, aumentando la frustración.  
+
+**Recomendación:** Implementar filtros dinámicos por tipo (robo, accidente, etc.) y radio geográfico, con opción de guardar preferencias para búsquedas recurrentes.
+
+![](assets/H4.png)
+
+**Problema #5:** Se necesita ampliar el tamaño del mapa interactivo  
+
+**Heurística violada:** Visibilidad del estado del sistema  
+
+**Descripción del problema:** El mapa actual muestra un área muy reducida, obligando a constantes zoom/desplazamientos para ubicar incidentes.  
+
+**Recomendación:** Rediseñar el componente de mapa para ocupar el 70% del viewport en vertical, con controles táctiles optimizados y previsualización de clusters al hacer hover.
+
+![](assets/H5.png)
 
 
 ---
