@@ -2569,6 +2569,29 @@ Jeyson encontró la aplicación intuitiva y fácil de usar, destacando la clarid
 
 ---
 
+**Entrevista N°4:**
+
+![IV4.png](assets/IV4.png)
+
+**Timing:** 0:07
+
+**Nombre:** Sebastian Delgado
+
+**Edad:** 20 años
+
+**Pasatiempos:** Salir con la familia y amigos a jugar futbol
+
+**Ocupación:** Comunicaciones
+
+Sebastián Delgado comentó que encontró la aplicación muy flexible y fácil de usar para reportar robos, tanto si era la víctima como si presenciaba un incidente hacia otra persona. Le pareció una herramienta adecuada para actuar de forma rápida en situaciones de peligro. Destacó que la navegación por la plataforma fue clara y fluida, y que logró explorar sin dificultades las secciones del perfil, el mapa, los reportes y las alertas.
+
+Valoró positivamente la funcionalidad de compartir la ubicación con otros usuarios a través de mensajes de texto o WhatsApp, ya que esto le permitiría alertar a sus contactos de forma directa. También encontró útil poder completar reportes con los datos del robo o accidente, así como emitir alertas de peligro relacionadas con el suceso reportado.
+
+Durante la entrevista, se le planteó la posibilidad de incorporar un modo oscuro a la interfaz. Sebastián consideró que sería una buena mejora, ya que el fondo blanco actual puede generar fatiga visual, especialmente en momentos de estrés o durante la noche. Según su opinión, un tono oscuro no afectaría negativamente la experiencia del usuario y más bien podría mejorarla.
+
+En general, Sebastián expresó una percepción positiva de la aplicación y señaló que le resultó funcional para situaciones reales, además de considerar que tiene un gran potencial si se continúa optimizando su diseño visual.
+---
+
 ### 6.3.3 Evaluaciones según heurísticas
 
 Aplicación para evaluar: PeaceApp
