@@ -54,6 +54,12 @@
     <td> Alex Avila <br> Pedro Guia <br> Anatoly Noriega <br> Milagros Tongo </td>
     <td> Realizamos la mejora contunua y los capítulos 5, 6 Y 7 según la rúbrica de manera conjunta y eficiente.  </td>
   </tr>
+  <tr>
+    <td align="center">TB2</td>
+    <td>19/06/2025</td>
+    <td> Alex Avila <br> Pedro Guia <br> Anatoly Noriega <br> Milagros Tongo </td>
+    <td> Realizamos la mejora contunua y concluímos con los capítulos 6 y 7, además de una parte del capítulo 8 según la rúbrica de manera conjunta y eficiente.  </td>
+  </tr>
 </table>
 
 ---
@@ -264,22 +270,30 @@ software</td>
             TB1 <br> Actué con responsabilidad profesional en cada etapa del trabajo, aplicando buenas prácticas desde la recolección de requisitos hasta la validación de los resultados. Me enfoqué en asegurar la calidad del desarrollo, tomando decisiones éticas que contribuyeran a la integridad del producto final.
             <br>
             TP1 <br> Reconozco la importancia de cumplir con las normas éticas y profesionales al desarrollar software, asegurándome de que las pruebas unitarias sean ejecutadas adecuadamente, respetando la privacidad y la seguridad de los datos
+            <br>
+            TB2 <br> Participé en las entrevistas de validación y en la ejecución de experimentos, especialmente en la optimización del rendimiento. Actué con responsabilidad profesional al implementar mejoras técnicas que respondieran a las necesidades reales detectadas.
             <br><br>
             <strong>Guia Carrasco, Pedro Andre</strong> <br>
             TB1 <br> Actué con ética y profesionalismo en todo momento, aplicando buenas prácticas desde la recolección de requisitos hasta la validación final, para asegurar un desarrollo de software íntegro y de alta calidad.
             <br>
             TP1 <br> Soy consciente de la responsabilidad que tengo como ingeniero de software al realizar pruebas integrales y funcionales, para garantizar que el producto final cumpla con los estándares profesionales y éticos.
+            <br>
+            TB2 <br> Contribuí en las entrevistas de validación y lideré la implementación del sistema de filtros avanzados. Mantuve un enfoque ético y profesional, asegurando que los cambios fueran útiles y aplicables según lo expresado por los usuarios.
             <br><br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
             TB1 <br> Me aseguré de actuar con ética y profesionalismo a la hora de realizar los puntos de este trabajo, aplicando buenas prácticas, desde la fase de las entrevistas, evaluación de las historias de usuario hasta la revisión de los flujos de las aplicaciones del proyecto.
             <br>
             TP1 <br> Valoro el impacto que tienen mis decisiones sobre la calidad y el rendimiento de la aplicación, por lo que revisé y validé exhaustivamente el código antes de la implementación final, respetando siempre las buenas prácticas de desarrollo.
+            <br>
+            TB2 <br> Participé activamente en las entrevistas de validación y coordiné el soporte multilingüe. Me aseguré de que las decisiones se basaran en evidencias reales, actuando con ética y buenas prácticas de desarrollo.
             <br><br>
             <strong>Tongo Alejandro, Milagros Salet</strong> <br>
             TB1 <br>Me aseguré de tomar decisiones éticas y profesionales, reconociendo la importancia de aplicar buenas prácticas en cada fase, desde las entrevistas hasta las revisiones, para garantizar 
             la integridad y calidad del software desarrollado
             <br>
             TP1 <br> Me aseguro de que las aplicaciones que desarrollamos no solo sean funcionales, sino también seguras y sostenibles, realizando pruebas de integración y desplegando tanto la app como la API para asegurar que el software cumpla con las expectativas éticas de los usuarios.
+  <br>
+            TB2 <br> Realicé entrevistas de validación y desarrollé el modo oscuro según las preferencias de los usuarios. Manteniendo el compromiso ético, enfoqué mis aportes en mejorar la accesibilidad y experiencia visual del software.
 </td>
 <td>
 <em><strong>TB1</strong></em>
@@ -287,7 +301,8 @@ software</td>
 el diseño de entrevistas y la creación de documentación, garantizando soluciones de calidad y sostenibles.<br>
 <em><strong>TP1</strong></em>
 <br>En conjunto con el grupo, el estudiante reconoce la responsabilidad ética y profesional al desarrollar y desplegar aplicaciones, asegurándose de realizar pruebas unitarias, funcionales e integrales para garantizar que el software sea seguro, confiable y cumpla con los estándares éticos y legales requeridos.<br>
-
+<em><strong>TB2</strong></em>
+<br>Durante esta fase, el equipo actuó con responsabilidad ética y profesional al validar hipótesis mediante entrevistas a usuarios y la ejecución de experimentos. Aplicaron buenas prácticas en el diseño, análisis e implementación de mejoras, priorizando la calidad, accesibilidad y sostenibilidad del producto.<br>
 </td>
 </tr>
 <tr class="even">
@@ -302,28 +317,37 @@ sociales</td>
             TB1 <br> Durante el desarrollo del trabajo, consideré el impacto que nuestras soluciones podrían tener en contextos globales, económicos, ambientales y sociales. Me esforcé por proponer alternativas sostenibles y viables, alineadas con las necesidades del entorno en el que se aplicará el producto, asegurando que cada decisión técnica tuviera un propósito positivo y consciente.
             <br>
             TP1 <br> Al realizar las pruebas unitarias e integrales, consideré cómo los resultados pueden afectar tanto al rendimiento de la app como a los recursos económicos de la empresa, asegurando que la solución final sea eficiente y rentable.
+            <br>
+            TB2 <br> Durante la ejecución de los experimentos, evalué cómo las mejoras propuestas podrían beneficiar a usuarios en zonas con baja conectividad, promoviendo inclusión digital y optimización de recursos, con impacto positivo en lo social y económico.
             <br><br>
             <strong>Guia Carrasco, Pedro Andre</strong> <br>
             TB1 <br> Al integrar las entrevistas en el trabajo, pude darme cuenta el impacto global, economico y social positivo que tendria el producto, buscando soluciones que fueran sostenibles y que contribuyan al entorno donde pensamos aplicar la solución.
             <br>
             TP1 <br> Evalué cómo las soluciones tecnológicas que implementamos pueden tener un impacto en los usuarios a nivel global, por lo que probé exhaustivamente la API y la aplicación en diferentes entornos y dispositivos para asegurar su accesibilidad y utilidad.
+            <br>
+            TB2 <br> Al diseñar los filtros avanzados, consideré su utilidad en contextos diversos, buscando facilitar el acceso a información relevante en distintas realidades sociales y geográficas, lo cual mejora la eficiencia y aporta valor global al sistema.
             <br><br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
             TB1 <br> Al momento de realizar las entrevistas y las tareas consiguientes a ellas, estuve al tanto del impacto global, económico y social de las soluciones que proporcionamos fueran sostenibles, inclusivas y alineadas con las necesidades reales de los usuarios.
             <br>
             TP1 <br> Consideré el impacto ambiental de las soluciones tecnológicas que desplegamos, asegurándome de que el proceso de despliegue de la app y la API sea eficiente y no consuma más recursos de los necesarios, para promover la sostenibilidad.
+            <br>
+            TB2 <br> Al trabajar en el soporte multilingüe, prioricé la inclusión de comunidades no hispanohablantes, considerando el impacto social y cultural de una app accesible que pueda adaptarse a entornos multiculturales y globales.
             <br><br>
             <strong>Tongo Alejandro, Milagros Salet</strong> <br>
             TB1 <br>Al realizar entrevistas y revisiones, siempre tuve en cuenta el impacto global, económico y social de las soluciones propuestas, buscando soluciones que fueran sostenibles y que pudieran 
             contribuir positivamente al entorno en el que se implementaran.
             <br>
-  TP1 <br> Reflexioné sobre las implicaciones sociales de las soluciones que desarrollamos, como la accesibilidad de la aplicación, al realizar pruebas funcionales para garantizar que sea inclusiva y no excluya a ningún grupo de usuarios.
+  TP1 <br> Reflexioné sobre las implicaciones sociales de las soluciones que desarrollamos, como la accesibilidad de la aplicación, al realizar pruebas funcionales para garantizar que sea inclusiva y no excluya a ningún grupo de usuarios.<br>
+  TB2 <br>Al implementar el modo oscuro, consideré tanto la experiencia del usuario como el ahorro energético en dispositivos, buscando una solución accesible, ambientalmente consciente y adecuada para distintos contextos de uso.
 </td>
 <td>
 <em><strong>TB1</strong></em>
 <br>El equipo, a lo largo de todo el proceso, consideró el impacto global, económico, social y ambiental de las soluciones propuestas. Al realizar actividades como el análisis de entrevistas, la creación de mapas de recorrido del usuario y el diseño de prototipos, las decisiones tomadas fueron informadas, buscando siempre generar un impacto positivo en el contexto en el que se implementaría la solución.<br>
 <em><strong>TP1</strong></em>
 <br>En conjunto con el grupo, el estudiante emite juicios informados sobre las soluciones de ingeniería de software, evaluando su impacto en contextos globales, económicos, ambientales y sociales, asegurando que las aplicaciones desarrolladas sean accesibles, eficientes y responsables con el medio ambiente y la sociedad en general.<br>
+  <em><strong>TB2</strong></em>
+<br>Durante esta etapa, el equipo evaluó el impacto de cada mejora implementada a través de los experimentos, considerando su aplicabilidad en distintos contextos. Se tomaron decisiones informadas para asegurar que las soluciones fueran inclusivas, sostenibles y adaptables a realidades sociales, económicas y tecnológicas diversas.<br>
 </td>
 </tr>
 </tbody>
