@@ -2519,7 +2519,7 @@ A continuación, se presentan las preguntas que se utilizarán en las entrevista
 
 ![](assets/EV1.png)
 
-**Timing:** 0:05
+**Timing:** 0:03
 
 **Nombre:** Mauricio Rojas
 
@@ -2537,7 +2537,7 @@ Mauricio menciona que la aplicación fue fácil de usar y entender para cualquie
 
 ![](assets/EV2.png)
 
-**Timing:** 0:05
+**Timing:** 19:46
 
 **Nombre:** Edson Sanchez
 
