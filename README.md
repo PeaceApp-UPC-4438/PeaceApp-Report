@@ -2517,7 +2517,7 @@ A continuación, se presentan las preguntas que se utilizarán en las entrevista
 
 **Entrevista N°1:**
 
-![](assets/EntrevistaV1.png)
+![](assets/EV1.png)
 
 **Timing:** 0:05
 
@@ -2529,26 +2529,25 @@ A continuación, se presentan las preguntas que se utilizarán en las entrevista
 
 **Ocupación:** Estudiante Universitario
 
-Mauricio se siente inseguro en zonas congestionadas cerca de suuniversidad, especialmente después de presenciar un robo que generó tensión entre los transeúntes. Para protegerse, se mantiene cauteloso y evita zonas peligrosas cuando es posible, prestando atención a su
-entorno. La falta de iluminación y vigilancia en las calles aumenta su sensación de inseguridad. Ante un incidente, su reacción sería grabarlo y difundirlo para garantizar que se realice una denuncia. Aunque no ha usado aplicaciones de seguridad ciudadana, le ustaría recibir alertas sobre zonas peligrosas y se siente cómodo usando tecnología para mantenerse informado. Considera útil compartir su ubicación en zonas desconocidas y valora la inclusión de foros en una app donde los usuarios puedan compartir experiencias. También le interesa que la aplicación sea confiable, especialmente en la protección de  datos y en la actualización de información basada en los reportes de los usuarios. 
+Mauricio menciona que la aplicación fue fácil de usar y entender para cualquier persona, además de que cada sección podía ser fácilmente accedida. Mencionó que no tuvo problemas en realizar las acciones principales de la aplicación, aunque habían algunas secciones que se podían mejorar como los permisos de la aplicación para acceder a la camara o que los reportes se mostraran correctamente en el mapa por un error de carga. En general considera que la aplicación cumple su objetivo y que sería aun mejor si se corrigieran esos detalles
 
 ---
 
 **Entrevista N°2:**
 
-![](assets/EntrevistaV2.png)
+![](assets/EV2.png)
 
 **Timing:** 0:05
 
-**Nombre:** Mauricio Rojas
+**Nombre:** Edson Sanchez
 
-**Edad:** 22 años
+**Edad:** 20 años
 
-**Pasatiempos:** Salir con amigos y con mascotas.
+**Pasatiempos:** Salir con amigos y jugar fútbol.
 
 **Ocupación:** Estudiante Universitario
 
-Mauricio se siente inseguro en zonas congestionadas cerca de suuniversidad, especialmente después de presenciar un robo que generó tensión entre los transeúntes. Para protegerse, se mantiene cauteloso y evita zonas peligrosas cuando es posible, prestando atención a su entorno. La falta de iluminación y vigilancia en las calles aumenta su sensación de inseguridad. Ante un incidente, su reacción sería grabarlo y difundirlo para garantizar que se realice una denuncia. Aunque no ha usado aplicaciones de seguridad ciudadana, le ustaría recibir alertas sobre zonas peligrosas y se siente cómodo usando tecnología para mantenerse informado. Considera útil compartir su ubicación en zonas desconocidas y valora la inclusión de foros en una app donde los usuarios puedan compartir experiencias. También le interesa que la aplicación sea confiable, especialmente en la protección de  datos y en la actualización de información basada en los reportes de los usuarios. 
+Edson mencionó que la aplicación fue intuitiva y fácil de usar y que los iconos de cada sección fue fácil de entender. Menciona que al realizar cada acción dentro de la aplicación le resulto sencillo de entender y además cada sección en la aplicación web y móvil. Lo que propuso como mejora fue el tener más disponibilidad de idiomas especialmente para la gente extranjera que visita Perú y no conoce del todo las zonas peligrosas del país para asegurar su seguridad. En general, considera que la plataforma cumple su objetivo y la idea de la misma podría ser útil para los ciudadanos.
 
 ---
 
