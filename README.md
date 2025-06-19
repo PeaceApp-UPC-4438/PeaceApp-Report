@@ -2613,6 +2613,32 @@ Valoró positivamente la funcionalidad de compartir la ubicación con otros usua
 
 Durante la entrevista, se le planteó la posibilidad de incorporar un modo oscuro a la interfaz. Sebastián consideró que sería una buena mejora, ya que el fondo blanco actual puede generar fatiga visual, especialmente en momentos de estrés o durante la noche. Según su opinión, un tono oscuro no afectaría negativamente la experiencia del usuario y más bien podría mejorarla.
 
+**Entrevista N°5:**
+
+![entrevista 5.png](assets/entrevista%205.png)
+
+*Timing:* 0:03
+
+*Nombre:* Piero Periche
+
+*Edad:* 20 años
+
+*Pasatiempos:* Salir con la familia y competir en karts.
+
+*Ocupación:* Estudiante Ing. de Software
+
+Piero Periche comentó que la aplicación Peace Up le pareció intuitiva y fácil de usar, destacando que las secciones principales como mapas, reportes, alertas y perfil están claramente accesibles desde la barra de navegación principal. Señaló que la plataforma facilita la acción rápida en situaciones de peligro, como robos o accidentes, y que el flujo para generar un reporte es claro, especialmente al poder agregar evidencias como imágenes.
+
+Valoró que el mapa interactivo se carga con fluidez y que los íconos de las alertas están bien diferenciados por categorías, lo que permite identificar rápidamente la naturaleza del incidente reportado (robos, accidentes, etc.). También mencionó que las acciones frecuentes, como generar un nuevo reporte o buscar una ruta segura, se pueden realizar en menos de tres pasos, lo que agiliza la experiencia para el usuario.
+
+Al ser consultado sobre la visualización, confirmó que la interfaz se adapta correctamente a pantallas estándar sin presentar errores visuales. Además, mencionó que al enviar un reporte se recibe una confirmación visual clara, lo cual aporta confianza sobre el correcto registro del incidente.
+
+Como sugerencia final, consideró que podría añadirse la opción de incluir la hora exacta del evento al momento de crear un reporte, aunque aclaró que con la descripción, título y tipo de incidente ya se proporciona suficiente contexto para entender la situación.
+
+En general, Piero expresó una opinión positiva sobre Peace Up y consideró que es una herramienta útil para la prevención y atención de situaciones peligrosas, especialmente en contextos urbanos.
+
+
+
 En general, Sebastián expresó una percepción positiva de la aplicación y señaló que le resultó funcional para situaciones reales, además de considerar que tiene un gran potencial si se continúa optimizando su diseño visual.
 ---
 
