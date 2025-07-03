@@ -230,6 +230,23 @@ TP1: Las tareas asignadas para la entrega TB1 se han completado y están documen
   - [8.3. Experimentation](#83-experimentation)
     - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
     - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+    - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
+      - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
+      - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)
+      - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+      - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
+      - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
+      - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+    - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
+      - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
+      - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
+  - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
+    - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
+    - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
+  - [8.5. Continuous Learning](#85-continuous-learning)
+    - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
+  - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
+    - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
 - [Conclusiones](#conclusiones)
 - [Bibliografia](#bibliografia)
 - [Anexos](#anexos)
@@ -3327,6 +3344,229 @@ Optimizar y monitorear la aplicación web/móvil para mejorar la experiencia en 
 | 3 | UA03 | Colaboración en reportes | 5 |
 | 4 | UA04 | Cambio de idioma | 8 |
 | 5 | UA05 | Uso en conexiones lentas | 5 |
+
+
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+#### 8.3.3.1. To-Be Sprint Backlogs
+
+<table>
+<tr>
+<th valign="top"><b>Sprint #</b></th>
+<th colspan="7" valign="top"><b>Sprint 1 – Implementación Funcionalidades Clave</b></th>
+</tr>
+<tr>
+<td colspan="2" valign="top"><b>User Story</b></td>
+<td colspan="6" valign="top"><b>Work – Item / Task</b></td>
+</tr>
+<tr>
+<td valign="top"><b>Id</b></td>
+<td valign="top"><b>Title</b></td>
+<td valign="top"><b>Id</b></td>
+<td valign="top"><b>Title</b></td>
+<td valign="top"><b>Description</b></td>
+<td valign="top"><b>Estimation (Hours)</b></td>
+<td valign="top"><b>Assigned To</b></td>
+<td valign="top"><b>Status</b></td>
+</tr>
+
+<!-- Modo Oscuro (UA01) -->
+<tr>
+<td rowspan="3" valign="top"><b>UA01</b></td>
+<td rowspan="3" valign="top">Activación de modo oscuro</td>
+<td valign="top">TK01</td>
+<td valign="top">Diseñar paleta de colores</td>
+<td valign="top">Crear esquema de colores para modo oscuro accesible.</td>
+<td valign="top">4 hours</td>
+<td valign="top">Diseñador UX</td>
+<td valign="top">To Do</td>
+</tr>
+<tr>
+<td valign="top">TK02</td>
+<td valign="top">Implementar toggle UI</td>
+<td valign="top">Botón de alternancia en configuración con persistencia.</td>
+<td valign="top">3 hours</td>
+<td valign="top">Frontend Dev</td>
+<td valign="top">To Do</td>
+</tr>
+<tr>
+<td valign="top">TK03</td>
+<td valign="top">Lógica detección horaria</td>
+<td valign="top">Implementar auto-activación basada en hora del sistema.</td>
+<td valign="top">2 hours</td>
+<td valign="top">Backend Dev</td>
+<td valign="top">To Do</td>
+</tr>
+
+<!-- Filtros geográficos (UA02) -->
+<tr>
+<td rowspan="4" valign="top"><b>UA02</b></td>
+<td rowspan="4" valign="top">Búsqueda con filtros geográficos</td>
+<td valign="top">TK04</td>
+<td valign="top">Componente de filtros</td>
+<td valign="top">UI desplegable con opciones de radio y tipo de incidente.</td>
+<td valign="top">5 hours</td>
+<td valign="top">Frontend Dev</td>
+<td valign="top">To Do</td>
+</tr>
+<tr>
+<td valign="top">TK05</td>
+<td valign="top">Geolocalización API</td>
+<td valign="top">Integrar servicio para calcular radios de 1km.</td>
+<td valign="top">3 hours</td>
+<td valign="top">Backend Dev</td>
+<td valign="top">To Do</td>
+</tr>
+<tr>
+<td valign="top">TK06</td>
+<td valign="top">Endpoint filtrado</td>
+<td valign="top">API para filtrar incidentes por ubicación/tipo.</td>
+<td valign="top">4 hours</td>
+<td valign="top">API Dev</td>
+<td valign="top">To Do</td>
+</tr>
+<tr>
+<td valign="top">TK07</td>
+<td valign="top">Pruebas de usabilidad</td>
+<td valign="top">Validar interacción con usuarios reales.</td>
+<td valign="top">2 hours</td>
+<td valign="top">QA Tester</td>
+<td valign="top">To Do</td>
+</tr>
+
+<!-- Colaboración en reportes (UA03) -->
+<tr>
+<td rowspan="3" valign="top"><b>UA03</b></td>
+<td rowspan="3" valign="top">Colaboración en reportes</td>
+<td valign="top">TK08</td>
+<td valign="top">Sistema de comentarios</td>
+<td valign="top">Componente para añadir/comentar reportes.</td>
+<td valign="top">6 hours</td>
+<td valign="top">Fullstack Dev</td>
+<td valign="top">To Do</td>
+</tr>
+<tr>
+<td valign="top">TK09</td>
+<td valign="top">Lógica de verificación</td>
+<td valign="top">Algoritmo para marcar reportes como "Verificado".</td>
+<td valign="top">3 hours</td>
+<td valign="top">Backend Dev</td>
+<td valign="top">To Do</td>
+</tr>
+<tr>
+<td valign="top">TK10</td>
+<td valign="top">Notificaciones push</td>
+<td valign="top">Alertar a usuarios sobre comentarios nuevos.</td>
+<td valign="top">4 hours</td>
+<td valign="top">Mobile Dev</td>
+<td valign="top">To Do</td>
+</tr>
+
+<!-- Cambio de idioma (UA04) -->
+<tr>
+<td rowspan="3" valign="top"><b>UA04</b></td>
+<td rowspan="3" valign="top">Cambio de idioma</td>
+<td valign="top">TK11</td>
+<td valign="top">Sistema de i18n</td>
+<td valign="top">Integrar librería de internacionalización.</td>
+<td valign="top">5 hours</td>
+<td valign="top">Frontend Dev</td>
+<td valign="top">To Do</td>
+</tr>
+<tr>
+<td valign="top">TK12</td>
+<td valign="top">Traducción de contenido</td>
+<td valign="top">Localizar textos a inglés y chino.</td>
+<td valign="top">8 hours</td>
+<td valign="top">Content Manager</td>
+<td valign="top">To Do</td>
+</tr>
+<tr>
+<td valign="top">TK13</td>
+<td valign="top">Detección automática</td>
+<td valign="top">Sincronizar con idioma del dispositivo.</td>
+<td valign="top">2 hours</td>
+<td valign="top">Mobile Dev</td>
+<td valign="top">To Do</td>
+</tr>
+
+<!-- Uso en conexiones lentas (UA05) -->
+<tr>
+<td rowspan="4" valign="top"><b>UA05</b></td>
+<td rowspan="4" valign="top">Uso en conexiones lentas</td>
+<td valign="top">TK14</td>
+<td valign="top">Modo Lite</td>
+<td valign="top">Versión simplificada de la UI sin multimedia.</td>
+<td valign="top">6 hours</td>
+<td valign="top">Frontend Dev</td>
+<td valign="top">To Do</td>
+</tr>
+<tr>
+<td valign="top">TK15</td>
+<td valign="top">Caché offline</td>
+<td valign="top">Implementar almacenamiento local de reportes.</td>
+<td valign="top">5 hours</td>
+<td valign="top">Mobile Dev</td>
+<td valign="top">To Do</td>
+</tr>
+<tr>
+<td valign="top">TK16</td>
+<td valign="top">Detección de conexión</td>
+<td valign="top">Monitorizar velocidad de red para sugerir Modo Lite.</td>
+<td valign="top">3 hours</td>
+<td valign="top">Backend Dev</td>
+<td valign="top">To Do</td>
+</tr>
+<tr>
+<td valign="top">TK17</td>
+<td valign="top">Optimización de assets</td>
+<td valign="top">Comprimir imágenes y lazy loading.</td>
+<td valign="top">4 hours</td>
+<td valign="top">DevOps</td>
+<td valign="top">To Do</td>
+</tr>
+</table>
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+[Evidencia implementada de la página de destino futura]
+
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+[Evidencia implementada del frontend web futuro]
+
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+[Evidencia implementada de la aplicación móvil nativa futura]
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+[Evidencia implementada de la API RESTful y/o backend serverless futuro]
+
+#### 8.3.3.6. Team Collaboration Insights
+[Perspectivas sobre la colaboración del equipo]
+
+### 8.3.4. To-Be Validation Interviews
+
+#### 8.3.4.1. Diseño de Entrevistas
+[Contenido sobre el diseño de las entrevistas de validación]
+
+#### 8.3.4.2. Registro de Entrevistas
+[Registros completos de las entrevistas realizadas]
+
+### 8.4. Experiment Aftermath & Analysis
+
+#### 8.4.1. Analysis and Interpretation of Results
+[Análisis e interpretación de los resultados experimentales]
+
+#### 8.4.2. Re-scored and Re-prioritized Question Backlog
+[Backlog de preguntas re-puntuadas y re-priorizadas]
+
+### 8.5. Continuous Learning
+
+#### 8.5.1. Shareback Session Artifacts: Learning Workflow
+[Artefactos de sesiones de retroalimentación y flujo de aprendizaje]
+
+### 8.6. To-Be Software Platform Pre-launch
+
+#### 8.6.1. About-the-Product Intro Video
+[Contenido sobre el video introductorio del producto]
 
 ---
 
