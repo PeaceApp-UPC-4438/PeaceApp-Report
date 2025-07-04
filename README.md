@@ -3328,23 +3328,18 @@ Optimizar y monitorear la aplicación web/móvil para mejorar la experiencia en 
 | User Story ID | Título                         | Descripción                                                                 | Criterios de Aceptación                                                                                                                                                                                                 | Relacionado con (Epic ID) |
 |---------------|--------------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
 | **UA01**      | Activación de modo oscuro      | Como usuario nocturno, quiero activar un modo oscuro para reducir la fatiga visual y mejorar mi experiencia.                               | **Escenario 1**: Activación manual<br>Given el usuario está en Configuración,<br>When selecciona "Modo Oscuro",<br>Then la app cambiará la interfaz a tonos oscuros.<br>**Escenario 2**: Activación automática<br>Given el usuario habilita "Auto",<br>When es horario nocturno,<br>Then la app activará el modo oscuro. | E01                      |
-| **UA02**      | Búsqueda con filtros geográficos | Como usuario, quiero filtrar incidentes por ubicación para encontrar rápidamente reportes relevantes.                                     | **Escenario 1**: Filtro por zona<br>Given el usuario está en el mapa,<br>When selecciona un radio de 1km,<br>Then la app mostrará solo incidentes en ese área.<br>**Escenario 2**: Filtro por tipo<br>Given el usuario abre los filtros,<br>When elige "Robos",<br>Then la app ocultará otros incidentes. | E02                      |
+| **UA02**      | Búsqueda con filtros por tipo de reporte | Como usuario, quiero filtrar incidentes por tipo de reporte para encontrar rápidamente reportes relevantes.                                     | **Escenario 1**: Filtro por zona<br>Given el usuario está en el mapa,<br>When selecciona un radio de 1km,<br>Then la app mostrará solo incidentes en ese área.<br>**Escenario 2**: Filtro por tipo<br>Given el usuario abre los filtros,<br>When elige "Robos",<br>Then la app ocultará otros incidentes. | E02                      |
 | **UA03**      | Colaboración en reportes       | Como ciudadano, quiero comentar reportes para aportar información adicional.                                                              | **Escenario 1**: Añadir comentario<br>Given el usuario visualiza un reporte,<br>When escribe un comentario y presiona "Publicar",<br>Then el comentario será visible para otros.<br>**Escenario 2**: Validar información<br>Given hay 3+ comentarios coincidentes,<br>Then el reporte se marcará como "Verificado". | E03                      |
 | **UA04**      | Cambio de idioma               | Como usuario no hispanohablante, quiero usar la app en inglés/chino para entender el contenido.                                          | **Escenario 1**: Selección de idioma<br>Given el usuario abre Configuración,<br>When elige "English",<br>Then la app traducirá todos los textos.<br>**Escenario 2**: Detección automática<br>Given el dispositivo está en chino,<br>Then la app sugerirá cambiar el idioma. | E04                      |
-| **UA05**      | Uso en conexiones lentas       | Como usuario rural, quiero acceder a funcionalidades básicas sin demoras.                                                                | **Escenario 1**: Modo Lite<br>Given la conexión es lenta,<br>When la app sugiere activar "Modo Lite",<br>Then cargará solo texto e iconos.<br>**Escenario 2**: Caché offline<br>Given no hay internet,<br>Then la app mostrará reportes recientes guardados. | E05                      |
-
 
 ### 8.3.2 To-Be Product Backlog
-
 
 | # Orden | User Story ID | Título | Story Points (1/2/3/5/8) |
 |---------|--------------|--------|--------------------------|
 | 1 | UA01 | Activación de modo oscuro | 3 |
-| 2 | UA02 | Búsqueda con filtros geográficos | 5 |
+| 2 | UA02 | Búsqueda con filtros por tipo de reporte | 5 |
 | 3 | UA03 | Colaboración en reportes | 5 |
 | 4 | UA04 | Cambio de idioma | 8 |
-| 5 | UA05 | Uso en conexiones lentas | 5 |
-
 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
@@ -3401,7 +3396,7 @@ Optimizar y monitorear la aplicación web/móvil para mejorar la experiencia en 
 <!-- Filtros geográficos (UA02) -->
 <tr>
 <td rowspan="4" valign="top"><b>UA02</b></td>
-<td rowspan="4" valign="top">Búsqueda con filtros geográficos</td>
+<td rowspan="4" valign="top">Búsqueda con filtros por tipo de reporte</td>
 <td valign="top">TK04</td>
 <td valign="top">Componente de filtros</td>
 <td valign="top">UI desplegable con opciones de radio y tipo de incidente.</td>
@@ -3476,7 +3471,7 @@ Optimizar y monitorear la aplicación web/móvil para mejorar la experiencia en 
 <tr>
 <td valign="top">TK12</td>
 <td valign="top">Traducción de contenido</td>
-<td valign="top">Localizar textos a inglés y chino.</td>
+<td valign="top">Localizar textos a inglés y frances.</td>
 <td valign="top">8 hours</td>
 <td valign="top">Content Manager</td>
 <td valign="top">To Do</td>
@@ -3487,42 +3482,6 @@ Optimizar y monitorear la aplicación web/móvil para mejorar la experiencia en 
 <td valign="top">Sincronizar con idioma del dispositivo.</td>
 <td valign="top">2 hours</td>
 <td valign="top">Mobile Dev</td>
-<td valign="top">To Do</td>
-</tr>
-
-<!-- Uso en conexiones lentas (UA05) -->
-<tr>
-<td rowspan="4" valign="top"><b>UA05</b></td>
-<td rowspan="4" valign="top">Uso en conexiones lentas</td>
-<td valign="top">TK14</td>
-<td valign="top">Modo Lite</td>
-<td valign="top">Versión simplificada de la UI sin multimedia.</td>
-<td valign="top">6 hours</td>
-<td valign="top">Frontend Dev</td>
-<td valign="top">To Do</td>
-</tr>
-<tr>
-<td valign="top">TK15</td>
-<td valign="top">Caché offline</td>
-<td valign="top">Implementar almacenamiento local de reportes.</td>
-<td valign="top">5 hours</td>
-<td valign="top">Mobile Dev</td>
-<td valign="top">To Do</td>
-</tr>
-<tr>
-<td valign="top">TK16</td>
-<td valign="top">Detección de conexión</td>
-<td valign="top">Monitorizar velocidad de red para sugerir Modo Lite.</td>
-<td valign="top">3 hours</td>
-<td valign="top">Backend Dev</td>
-<td valign="top">To Do</td>
-</tr>
-<tr>
-<td valign="top">TK17</td>
-<td valign="top">Optimización de assets</td>
-<td valign="top">Comprimir imágenes y lazy loading.</td>
-<td valign="top">4 hours</td>
-<td valign="top">DevOps</td>
 <td valign="top">To Do</td>
 </tr>
 </table>
@@ -3545,7 +3504,20 @@ Optimizar y monitorear la aplicación web/móvil para mejorar la experiencia en 
 ### 8.3.4. To-Be Validation Interviews
 
 #### 8.3.4.1. Diseño de Entrevistas
-[Contenido sobre el diseño de las entrevistas de validación]
+
+1. Ahora que has usado el modo oscuro: ¿En qué situaciones lo activas? ¿Notaste reducción en fatiga visual durante uso nocturno?
+
+2. Al usar los nuevos filtros por tipo de reporte: ¿Fue fácil encontrar incidentes relevantes?
+
+3. ¿Llegaste a comentar o validar información en reportes? ¿Qué tan útil fue esta función para aportar contexto?  
+
+4. ¿Probaste cambiar el idioma de la app? ¿La traducción fue clara en todas las secciones?
+
+5. Comparado con la versión anterior: ¿Qué mejora notaste más valiosa? ¿Y la menos útil?
+
+6. ¿Encontraste errores al usar las nuevas funciones? (ej: modo oscuro no persistente, filtros que no aplican)  
+
+7. Del 1 al 10: ¿Qué tan probable es que recomiendes la app a otros ahora? ¿Por qué? 
 
 #### 8.3.4.2. Registro de Entrevistas
 [Registros completos de las entrevistas realizadas]
@@ -3553,7 +3525,38 @@ Optimizar y monitorear la aplicación web/móvil para mejorar la experiencia en 
 ### 8.4. Experiment Aftermath & Analysis
 
 #### 8.4.1. Analysis and Interpretation of Results
-[Análisis e interpretación de los resultados experimentales]
+
+En el estudio, las preguntas iniciales de las entrevistas se redefinieron y reorganizaron para obtener respuestas más precisas y útiles, facilitando un mejor análisis de la experiencia del usuario con el producto. Este ajuste ayudó a detectar de manera más efectiva las opiniones, gustos y requerimientos de los participantes en relación con las funciones principales de la aplicación.
+
+**Preguntas formuladas**
+
+1. **Modo Oscuro**  
+   ¿Qué tan útil considera la implementación del modo oscuro en la aplicación?
+
+2. **Filtros por tipo de reporte**  
+   ¿Con qué frecuencia utiliza los filtros por tipo de reporte para buscar incidentes relevantes?
+
+3. **Colaboración en Reportes**  
+   ¿Qué tan valiosa le resulta la posibilidad de comentar y validar información en los reportes?
+
+4. **Soporte Multidioma**  
+   ¿Cómo calificaría la implementación del cambio de idioma (inglés/frnaces/español) en la aplicación?
+
+5. **Interfaz de Usuario**  
+   ¿Qué tan intuitiva le parece la ubicación de estas nuevas funcionalidades en la interfaz?
+
+6. **Impacto General**  
+   ¿Cuál de estas mejoras considera que aporta más valor a su experiencia con la aplicación?
+
+7. **Problemas Técnicos**  
+   ¿Ha experimentado algún error o dificultad al usar estas nuevas funciones?
+
+8. **Satisfacción Global**  
+   Del 1 al 10, ¿qué tan satisfecho está con estas actualizaciones de la aplicación?
+
+**Muestra del estudio**:  
+Estas preguntas se presentaron a una muestra de 20 usuarios activos de la aplicación. Los participantes evaluaron las funcionalidades después de al menos una semana de uso. Todos los encuestados habían utilizado previamente la versión anterior sin estas características.
+
 
 #### 8.4.2. Re-scored and Re-prioritized Question Backlog
 [Backlog de preguntas re-puntuadas y re-priorizadas]
