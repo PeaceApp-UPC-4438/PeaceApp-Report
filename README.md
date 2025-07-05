@@ -3487,19 +3487,41 @@ Optimizar y monitorear la aplicación web/móvil para mejorar la experiencia en 
 </table>
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
-[Evidencia implementada de la página de destino futura]
+
+Para nuestra landing page no se necesitó realizar cambios.
+
+![](assets/LandingPageEvidence1.png)
+
+![](assets/LandingPageEvidence2.png)
+
+![](assets/LandingPageEvidence3.png)
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
-[Evidencia implementada del frontend web futuro]
+
+Se anañadieron los cambios de experimentos.
+
+![](assets/WebEx1.png)
+
+![](assets/WebEx2.jpg)
+
+![](assets/WebEx3.png)
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 [Evidencia implementada de la aplicación móvil nativa futura]
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
-[Evidencia implementada de la API RESTful y/o backend serverless futuro]
+
+En nuetro backend si realizaron ligeros cambios.
+
+![](assets/BackendEvidence1.png)
+
+![](assets/BackendEvidence2.png)
+
+![](assets/BackendEvidence3.png)
 
 #### 8.3.3.6. Team Collaboration Insights
-[Perspectivas sobre la colaboración del equipo]
+
+![](assets/TeamCollaboration.png)
 
 ### 8.3.4. To-Be Validation Interviews
 
@@ -3559,17 +3581,38 @@ Estas preguntas se presentaron a una muestra de 20 usuarios activos de la aplica
 
 
 #### 8.4.2. Re-scored and Re-prioritized Question Backlog
-[Backlog de preguntas re-puntuadas y re-priorizadas]
+
+| Prioridad (Fibonacci) | Pregunta | Justificación |  
+|-----------------------|----------|---------------|  
+| **8** | ¿Disminuirá la tasa de abandonos por lentitud al optimizar el rendimiento en zonas con mala conexión? | Mayor score en 8.1.3 (26). Impacto crítico en retención y experiencia base. |  
+| **5** | ¿Ampliará la base de usuarios al agregar soporte para inglés y francés? | Alto potencial de crecimiento (Score: 24) con riesgo controlado. |  
+| **5** | ¿Reducirá la tasa de abandonos al permitir filtrar incidentes por tipo? | Score: 24. Mejora directa en usabilidad para todos los usuarios. |  
+| **3** | ¿Mejorará la satisfacción de los usuarios al implementar un modo oscuro en la aplicación? | Score: 20. Beneficio UX pero no prioritario frente a funcionalidades críticas. |  
+| **2** | ¿Aumentará la colaboración ciudadana al habilitar comentarios en los reportes? | Score: 20. Impacto moderado y requiere gestión de comunidades. |  
 
 ### 8.5. Continuous Learning
 
 #### 8.5.1. Shareback Session Artifacts: Learning Workflow
-[Artefactos de sesiones de retroalimentación y flujo de aprendizaje]
+
+El prototipo interactivo creado en Figma plasmó las interfaces y funcionalidades propuestas, diseñadas a partir de los requerimientos y expectativas de los usuarios. Este modelo permitió al equipo iterar y refinar los aspectos visuales y técnicos durante el desarrollo del diseño.
+
+Enlace Figma: <https://www.figma.com/design/qDvXC6SO5sIKnEyGcgiHhe/Peace-App-Web-Applications-UX%2FUI-Design?node-id=0-1&node-type=canvas&t=8M5eo45jFkAsIaiW-0>
+
+Mediante una encuesta en Google Forms, se recopiló la retroalimentación de los usuarios para validar las suposiciones iniciales del diseño. Los resultados obtenidos permitieron analizar la usabilidad de la aplicación y fundamentar los cambios realizados para optimizar su funcionamiento.
+
+Enlace Forms: <https://docs.google.com/forms/d/e/1FAIpQLSe9dhICtfuDo5IZTPRpA2bVeK8L2RattewqU5iroZO_e5tXAw/viewform?usp=header>
+
+![](assets/Forms.png)
 
 ### 8.6. To-Be Software Platform Pre-launch
 
 #### 8.6.1. About-the-Product Intro Video
-[Contenido sobre el video introductorio del producto]
+
+Elaboramos un video donde mostramos de manera dinámica y atractiva cómo PeaceApp transforma la seguridad comunitaria a través de sus funcionalidades clave, dirigido a ciudadanos y autoridades preocupados por la seguridad en sus entornos.
+
+![](assets/AboutTheProduct.png)
+
+Url del video: <https://www.youtube.com/watch?v=S1wn29tcVOg>
 
 ---
 
@@ -3602,8 +3645,24 @@ Con la creciente demanda de soluciones tecnológicas en la seguridad pública, P
 
 # Anexos
 
+**Anexo N°1: Videos de entregables**
+
  - Video del TP: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/EY2lyuz7qUpJqI0V3yxROh8BzAzQhcLWsAcPLs6Wd8pOGg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tWfg9i>
    
  - Video de expocisión TF:
-   
+
+**Anexo N°2: Organización del proyecto**
+
  - URL de la organización del proyecto: <https://github.com/PeaceApp-UPC-4438>
+
+**Anexo N°3: Encuesta para recolectar información de satisfacción**
+
+<https://docs.google.com/forms/d/e/1FAIpQLSe9dhICtfuDo5IZTPRpA2bVeK8L2RattewqU5iroZO_e5tXAw/viewform?usp=header>
+
+**Anexo N°4: Frontend desplegado**
+
+<https://peaceappexperiments.netlify.app/>
+
+**Anexo N°5: Backend desplegado**
+
+<>
