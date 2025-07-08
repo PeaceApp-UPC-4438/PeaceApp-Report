@@ -28,7 +28,7 @@
   <p>  - Noriega Suschenko, Anatoly Andrey (u202211813) </p>
   <p>  - Tongo Alejandro, Milagros Salet (u20216078)</p>
   <br>
-  <p> Mes y Año: Abril del 2025 </p>
+  <p> Mes y Año: Julio del 2025 </p>
 </div>
 
 ---
@@ -60,6 +60,12 @@
     <td> Alex Avila <br> Pedro Guia <br> Anatoly Noriega <br> Milagros Tongo </td>
     <td> Realizamos la mejora contunua y concluímos con los capítulos 6 y 7, además de una parte del capítulo 8 según la rúbrica de manera conjunta y eficiente.  </td>
   </tr>
+  <tr>
+    <td align="center">TF</td>
+    <td>08/07/2025</td>
+    <td> Alex Avila <br> Pedro Guia <br> Anatoly Noriega <br> Milagros Tongo </td>
+    <td> Realizamos la mejora contunua y concluímos con el capítulo 8 según la rúbrica de manera conjunta y eficiente.  </td>
+  </tr>
 </table>
 
 ---
@@ -70,11 +76,20 @@ TB1: Las tareas asignadas para la entrega TB1 se han completado y están documen
 
 - Se escribieron y diagramaron los contenidos asignados a cada miembro en formato Markdown, seguido de commits para asegurar el progreso en el repositorio.
 
-TP1: Las tareas asignadas para la entrega TB1 se han completado y están documentadas en el repositorio de Github.
+TP1: Las tareas asignadas para la entrega TP1 se han completado y están documentadas en el repositorio de Github.
 
 - Se escribieron y diagramaron los contenidos asignados a cada miembro en formato Markdown, seguido de commits para asegurar el progreso en el repositorio.
 
-- Enlace del repositorio: https://github.com/PeaceApp-UPC-4438/PeaceApp-Report.git
+TB2: Las tareas asignadas para la entrega TB2 se han completado y están documentadas en el repositorio de Github.
+
+- Se escribieron y diagramaron los contenidos asignados a cada miembro en formato Markdown, seguido de commits para asegurar el progreso en el repositorio.
+
+TF1: Las tareas asignadas para la entrega TF1 se han completado y están documentadas en el repositorio de Github.
+
+- Se escribieron y diagramaron los contenidos asignados a cada miembro en formato Markdown, seguido de commits para asegurar el progreso en el repositorio.
+
+Enlace del repositorio: https://github.com/PeaceApp-UPC-4438/PeaceApp-Report.git
+
 ---
 
 # Tabla de contenidos
@@ -285,32 +300,41 @@ software</td>
 <td>
             <strong>Avila Asto, Alex Ramon Alberto</strong> <br>
             TB1 <br> Actué con responsabilidad profesional en cada etapa del trabajo, aplicando buenas prácticas desde la recolección de requisitos hasta la validación de los resultados. Me enfoqué en asegurar la calidad del desarrollo, tomando decisiones éticas que contribuyeran a la integridad del producto final.
-            <br>
+            <br><br>
             TP1 <br> Reconozco la importancia de cumplir con las normas éticas y profesionales al desarrollar software, asegurándome de que las pruebas unitarias sean ejecutadas adecuadamente, respetando la privacidad y la seguridad de los datos
-            <br>
+            <br><br>
             TB2 <br> Participé en las entrevistas de validación y en la ejecución de experimentos, especialmente en la optimización del rendimiento. Actué con responsabilidad profesional al implementar mejoras técnicas que respondieran a las necesidades reales detectadas.
+            <br><br>
+            TF1 <br> Como ingeniero de software, analizo los posibles riesgos éticos de mis decisiones técnicas (ej.: privacidad de datos, sesgos algorítmicos) antes de implementar una solución.
             <br><br>
             <strong>Guia Carrasco, Pedro Andre</strong> <br>
             TB1 <br> Actué con ética y profesionalismo en todo momento, aplicando buenas prácticas desde la recolección de requisitos hasta la validación final, para asegurar un desarrollo de software íntegro y de alta calidad.
-            <br>
+            <br><br>
             TP1 <br> Soy consciente de la responsabilidad que tengo como ingeniero de software al realizar pruebas integrales y funcionales, para garantizar que el producto final cumpla con los estándares profesionales y éticos.
-            <br>
+            <br><br>
             TB2 <br> Contribuí en las entrevistas de validación y lideré la implementación del sistema de filtros avanzados. Mantuve un enfoque ético y profesional, asegurando que los cambios fueran útiles y aplicables según lo expresado por los usuarios.
+            <br><br>
+            TF1 <br> Cuando desarrollo software, sigo estándares profesionales (ej.: código de ética ACM/IEEE) para garantizar que mi trabajo sea transparente y beneficie a los usuarios.
             <br><br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
             TB1 <br> Me aseguré de actuar con ética y profesionalismo a la hora de realizar los puntos de este trabajo, aplicando buenas prácticas, desde la fase de las entrevistas, evaluación de las historias de usuario hasta la revisión de los flujos de las aplicaciones del proyecto.
-            <br>
+            <br><br>
             TP1 <br> Valoro el impacto que tienen mis decisiones sobre la calidad y el rendimiento de la aplicación, por lo que revisé y validé exhaustivamente el código antes de la implementación final, respetando siempre las buenas prácticas de desarrollo.
-            <br>
+            <br><br>
             TB2 <br> Participé activamente en las entrevistas de validación y coordiné el soporte multilingüe. Me aseguré de que las decisiones se basaran en evidencias reales, actuando con ética y buenas prácticas de desarrollo.
+            <br><br>
+            TF1 <br> Si identifico un conflicto entre plazos de entrega y calidad ética (ej.: testing insuficiente), priorizo la integridad del producto sobre presiones externas.
             <br><br>
             <strong>Tongo Alejandro, Milagros Salet</strong> <br>
             TB1 <br>Me aseguré de tomar decisiones éticas y profesionales, reconociendo la importancia de aplicar buenas prácticas en cada fase, desde las entrevistas hasta las revisiones, para garantizar 
             la integridad y calidad del software desarrollado
-            <br>
+            <br><br>
             TP1 <br> Me aseguro de que las aplicaciones que desarrollamos no solo sean funcionales, sino también seguras y sostenibles, realizando pruebas de integración y desplegando tanto la app como la API para asegurar que el software cumpla con las expectativas éticas de los usuarios.
-  <br>
+            <br><br>
             TB2 <br> Realicé entrevistas de validación y desarrollé el modo oscuro según las preferencias de los usuarios. Manteniendo el compromiso ético, enfoqué mis aportes en mejorar la accesibilidad y experiencia visual del software.
+            <br><br>
+            TB2 <br> Al trabajar en equipo, promuevo discusiones sobre el impacto social de nuestras soluciones (ej.: accesibilidad, inclusión) para evitar consecuencias no deseadas.
+            <br><br>
 </td>
 <td>
 <em><strong>TB1</strong></em>
@@ -320,6 +344,8 @@ el diseño de entrevistas y la creación de documentación, garantizando solucio
 <br>En conjunto con el grupo, el estudiante reconoce la responsabilidad ética y profesional al desarrollar y desplegar aplicaciones, asegurándose de realizar pruebas unitarias, funcionales e integrales para garantizar que el software sea seguro, confiable y cumpla con los estándares éticos y legales requeridos.<br>
 <em><strong>TB2</strong></em>
 <br>Durante esta fase, el equipo actuó con responsabilidad ética y profesional al validar hipótesis mediante entrevistas a usuarios y la ejecución de experimentos. Aplicaron buenas prácticas en el diseño, análisis e implementación de mejoras, priorizando la calidad, accesibilidad y sostenibilidad del producto.<br>
+<em><strong>TF1</strong></em>
+<br>Reconocer la responsabilidad ética y profesional en ingeniería de software no es solo un deber, sino un pilar para construir tecnología confiable y humana. Al integrar principios éticos en cada etapa del desarrollo —desde el diseño hasta la implementación—, asumo el compromiso de proteger a los usuarios, garantizar transparencia y priorizar el bien común sobre intereses individuales o corporativos. Esta conciencia ética no solo evita daños, sino que fortalece la credibilidad de mi profesión y fomenta un ecosistema tecnológico más justo y sostenible.<br>
 </td>
 </tr>
 <tr class="even">
@@ -337,34 +363,44 @@ sociales</td>
             <br>
             TB2 <br> Durante la ejecución de los experimentos, evalué cómo las mejoras propuestas podrían beneficiar a usuarios en zonas con baja conectividad, promoviendo inclusión digital y optimización de recursos, con impacto positivo en lo social y económico.
             <br><br>
+            TF1 <br> Al diseñar una aplicación, evalúo su huella ambiental (ej.: consumo energético de servidores) y propongo alternativas sostenibles (ej.: optimización de código).
+            <br><br>
             <strong>Guia Carrasco, Pedro Andre</strong> <br>
             TB1 <br> Al integrar las entrevistas en el trabajo, pude darme cuenta el impacto global, economico y social positivo que tendria el producto, buscando soluciones que fueran sostenibles y que contribuyan al entorno donde pensamos aplicar la solución.
-            <br>
+            <br><br>
             TP1 <br> Evalué cómo las soluciones tecnológicas que implementamos pueden tener un impacto en los usuarios a nivel global, por lo que probé exhaustivamente la API y la aplicación en diferentes entornos y dispositivos para asegurar su accesibilidad y utilidad.
-            <br>
+            <br><br>
             TB2 <br> Al diseñar los filtros avanzados, consideré su utilidad en contextos diversos, buscando facilitar el acceso a información relevante en distintas realidades sociales y geográficas, lo cual mejora la eficiencia y aporta valor global al sistema.
+            <br><br>
+            TF1 <br> Considero las brechas digitales al desarrollar software (ej.: versiones 'lite' para zonas con baja conectividad) para reducir desigualdades globales.
             <br><br>
             <strong>Noriega Suschenko, Anatoly Andrey</strong> <br>
             TB1 <br> Al momento de realizar las entrevistas y las tareas consiguientes a ellas, estuve al tanto del impacto global, económico y social de las soluciones que proporcionamos fueran sostenibles, inclusivas y alineadas con las necesidades reales de los usuarios.
-            <br>
+            <br><br>
             TP1 <br> Consideré el impacto ambiental de las soluciones tecnológicas que desplegamos, asegurándome de que el proceso de despliegue de la app y la API sea eficiente y no consuma más recursos de los necesarios, para promover la sostenibilidad.
-            <br>
+            <br><br>
             TB2 <br> Al trabajar en el soporte multilingüe, prioricé la inclusión de comunidades no hispanohablantes, considerando el impacto social y cultural de una app accesible que pueda adaptarse a entornos multiculturales y globales.
+            <br><br>
+            TF1 <br> Analizo el costo-beneficio económico de mis decisiones técnicas (ej.: escalabilidad vs. infraestructura costosa) para equilibrar innovación y viabilidad.
             <br><br>
             <strong>Tongo Alejandro, Milagros Salet</strong> <br>
             TB1 <br>Al realizar entrevistas y revisiones, siempre tuve en cuenta el impacto global, económico y social de las soluciones propuestas, buscando soluciones que fueran sostenibles y que pudieran 
             contribuir positivamente al entorno en el que se implementaran.
             <br>
-  TP1 <br> Reflexioné sobre las implicaciones sociales de las soluciones que desarrollamos, como la accesibilidad de la aplicación, al realizar pruebas funcionales para garantizar que sea inclusiva y no excluya a ningún grupo de usuarios.<br>
-  TB2 <br>Al implementar el modo oscuro, consideré tanto la experiencia del usuario como el ahorro energético en dispositivos, buscando una solución accesible, ambientalmente consciente y adecuada para distintos contextos de uso.
+            TP1 <br> Reflexioné sobre las implicaciones sociales de las soluciones que desarrollamos, como la accesibilidad de la aplicación, al realizar pruebas funcionales para garantizar que sea inclusiva y no excluya a ningún grupo de usuarios.<br>
+            TB2 <br>Al implementar el modo oscuro, consideré tanto la experiencia del usuario como el ahorro energético en dispositivos, buscando una solución accesible, ambientalmente consciente y adecuada para distintos contextos de uso.
+            <br><br>
+            TF1 <br> Cuando propongo una solución, investigo su impacto social (ej.: automatización de empleos) y colaboro con stakeholders para mitigar efectos negativos.
 </td>
 <td>
 <em><strong>TB1</strong></em>
 <br>El equipo, a lo largo de todo el proceso, consideró el impacto global, económico, social y ambiental de las soluciones propuestas. Al realizar actividades como el análisis de entrevistas, la creación de mapas de recorrido del usuario y el diseño de prototipos, las decisiones tomadas fueron informadas, buscando siempre generar un impacto positivo en el contexto en el que se implementaría la solución.<br>
 <em><strong>TP1</strong></em>
 <br>En conjunto con el grupo, el estudiante emite juicios informados sobre las soluciones de ingeniería de software, evaluando su impacto en contextos globales, económicos, ambientales y sociales, asegurando que las aplicaciones desarrolladas sean accesibles, eficientes y responsables con el medio ambiente y la sociedad en general.<br>
-  <em><strong>TB2</strong></em>
+<em><strong>TB2</strong></em>
 <br>Durante esta etapa, el equipo evaluó el impacto de cada mejora implementada a través de los experimentos, considerando su aplicabilidad en distintos contextos. Se tomaron decisiones informadas para asegurar que las soluciones fueran inclusivas, sostenibles y adaptables a realidades sociales, económicas y tecnológicas diversas.<br>
+<em><strong>TF1</strong></em>
+<br>Emitir juicios informados sobre el impacto global de las soluciones de software requiere una visión holística que trascienda lo técnico. Al evaluar sistemáticamente las dimensiones económicas, ambientales y sociales de mis decisiones, contribuyo a un desarrollo tecnológico equilibrado, donde la innovación no comprometa la equidad, los recursos naturales o las comunidades vulnerables. Este enfoque multidisciplinario no solo mitiga riesgos, sino que genera valor a largo plazo, posicionando al software como una herramienta de progreso inclusivo y responsable.<br>
 </td>
 </tr>
 </tbody>
@@ -2554,7 +2590,7 @@ A continuación, se presentan las preguntas que se utilizarán en las entrevista
 
 ### 6.3.2 Registro de Entrevistas
 
-**URL de todas las entrevistas:** 
+**URL de todas las entrevistas:** <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116078_upc_edu_pe/EdxK7gnLtcFEoVftsO-7SJ0BktmSBtnEoye1EzwRMVNr5w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hmExND>
 
 **Entrevista N°1:**
 
@@ -2968,9 +3004,7 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 - Añadir selector de tema (claro/oscuro) en ajustes para mejor experiencia visual.  
 
 2. **Introducir Filtros Avanzados**  
-- Permitir filtrar por:  
-  - Tipo de incidente  
-  - Fecha 
+- Permitir filtrar por tipo de incidente  
 
 3. **Habilitar Comentarios en Reportes**  
 - Permitir que usuarios y autoridades agreguen comentarios sobre los reportes 
@@ -2978,10 +3012,9 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 4. **Soporte Multidioma**  
 - Añadir al menos inglés y francés en la primera fase.  
 
-5. **Optimizar Rendimiento**  
-- Mejorar carga de mapas con caché optimizado.  
-- Notificaciones prioritarias incluso con conexión limitada.  
-
+5. **Optimizar Visualización**  
+- Mejorar carga y el tamaño del mapa de busqueda y reportes.  
+  
 ---
 
 **Impacto Esperado:**
@@ -3005,8 +3038,8 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 4. **Barrera de Idioma**  
    - Al menos el 30% de potenciales usuarios no utilizan la app por la falta de soporte multilingüe.
 
-5. **Problemas de Rendimiento**  
-   - La lentitud en zonas con mala conexión causa un 20% de abandonos en primeros usos.
+5. **Optimizar Visualización**
+   - Los usuarios prefieren tener una mejor visualización de la zona donde se encuentran en un mapa más grande.
 
 #### **Knowledge Gaps**
 1. **Experiencia Visual Limitada**  
@@ -3021,24 +3054,24 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 4. **Barrera de Idioma**  
    - Falta investigación sobre qué idiomas adicionales (inglés, francés, lenguas indígenas) tendrían mayor impacto.
 
-5. **Problemas de Rendimiento**  
+5. **Optimizar Visualización**  
    - No está medido cómo afecta exactamente el rendimiento a la retención de usuarios a 30 días.
 
 #### **Ideas**
 1. **Experiencia Visual Limitada**  
-   - Implementar detección automática de horario/iluminación ambiental para sugerir cambio de tema.
+   - Implementar la opcioón de cambio de tema según preferencia del usuario.
 
 2. **Filtrado Inexistente**  
-   - Sistema de filtros combinables con opción para guardar preferencias frecuentes.
+   - Sistema de filtros combinables como los publicados por un usurio y por el tipo de resporte.
 
 3. **Falta de Interacción en Reportes**  
-   - Sección de "Actualizaciones oficiales" donde autoridades verifiquen estados de reportes.
+   - Sección de "Comnetarios" donde los diversos usuarios puedan inteactuar con el reporte de otro usuario.
 
 4. **Barrera de Idioma**  
-   - Implementar traducción automática de reportes críticos usando APIs de Google/Microsoft.
+   - Implementar más de una traducción con i18n.
 
-5. **Problemas de Rendimiento**  
-   - Versión "Lite" para zonas rurales con carga optimizada de mapas offline.
+5. **Problemas de Visualización**  
+   - Ajustar el tamaño del mapa para mejor visualización de la zona y reportes.
 
 #### **Claims**
 1. **Experiencia Visual Limitada**  
@@ -3053,7 +3086,7 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 4. **Barrera de Idioma**  
    - Soporte multilingüe ampliará la base de usuarios activos en un 18% en 6 meses.
 
-5. **Problemas de Rendimiento**  
+5. **Problemas de Visualización**  
    - Las optimizaciones disminuirán los abandonos por lentitud en un 22%.
 
 ### 8.1.3 Experiment-Ready Questions
@@ -3064,13 +3097,13 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 | **¿Reducirá la tasa de abandonos al permitir filtrar incidentes por tipo?** | 8 - Los filtros mejoran la usabilidad en apps similares. | 3 - Riesgo medio por posible complejidad en la UI. | 7 - Impacto directo en retención. | 6 - Alta demanda según feedback preliminar. | **24** |  
 | **¿Aumentará la colaboración ciudadana al habilitar comentarios en los reportes?** | 6 - Potencial positivo, pero depende de la adopción. | 4 - Riesgo de comentarios inapropiados/spam. | 5 - Impacto moderado en engagement. | 5 - Interés variable según segmento de usuarios. | **20** |  
 | **¿Ampliará la base de usuarios al agregar soporte para inglés y francés?** | 7 - Atraerá audiencia multilingüe, pero con adopción gradual. | 3 - Costo de mantenimiento de traducciones. | 8 - Alto impacto en expansión geográfica. | 6 - Clave para comunidades multiculturales. | **24** |  
-| **¿Disminuirá la tasa de abandonos por lentitud al optimizar el rendimiento en zonas con mala conexión?** | 9 - Solución técnica probada en otras apps. | 1 - Riesgo mínimo. | 9 - Crítico para retención en áreas rurales. | 7 - Alta prioridad para usuarios afectados. | **26** |  
+| **¿Mejorará la experiencia de usuario al permitir ajustar el tamaño del mapa para una visualización más clara de los reportes?** | 8 - Solución común en apps de mapas (Google Maps, Waze). | 2 - Bajo riesgo (implementación sencilla). | 7 - Importante para usuarios con discapacidad visual o pantallas pequeñas. | 8 - Impacta directamente la usabilidad del core de la app. | **25** | 
 
 ### 8.1.4 Question Backlog
 
 | Prioridad (Fibonacci) | Pregunta | Justificación |  
 |-----------------------|----------|---------------|  
-| **8** | ¿Disminuirá la tasa de abandonos por lentitud al optimizar el rendimiento en zonas con mala conexión? | Mayor score en 8.1.3 (26). Impacto crítico en retención y experiencia base. |  
+| **8** | ¿Mejorará la experiencia de usuario al permitir ajustar el tamaño del mapa para una visualización más clara de los reportes? | Score: 25. Impacto alto en usabilidad (especialmente para discapacidad visual y pantallas pequeñas). |  
 | **5** | ¿Ampliará la base de usuarios al agregar soporte para inglés y francés? | Alto potencial de crecimiento (Score: 24) con riesgo controlado. |  
 | **5** | ¿Reducirá la tasa de abandonos al permitir filtrar incidentes por tipo? | Score: 24. Mejora directa en usabilidad para todos los usuarios. |  
 | **3** | ¿Mejorará la satisfacción de los usuarios al implementar un modo oscuro en la aplicación? | Score: 20. Beneficio UX pero no prioritario frente a funcionalidades críticas. |  
@@ -3078,12 +3111,12 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 
 ### 8.1.5 Experiment Cards
 
-#### **Experiment Card 1: Optimización de rendimiento**
-|Question|¿Disminuirá la tasa de abandonos por lentitud al optimizar el rendimiento en zonas con mala conexión?|
+#### **Experiment Card 1: Optimización de visualización**
+| Question | ¿Mejorará la experiencia de usuario al permitir ajustar el tamaño del mapa para una visualización más clara de los reportes? |
 |---|---|
-|**Why**|Mejorar el rendimiento en conexiones lentas es crítico para retener usuarios en áreas rurales o con infraestructura limitada, donde la lentitud actual causa un 20% de abandonos.|
-|**What**|Implementar: (1) Caché optimizado para mapas, (2) Compresión de datos para alertas, y (3) Versión "Lite" para modo offline.|
-|**Hypothesis**|Tras la optimización, la tasa de abandonos por lentitud disminuirá un 22% en 3 meses, y el NPS aumentará 15 puntos en zonas rurales.|
+| **Why** | Los usuarios reportan dificultades para interactuar con reportes en zonas con alta densidad de marcadores. Mejorar la escalabilidad del mapa es clave para usuarios con discapacidad visual, pantallas pequeñas o alta necesidad de precisión. |
+| **What** | Implementar: <br>1. **Zoom adaptable**: Gestos de pellizco y botones +/- para ajuste manual. <br>2. Adaptar el tamaño del mapa a un 70% de el área de la pantalla. |
+| **Hypothesis** | Al implementar funciones del tamaño en la pantalla, en 1 mes el 60% de los usuarios tendrá una interacción más rápida con los reportes, disminuyendo en un 30% el tiempo promedio para seleccionar un marcador.  |
 
 ---
 
@@ -3125,13 +3158,13 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 
 ### 8.2.1 Hypotheses
 
-#### Optimización de rendimiento
+#### Optimización de visualización
 | Componente       | Descripción |
 |------------------|-------------|
-| **Question**     | ¿Disminuirá la tasa de abandonos por lentitud al optimizar el rendimiento en zonas con mala conexión? |
-| **Belief**       | Mejorar el rendimiento en conexiones lentas retendrá a usuarios en áreas rurales o con infraestructura limitada, donde la lentitud actual causa un 20% de abandonos. |
-| **Hypothesis**   | Tras implementar caché optimizado, compresión de datos y versión "Lite", la tasa de abandonos por lentitud disminuirá un 22% en 3 meses, y el NPS aumentará 15 puntos en zonas rurales. |
-| **Null**         | Las optimizaciones no reducirán significativamente la tasa de abandonos ni mejorarán el NPS en zonas con mala conexión. |
+| **Question**     | ¿Mejorará la experiencia de usuario al permitir ajustar el tamaño del mapa para una visualización más clara de los reportes? |
+| **Belief**       | Optimizar el espacio del mapa mejorará la interacción con reportes en zonas de alta densidad, especialmente para usuarios con discapacidad visual o pantallas pequeñas, donde actualmente existe un 35% de reportes de dificultad. |
+| **Hypothesis**   | Al implementar funciones del tamaño en la pantalla, en 1 mes el 60% de los usuarios tendrá una interacción más rápida con los reportes, disminuyendo en un 30% el tiempo promedio para seleccionar un marcador. |
+| **Null**         | Los cambios en el tamaño del mapa no impactarán significativamente la velocidad de interacción ni la satisfacción de los usuarios con la visualización de reportes. |
 
 ---
 
@@ -3175,11 +3208,11 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 
 ### 8.2.2 Measures
 
-#### Optimización de rendimiento
+#### Optimización de visualización
 | Componente       | Descripción |
 |------------------|-------------|
-| **Question**     | ¿Disminuirá la tasa de abandonos por lentitud al optimizar el rendimiento en zonas con mala conexión? |
-| **Measure**      | Medir: <br>- Tasa de abandonos (%) en áreas rurales (antes/después) <br>- NPS (Net Promoter Score) en usuarios de zonas con baja conectividad <br>- Tiempo promedio de carga de componentes críticos |
+| **Question**     | ¿Mejorará la experiencia de usuario al permitir ajustar el tamaño del mapa para una visualización más clara de los reportes? |
+| **Measure**      | Medir: <br>- % de uso de las funciones de zoom/ajuste de tamaño <br>- Tiempo promedio para seleccionar un marcador (antes/después) <br>- Tickets de soporte por "mapa ilegible" <br>- Satisfacción en encuestas (escala 1-5) |
 
 #### Soporte multilingüe
 | Componente       | Descripción |
@@ -3206,13 +3239,6 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 | **Measure**      | Medir: <br>- Número promedio de comentarios por reporte <br>- Tasa de engagement (usuarios que interactúan vs. total) <br>- % de reportes actualizados con información de comentarios |
 
 ### 8.2.3 Conditions
-
-#### Optimización de rendimiento
-| Componente               | Descripción |
-|--------------------------|-------------|
-| **Question**             | ¿Disminuirá la tasa de abandonos por lentitud al optimizar el rendimiento en zonas con mala conexión? |
-| **Condición Experimental** | La tasa de abandonos disminuirá en un 22% y el NPS aumentará 15 puntos en zonas rurales después de implementar las optimizaciones. |
-| **Condición de Control**   | No habrá mejora significativa en las tasas de abandono o NPS tras las optimizaciones. |
 
 #### Soporte multilingüe
 | Componente               | Descripción |
@@ -3241,6 +3267,13 @@ La aplicación PeaceApp actualmente funciona como una plataforma de seguridad ci
 | **Question**             | ¿Aumentará la colaboración ciudadana al habilitar comentarios en los reportes? |
 | **Condición Experimental** | El engagement aumentará un 30%, con promedio de 2.5 comentarios por reporte crítico en el primer trimestre. |
 | **Condición de Control**   | Los comentarios no incrementarán el engagement ni la interacción por reporte. |
+
+#### Optimización visualización
+| Componente               | Descripción |
+|--------------------------|-------------|
+| **Question**             | ¿Mejorará la experiencia de usuario al permitir ajustar el tamaño del mapa para una visualización más clara de los reportes? |
+| **Condición Experimental** | La tasa de abandonos disminuirá en un 22% y el NPS aumentará 15 puntos en zonas rurales después de implementar las optimizaciones. |
+| **Condición de Control**   | No habrá mejora significativa en las tasas de abandono o NPS tras las optimizaciones. |
 
 ### 8.2.4 Scale Calculations and Decisions
 
@@ -3331,6 +3364,7 @@ Optimizar y monitorear la aplicación web/móvil para mejorar la experiencia en 
 | **UA02**      | Búsqueda con filtros por tipo de reporte | Como usuario, quiero filtrar incidentes por tipo de reporte para encontrar rápidamente reportes relevantes.                                     | **Escenario 1**: Filtro por zona<br>Given el usuario está en el mapa,<br>When selecciona un radio de 1km,<br>Then la app mostrará solo incidentes en ese área.<br>**Escenario 2**: Filtro por tipo<br>Given el usuario abre los filtros,<br>When elige "Robos",<br>Then la app ocultará otros incidentes. | E02                      |
 | **UA03**      | Colaboración en reportes       | Como ciudadano, quiero comentar reportes para aportar información adicional.                                                              | **Escenario 1**: Añadir comentario<br>Given el usuario visualiza un reporte,<br>When escribe un comentario y presiona "Publicar",<br>Then el comentario será visible para otros.<br>**Escenario 2**: Validar información<br>Given hay 3+ comentarios coincidentes,<br>Then el reporte se marcará como "Verificado". | E03                      |
 | **UA04**      | Cambio de idioma               | Como usuario no hispanohablante, quiero usar la app en inglés/chino para entender el contenido.                                          | **Escenario 1**: Selección de idioma<br>Given el usuario abre Configuración,<br>When elige "English",<br>Then la app traducirá todos los textos.<br>**Escenario 2**: Detección automática<br>Given el dispositivo está en chino,<br>Then la app sugerirá cambiar el idioma. | E04                      |
+| **UA05**      | Ajuste de tamaño del mapa               |  Como usuario con problemas de visión, quiero poder ampliar el mapa para visualizar mejor los reportes e incidentes.                                          | **Escenario 1**: Ampliación manual<br>Given el usuario está en el mapa,<br>When realiza un gesto de "pinch-to-zoom",<br>el mapa se ampliará manteniendo los marcadores de reportes.<br>**Escenario 2**: Vista a pantalla completa<br>Given el usuario presiona el ícono de expandir,<br>Then el mapa ocupará el 70% de la pantalla temporalmente. | E04                      |
 
 ### 8.3.2 To-Be Product Backlog
 
@@ -3340,6 +3374,7 @@ Optimizar y monitorear la aplicación web/móvil para mejorar la experiencia en 
 | 2 | UA02 | Búsqueda con filtros por tipo de reporte | 5 |
 | 3 | UA03 | Colaboración en reportes | 5 |
 | 4 | UA04 | Cambio de idioma | 8 |
+| 5 | UA05 | Ajuste de tamaño del mapa | 5 |
 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
@@ -3484,6 +3519,43 @@ Optimizar y monitorear la aplicación web/móvil para mejorar la experiencia en 
 <td valign="top">Mobile Dev</td>
 <td valign="top">To Do</td>
 </tr>
+
+<!-- Ajuste de tamaño del mapa (UA05) -->
+<tr>
+<td rowspan="4" valign="top"><b>UA05</b></td>
+<td rowspan="4" valign="top">Ajuste de tamaño del mapa</td>
+<td valign="top">TK14</td>
+<td valign="top">Gestos de zoom</td>
+<td valign="top">Implementar reconocimiento de gestos "pinch-to-zoom".</td>
+<td valign="top">4 hours</td>
+<td valign="top">Mobile Dev</td>
+<td valign="top">To Do</td>
+</tr>
+<tr>
+<td valign="top">TK15</td>
+<td valign="top">Pantalla completa</td>
+<td valign="top">Desarrollar botón de vista expandida.</td>
+<td valign="top">3 hours</td>
+<td valign="top">Frontend Dev</td>
+<td valign="top">To Do</td>
+</tr>
+<tr>
+<td valign="top">TK16</td>
+<td valign="top">Optimización de marcadores</td>
+<td valign="top">Ajustar tamaño/posición de iconos al escalar.</td>
+<td valign="top">5 hours</td>
+<td valign="top">UI Engineer</td>
+<td valign="top">To Do</td>
+</tr>
+<tr>
+<td valign="top">TK17</td>
+<td valign="top">Pruebas de usabilidad</td>
+<td valign="top">Validar experiencia en diferentes densidades de pantalla.</td>
+<td valign="top">6 hours</td>
+<td valign="top">QA Tester</td>
+<td valign="top">To Do</td>
+</tr>
+
 </table>
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
@@ -3506,8 +3578,6 @@ Se anañadieron los cambios de experimentos.
 
 ![](assets/WebEx3.png)
 
-#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
-[Evidencia implementada de la aplicación móvil nativa futura]
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
@@ -3521,7 +3591,11 @@ En nuetro backend si realizaron ligeros cambios.
 
 #### 8.3.3.6. Team Collaboration Insights
 
-![](assets/TeamCollaboration.png)
+El equipo mantuvo una actividad constante en el repositorio durante este periodo, con contribuciones enfocadas principalmente en el desarrollo de código. Se observaron múltiples commits realizados por varios autores, reflejando un trabajo continuo en la modificación y mejora de los archivos del proyecto. Sin embargo, no se registró actividad relacionada con pull requests o issues, lo que indica que el trabajo se centró más en la implementación directa que en procesos de revisión colaborativa. Adicionalmente, se monitorearon diversas métricas del repositorio, aunque sin incidencias destacables en este lapso. En general, el periodo muestra un avance sostenido en el desarrollo, con oportunidades para fortalecer los aspectos colaborativos del proyecto.
+
+![](assets/Participación.png)
+
+![](assets/Part2.png)
 
 ### 8.3.4. To-Be Validation Interviews
 
@@ -3542,7 +3616,60 @@ En nuetro backend si realizaron ligeros cambios.
 7. Del 1 al 10: ¿Qué tan probable es que recomiendes la app a otros ahora? ¿Por qué? 
 
 #### 8.3.4.2. Registro de Entrevistas
-[Registros completos de las entrevistas realizadas]
+
+**URL de todas las entrevistas:** 
+
+**Entrevista N°1:**
+
+![](assets/EI2.png)
+
+**Timing:** 0:03
+
+**Nombre:** Mauricio Rojas
+
+**Edad:** 22 años
+
+**Pasatiempos:** Salir con amigos y con mascotas.
+
+**Ocupación:** Estudiante Universitario
+
+Mauricio probó las nuevas funcionalidades de la aplicación PSAP y destacó que el modo oscuro le resultó muy útil para reducir la fatiga visual en entornos nocturnos, aunque lo consideró más un "extra" que una función esencial. Los filtros de reportes fueron su mejora favorita, ya que facilitan la búsqueda de incidentes específicos. La función de comentarios también le pareció valiosa para aportar contexto, aunque señaló que el modo oscuro fue la que menos uso práctico tuvo en su caso. No encontró errores durante la prueba y calificó la aplicación con un 8 o 9/10 en probabilidad de recomendación, resaltando su potencial para mejorar la seguridad ciudadana al reportar accidentes o robos en tiempo real. Agradeció las mejoras y sugirió que todas las funciones, incluso las menos prioritarias, suman valor a la experiencia.
+
+**Entrevista N°2:**
+
+![](assets/ExInterview.png)
+
+**Timing:** 8:05
+
+**Nombre:** Jeyson Alejandro
+
+**Edad:** 25 años
+
+**Pasatiempos:** Salir con amigos y visitar eventos culturales
+
+**Ocupación:** Ingeriero Civil
+
+Jeyson probó las nuevas funciones de la aplicación y destacó varias mejoras. Encuentra útil el modo oscuro para reducir la fatiga visual en entornos nocturnos. Los filtros por tipo de reporte le parecieron efectivos para encontrar incidentes relevantes con mayor facilidad. También valoró la función de comentarios, que permite agregar contexto a los incidentes. En cuanto al cambio de idioma, confirmó que las traducciones fueron claras en todas las secciones. Comparado con la versión anterior, considera que las mejoras más valiosas son la optimización del mapa y los filtros, aunque hay funciones que usa menos. No encontró errores graves en las nuevas features. Finalmente, en una escala del 1 al 10, recomendaría la aplicación con un 9, destacando su utilidad y el aporte que brinda a los usuarios. Agradece los cambios implementados.
+
+**Entrevista N°3:**
+
+![](assets/EI1.png)
+
+**Timing:** 16:03
+
+**Nombre:** Edson Sanchez
+
+**Edad:** 20 años
+
+**Pasatiempos:** Salir con amigos y jugar fútbol.
+
+**Ocupación:** Estudiante Universitario
+
+Edson nos dice que la aplicación ha mejorado bastante con las nuevas funciones. El modo oscuro es muy útil, sobre todo de noche o cuando el brillo de la pantalla molesta. No sentí fatiga visual al usarlo, así que cumple su propósito. Los filtros de reportes funcionan bien y hacen fácil encontrar incidentes específicos, aunque con más datos se notaría mejor su eficiencia. Intenté usar los comentarios, pero no se enviaban; si eso se arregla, sería una buena herramienta para dar contexto a los reportes. El cambio de idioma (probé francés) está bien en general, pero algunas partes no se tradujeron. En resumen, las actualizaciones son positivas, pero hay detalles como los comentarios y las traducciones que necesitan ajustes.
+
+**Entrevista N°4:**
+
+**Entrevista N°5:**
 
 ### 8.4. Experiment Aftermath & Analysis
 
@@ -3579,16 +3706,77 @@ En el estudio, las preguntas iniciales de las entrevistas se redefinieron y reor
 **Muestra del estudio**:  
 Estas preguntas se presentaron a una muestra de 20 usuarios activos de la aplicación. Los participantes evaluaron las funcionalidades después de al menos una semana de uso. Todos los encuestados habían utilizado previamente la versión anterior sin estas características.
 
+**Análisis de datos Demográficos** 
+
+Distribución de edades:
+
+El gráfico muestra que, entre 20 encuestados, el grupo de 35 a 44 años es el más representativo (45%), seguido por menores de 18 (30%). Los jóvenes de 18 a 24 años tienen la menor participación (10%), y no hay respuestas visibles para los rangos de 45 a 54 años y 55 o más, lo que sugiere que la muestra podría estar sesgada hacia adultos jóvenes y adolescentes. La pequeña cantidad de respuestas (20) limita la generalización de los resultados, pero indica que el tema podría ser de mayor interés para personas entre 18 y 24 años.
+
+![](assets/G1.png)
+
+Tiempo de uso:
+
+El gráfico revela que, el mayor porcentaje de usuarios (35%) empleó la aplicación entre 4 y 6 horas, mostrando un uso moderado-alto. Le sigue un 25% con un uso intensivo (7 a 10 horas), mientras que solo el 10% registró un uso bajo (1 a 3 horas). Destaca la ausencia total de respuestas en "Más de 10 horas", lo que sugiere que muy pocos usuarios son altamente activos. Estos datos revelan una tendencia clara hacia un uso intermedio de la aplicación.
+
+![](assets/G2.png)
+
+**Evaluación de Características**
+
+Opción modo oscuro:
+
+La mayoría absoluta (65%) calificó la funcionalidad con 5/5, demostrando alta satisfacción. Solo un 15% dio una evaluación neutral (3/5), mientras que las calificaciones bajas (1-2/5) sumaron apenas un 10%. La ausencia de votos en 4/5 sugiere que los usuarios perciben el modo oscuro como excelente o no lo valoran significativamente, sin términos medios. Estos resultados validan el éxito de su implementación.
+
+![](assets/G3.png)
+
+Filtros por tipo de reporte:
+
+El 35% de los usuarios utiliza los filtros "Siempre", demostrando alta dependencia de esta función. Le sigue un 30% que los usa "Casi siempre", reforzando su utilidad frecuente. Un 25% emplea los filtros "A veces", mientras que solo un 10% "Nunca" los activa. Estos resultados revelan que la gran mayoría (65% entre "Siempre" y "Casi siempre") valora y usa regularmente los filtros, confirmando su relevancia en la experiencia de usuario. El bajo porcentaje que no los usa (10%) sugiere que la funcionalidad está bien adoptada, pero podría optimizarse para captar al resto.
+
+![](assets/G4.png)
+
+Comentarios de los reportes publicados:
+
+La mayoría de los usuarios (55%) calificó esta funcionalidad con 5/5, indicando una percepción altamente positiva. Un 25% le asignó 4/5, mostrando satisfacción considerable. Las valoraciones neutras o bajas (1-3/5) representan solo un 20% combinado. Estos resultados demuestran que la opción de comentar y validar información es ampliamente valorada, con un 80% de usuarios dándole una calificación favorable (4 o 5 estrellas), lo que refuerza su importancia en la plataforma. La escasa proporción de evaluaciones negativas (5% en 1/5 y 2/5) sugiere que la función cumple efectivamente con las necesidades de los usuarios.
+
+![](assets/G5.png)
+
+Opciones de idiomas:
+
+La implementación del cambio de idioma recibe una alta aprobación, con un 50% de usuarios calificándola como "Excelente" y un 35% como "Buena", sumando un 85% de evaluaciones positivas. Solo un 10% la considera "Muy deficiente", lo que indica una percepción mayoritariamente favorable. La ausencia de votos en las categorías "Deficiente" y "Aceptable" refuerza que la funcionalidad cumple eficazmente con las expectativas de la gran mayoría de los usuarios. Estos resultados validan el éxito de la herramienta multilingüe en la aplicación.
+
+![](assets/G6.png)
+
+Ubicación intuituva de las nuevas funcionalidades:
+
+![](assets/G7.png)
+
+**Experiencia del usuario**
+
+Los resultados muestran una distribución balanceada entre las funcionalidades, donde la Colaboración en Reportes lidera con un 25%, seguida de cerca por Filtros de Reporte e Interfaz de Usuario (20% cada una), mientras que Modo Oscuro y Soporte Multidioma obtienen un 15%. Esta equidad en los porcentajes (todos entre 15-25%) refleja que los usuarios valoran distintas mejoras por igual, sin una preferencia abrumadora hacia una sola función. El equilibrio sugiere que cada característica atiende necesidades específicas de segmentos diversos, respaldando un desarrollo integral en lugar de priorizar un área sobre otras.
+
+![](assets/G8.png)
+
+![](assets/G9.png)
+
+**Satisfacción del usurio del usuario**
+
+La mayoría de los usuarios (35%) calificó su satisfacción con 8/10, seguido de un 30% que otorgó 10/10, lo que indica una percepción positiva y sólida hacia las actualizaciones. Un 20% mostró una valoración neutral (7/10), mientras que solo un 10% dio puntuaciones bajas (4/10). La ausencia de calificaciones en los extremos inferiores (1-3/10 y 5-6/10) refuerza que las actualizaciones han sido bien recibidas, con un 65% de los usuarios (8+10/10) altamente satisfechos. Esto valida el éxito de los cambios implementados, aunque existe un margen para mejorar en el segmento neutral (7/10).
+
+![](assets/G10.png)
+
+**Conclusión**
+
+La aplicación cumple efectivamente con su propósito para la mayoría de los usuarios, pero el feedback resalta la importancia de mantener un desarrollo equilibrado y centrado en la usabilidad para captar a los segmentos menos satisfechos. Los resultados validan las decisiones actuales y guían prioridades futuras.
 
 #### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
 | Prioridad (Fibonacci) | Pregunta | Justificación |  
-|-----------------------|----------|---------------|  
-| **8** | ¿Disminuirá la tasa de abandonos por lentitud al optimizar el rendimiento en zonas con mala conexión? | Mayor score en 8.1.3 (26). Impacto crítico en retención y experiencia base. |  
-| **5** | ¿Ampliará la base de usuarios al agregar soporte para inglés y francés? | Alto potencial de crecimiento (Score: 24) con riesgo controlado. |  
-| **5** | ¿Reducirá la tasa de abandonos al permitir filtrar incidentes por tipo? | Score: 24. Mejora directa en usabilidad para todos los usuarios. |  
-| **3** | ¿Mejorará la satisfacción de los usuarios al implementar un modo oscuro en la aplicación? | Score: 20. Beneficio UX pero no prioritario frente a funcionalidades críticas. |  
-| **2** | ¿Aumentará la colaboración ciudadana al habilitar comentarios en los reportes? | Score: 20. Impacto moderado y requiere gestión de comunidades. |  
+|-----------------------|----------|---------------|   
+| **8** | ¿Ampliará la base de usuarios al agregar soporte para inglés y francés? | Alto potencial de crecimiento (Score: 24) con riesgo controlado. |  
+| **8** | ¿Reducirá la tasa de abandonos al permitir filtrar incidentes por tipo? | Score: 24. Mejora directa en usabilidad para todos los usuarios. |  
+| **5** | ¿Mejorará la satisfacción de los usuarios al implementar un modo oscuro en la aplicación? | Score: 20. Beneficio UX pero no prioritario frente a funcionalidades críticas. |  
+| **5** | ¿Aumentará la colaboración ciudadana al habilitar comentarios en los reportes? | Score: 20. Impacto moderado y requiere gestión de comunidades. | 
+| **3** | ¿Disminuirá la tasa de abandonos por lentitud al optimizar el tamaño del mapa de reportes? | Score (18). Impacto crítico en retención y experiencia base. |  
 
 ### 8.5. Continuous Learning
 
@@ -3633,15 +3821,50 @@ PeaceApp no solo se concentra en brindar seguridad a nivel local, sino que tambi
 - Futuro y Expansión:
 Con la creciente demanda de soluciones tecnológicas en la seguridad pública, PeaceApp tiene un potencial de expansión significativo. La aplicación puede integrarse con otros sistemas de seguridad pública y privada, como cámaras de vigilancia y sistemas de monitoreo en tiempo real, para mejorar aún más la eficacia de las respuestas ante incidentes. En el futuro, PeaceApp tiene el potencial de ser un modelo para otras ciudades y países que enfrentan problemas similares de inseguridad.
 
+- El desarrollo y validación de PeaceApp en el marco del curso de Diseño de Experimentos de Software permitió consolidar una aplicación funcional orientada a la seguridad ciudadana, mientras se aplicaban metodologías rigurosas para evaluar su usabilidad y desempeño. A través de pruebas controladas con usuarios reales (como Jason, Edson y Mauricio), se validaron features clave como el modo oscuro, filtros de reportes, comentarios contextuales y multidioma, identificando tanto aciertos como áreas de mejora.
+
+- PeaceApp no solo cumplió su objetivo de facilitar reportes de seguridad, sino que también sirvió como caso de estudio para aplicar principios de diseño experimental en software, demostrando cómo la iteración basada en evidencia puede transformar un MVP en una solución robusta.
+
+# Recomendaciones
+
+Priorizar la Integración de Pruebas Automatizadas
+Para garantizar la estabilidad y escalabilidad de PeaceApp, es fundamental implementar un sistema robusto de pruebas automatizadas que cubra tanto las funcionalidades existentes como las nuevas. Esto incluye pruebas unitarias, de integración y de extremo a extremo, especialmente en features críticas como el envío de comentarios y el filtrado de reportes. La automatización no solo reducirá errores en futuras actualizaciones, sino que también optimizará el tiempo del equipo en el ciclo de desarrollo, permitiendo una entrega más rápida y confiable de nuevas versiones.
+
+Fomentar una Cultura de Revisión Colaborativa
+El análisis de la actividad en GitHub evidenció una baja interacción en pull requests y issues, lo que sugiere oportunidades para fortalecer la colaboración interna. Se recomienda establecer protocolos claros de revisión de código (como code reviews obligatorias) y utilizar herramientas como GitHub Discussions para debates técnicos. Esto no solo mejorará la calidad del código, sino que también enriquecerá el aprendizaje colectivo, al exponer al equipo a diferentes enfoques y soluciones.
+
+Ampliar las Pruebas de Usabilidad con Diversos Perfiles
+Las pruebas realizadas con usuarios como Jason o Mauricio fueron valiosas, pero limitadas en alcance. Para asegurar que PeaceApp sea inclusiva y accesible, es crucial realizar pruebas con grupos más diversos (ej.: distintos rangos de edad, niveles de alfabetización digital y contextos socioeconómicos). Esto podría incluir tests de usabilidad remotos o colaboraciones con comunidades locales, identificando barreras no previstas (ej.: dificultades con el multidioma en poblaciones bilingües).
+
+Implementar un Plan de Monitoreo Post-Lanzamiento
+El lanzamiento oficial no debe marcar el fin del proceso de mejora. Se propone integrar herramientas como Sentry para capturar errores en tiempo real, combinado con Google Analytics para analizar flujos de usuarios. Además, crear canales de feedback directo (ej.: formularios en la app o encuestas periódicas) permitirá recoger insights de usuarios reales. Estos datos serán clave para iteraciones futuras, asegurando que PeaceApp evolucione en línea con las necesidades cambiantes de su audiencia.
+
+# Video About The Team
+
 # Bibliografia
+
+- Forsgren, N., Humble, J., & Kim, G. (2018). Accelerate: The Science of Lean Software and DevOps. IT Revolution Press.
+
+- GitHub Docs. (2023). Metrics and Insights. https://docs.github.com/en
+
+- Google Analytics. (2023). Official Documentation. https://developers.google.com/analytics
 
 - Instituto Nacional de Estadística e Informática (INEI). (2024). *Perú: Encuesta Nacional de Seguridad Ciudadana 2024*. Instituto Nacional de Estadística e Informática. [https://www.inei.gob.pe](https://www.inei.gob.pe)
 
-- Yin, R. K. (2018). *Case study research and applications: Design and methods* (6th ed.). SAGE Publications.
+- SO/IEC 25010. (2011). Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - System and software quality models.
 
 - Méndez, M., & Díaz, A. (2020). *Tecnologías emergentes para la seguridad ciudadana: La inteligencia artificial aplicada a la prevención del delito*. Editorial Académica Española.
 
 - Martínez, J. L. (2021). *Seguridad en el contexto urbano: Retos y soluciones tecnológicas*. Revista de Tecnología y Sociedad, 15(3), 45-67. [https://doi.org/10.1234/rts.2021.0123](https://doi.org/10.1234/rts.2021.0123)
+
+- Rubin, J., & Chisnell, D. (2008). Handbook of Usability Testing (2nd ed.). Wiley.
+
+- UNODC. (2020). Handbook on Crime Prevention through Urban Design and Planning. United Nations Office on Drugs and Crime.
+
+- World Bank. (2019). Digital Solutions for Safer Cities: A Guide for Urban Planners and Practitioners.
+
+- Wohlin, C., Runeson, P., Höst, M., Ohlsson, M. C., Regnell, B., & Wesslén, A. (2012). Experimentation in Software Engineering. Springer.
+
 
 # Anexos
 
@@ -3653,16 +3876,29 @@ Con la creciente demanda de soluciones tecnológicas en la seguridad pública, P
 
 **Anexo N°2: Organización del proyecto**
 
- - URL de la organización del proyecto: <https://github.com/PeaceApp-UPC-4438>
+ URL de la organización del proyecto: <https://github.com/PeaceApp-UPC-4438>
 
-**Anexo N°3: Encuesta para recolectar información de satisfacción**
+**Anexo N°3: Mapas de refencia**
+
+Seguridad ciudadana en Perú
+
+![](assets/Mapa1.PNG)
+
+Tipos de reportes que ocurren en la calle
+
+![](assets/Mapa2.PNG)
+
+
+**Anexo N°4: Encuesta para recolectar información de satisfacción**
 
 <https://docs.google.com/forms/d/e/1FAIpQLSe9dhICtfuDo5IZTPRpA2bVeK8L2RattewqU5iroZO_e5tXAw/viewform?usp=header>
 
-**Anexo N°4: Frontend desplegado**
+**Anexo N°5: Frontend desplegado**
 
 <https://peaceappexperiments.netlify.app/>
 
-**Anexo N°5: Backend desplegado**
+**Anexo N°6: Backend desplegado**
 
-<>
+<https://o8okoco40oooggswkcss8w8s.coolify.ryzeon.me/>
+
+
