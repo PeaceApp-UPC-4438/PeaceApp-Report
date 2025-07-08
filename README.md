@@ -3669,6 +3669,24 @@ Edson nos dice que la aplicación ha mejorado bastante con las nuevas funciones.
 
 **Entrevista N°4:**
 
+![Entrevista-final.png](assets/Entrevista-final.png)
+
+**Timing:** 23:55
+
+**Nombre:** Sebastián Ramirez
+
+**Edad:** 20 años
+
+**Pasatiempos:** Programar sitios web y base de datos.
+
+**Ocupación:** Estudiante Universitario
+
+Sebastián valora el modo oscuro por su sensibilidad visual, ya que le ayuda a reducir el brillo en sus ojos. Sugiere que este se active automáticamente según la hora del día, como lo hacen dispositivos iPhone. Considera que el proceso para identificar y reportar un incidente fue fácil y claro.
+
+Destaca como positivo el cambio de idioma por razones de accesibilidad, pero recomienda que esta opción se base en la región del usuario. Respecto al diseño de la interfaz, le pareció interesante y mejorado, aunque cambiar el modo oscuro e idioma manualmente le resulta tedioso.
+
+No encontró errores en la aplicación y le dio una calificación de 8/10, principalmente porque valora las mejoras implementadas y considera que la prioridad en la protección del ciudadano está bien enfocada. Las sugerencias restantes son automatizar el modo oscuro y el idioma.
+
 **Entrevista N°5:**
 
 ### 8.4. Experiment Aftermath & Analysis
