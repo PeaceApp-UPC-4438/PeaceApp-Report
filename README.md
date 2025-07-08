@@ -3689,6 +3689,23 @@ No encontró errores en la aplicación y le dio una calificación de 8/10, princ
 
 **Entrevista N°5:**
 
+![Entrevista-final-Maarcia](https://i.imgur.com/Qp8H8Do.jpeg)
+
+**Timing:** 0:03  
+**Nombre:** Marcia  
+**Edad:** 20 
+**Pasatiempos:** Ver Netflix, Salir a correr 
+**Ocupación:** Estudiante Universitario
+
+Marcia aprecia la incorporación del **modo oscuro**, especialmente para uso nocturno, ya que le ayuda a reducir la **fatiga visual**. Mencionó que prefiere usarlo por encima del modo claro.
+
+Considera que los **nuevos filtros por tipo de reporte** facilitan encontrar información relevante y permiten **clasificar con mayor claridad** los reportes. Aunque no comentó en reportes, sí notó que los **comentarios con timestamps** mejoran el seguimiento cronológico de los eventos, lo que considera útil para identificar horas y lugares de crímenes.
+
+Probó el cambio de **idioma a inglés** y afirma que la traducción fue clara y funcional en todas las acciones. Comparado con versiones anteriores, nota una mejora importante.
+
+No encontró errores durante su uso. Le da una calificación de **9/10**, destacando que el propósito de la app es interesante y útil para identificar situaciones **en tiempo real y por ubicación**, lo cual considera de gran valor.
+
+
 ### 8.4. Experiment Aftermath & Analysis
 
 #### 8.4.1. Analysis and Interpretation of Results
